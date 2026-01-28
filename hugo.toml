@@ -3,25 +3,34 @@ languageCode = 'es-es'
 title = 'Perspectiva Global: Crónicas del Nuevo Orden'
 theme = 'PaperMod'
 
-
 [params]
     env = "production"
     title = "Perspectiva Global"
-    description = "Crónicas de un nuevo orden mundial"
+    description = "Análisis soberano sobre geopolítica y tecnología"
     author = "M. Castro"
     
-    # Estética y Funcionalidad
-    defaultTheme = "auto" # Cambia entre luz/oscuridad según el sistema
-    showCodeCopyButtons = true
-    displayFullContent = false
+    # Estética Pro
+    defaultTheme = "dark" # Forzamos el modo oscuro, es más "geopolítico"
     ShowReadingTime = true
-    ShowShareButtons = true
-    ShowPostNavLinks = true
-    
-    [params.homeInfoParams]
-        Title = "Perspectiva Global 🌍"
-        Content = "Análisis soberano sobre geopolítica, tecnología y el gran tablero mundial. Publicado desde Debian."
+    showCodeCopyButtons = true
+
+    [params.profileMode]
+        enabled = true # Aquí ocurre la magia
+        title = "Perspectiva Global"
+        subtitle = "Análisis estratégico en un mundo multipolar. Crónicas desde la soberanía tecnológica y el rigor analítico."
+        imageUrl = "https://raw.githubusercontent.com/google/fonts/main/ofl/robotomono/static/RobotoMono-Bold.ttf" # Temporal, luego pondremos tu logo
+        imageWidth = 120
+        imageHeight = 120
+        [[params.profileMode.buttons]]
+            name = "Leer Análisis"
+            url = "posts"
+        [[params.profileMode.buttons]]
+            name = "Etiquetas"
+            url = "tags"
 
     [[params.socialIcons]]
         name = "github"
         url = "https://github.com/mcasrom"
+    [[params.socialIcons]]
+        name = "rss"
+        url = "index.xml"

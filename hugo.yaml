@@ -27,7 +27,7 @@ params:
     title: "El Mapa y El Código"
     # El uso de HTML en subtitle requiere 'HTML' en lugar de Markdown en algunas versiones de PaperMod
     subtitle: "Perspectiva Global: Crónicas del Nuevo Orden. <br> **Soberanía tecnológica e inteligencia geopolítica.**"
-    imageUrl: "images/about-image.png" # Asegúrate de que el archivo se llame así en static/images/
+    imageUrl: "images/blog.jpg" # Asegúrate de que el archivo se llame así en static/images/
     imageWidth: 200 # Un tamaño de 200-250 suele quedar mejor que 300 para no desplazar el texto
     imageHeight: 200
     buttons:

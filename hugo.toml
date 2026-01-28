@@ -46,3 +46,18 @@ theme = 'PaperMod'
 # Añade esto para habilitar el índice de búsqueda
 [outputs]
     home = ["HTML", "RSS", "JSON"]
+
+[[menu.main]]
+    name = "Inicio"
+    url = "/"
+    weight = 10
+
+[[menu.main]]
+    name = "Archivo"
+    url = "/posts/"
+    weight = 20
+
+[[menu.main]]
+    name = "Buscar"
+    url = "/search/"
+    weight = 30

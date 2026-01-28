@@ -1,4 +1,14 @@
-/* --- 1. Mapas (Leaflet) con Estética Soberana --- */
+/* --- Utilidades de Inteligencia --- */
+
+/* Badge de Autoridad en Profile Mode */
+.profile_inner h1::after {
+    content: " \2713";
+    color: #4da6ff;
+    font-size: 1.1rem;
+    vertical-align: middle;
+}
+
+/* Optimización de Mapas en Modo Oscuro */
 .dark .leaflet-layer,
 .dark .leaflet-control-zoom-in,
 .dark .leaflet-control-zoom-out,
@@ -12,122 +22,14 @@
     border-radius: 8px;
 }
 
-/* --- 2. Identidad y Autoridad --- */
-.profile_inner h1::after {
-    content: " \2713"; /* Check de verificado */
-    color: #4da6ff;
-    font-size: 1.1rem;
-    vertical-align: middle;
-}
-
-/* --- 3. Landing Page: Estructura y Espaciado --- */
-.main-content-custom {
-    max-width: var(--content-width);
-    margin: 0 auto;
-    padding: 2rem var(--gap);
-}
-
-.homepage-header {
-    text-align: center;
-    padding: 4rem 0; /* Más aire en el título */
-    border-bottom: 1px solid var(--tertiary);
-    margin-bottom: 4rem;
-}
-
-.homepage-header h1 {
-    font-size: 3rem;
-    font-weight: 800;
-    line-height: 1.1;
-    margin-bottom: 1.5rem;
-    color: var(--primary);
-}
-
-.homepage-header .subtitle {
-    font-size: 1.25rem;
-    color: var(--secondary);
-    max-width: 650px;
-    margin: 0 auto;
-    line-height: 1.6;
-}
-
-/* --- 4. Grillas (Anti-Solapamiento) --- */
-.intro-grid, .proyectos-grid, .post-list-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-    gap: 2.5rem; /* Espacio generoso entre tarjetas */
-    margin-top: 2rem;
-}
-
-/* --- 5. Tarjetas (Cards) de Visión y Proyectos --- */
-.intro-card, .proyecto-card, .post-card {
-    background: var(--entry);
-    padding: 2rem;
-    border-radius: 12px;
+/* Ajustes para bloques de PlantUML/Código */
+.post-content img {
+    border-radius: 8px;
+    margin: 1.5rem 0;
     border: 1px solid var(--tertiary);
-    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
 }
 
-.proyecto-card:hover, .post-card:hover {
-    transform: translateY(-5px);
-    border-color: #4da6ff;
-    box-shadow: 0 10px 30px rgba(0,0,0,0.4);
-}
-
-.intro-card h3, .proyecto-card h3, .post-card h2 {
-    color: #4da6ff;
-    margin-bottom: 1rem;
-    font-size: 1.5rem;
-}
-
-/* Variación para el Blog Principal */
-.proyecto-card.main-blog {
-    border-left: 4px solid #ff4d4d;
-}
-.proyecto-card.main-blog h3 {
-    color: #ff4d4d;
-}
-
-/* --- 6. Títulos de Sección --- */
-.proyectos-section h2, .latest-posts-section h2 {
-    font-size: 0.9rem;
-    text-transform: uppercase;
-    letter-spacing: 0.2em;
-    color: var(--secondary);
-    text-align: center;
-    margin-bottom: 3rem;
-    position: relative;
-    display: block;
-}
-
-.proyectos-section h2::after, .latest-posts-section h2::after {
-    content: "";
-    display: block;
-    width: 40px;
-    height: 2px;
-    background: #4da6ff;
-    margin: 10px auto 0;
-}
-
-/* --- 7. Ajustes de Texto en Posts --- */
-.post-summary {
-    line-height: 1.6;
-    color: var(--secondary);
-    margin-bottom: 1.5rem;
-}
-
-.post-footer {
-    margin-top: auto; /* Empuja la fecha al final de la tarjeta */
-    font-size: 0.85rem;
-    opacity: 0.7;
-}
-
-/* --- 8. Responsividad (Mobile First) --- */
-@media (max-width: 768px) {
-    .homepage-header { padding: 2rem 0; }
-    .homepage-header h1 { font-size: 2rem; }
-    .intro-grid, .proyectos-grid { gap: 1.5rem; }
-    .main-content-custom { padding: 1rem; }
+/* Asegurar que el texto de Org-mode respire */
+.post-content p {
+    margin-bottom: 1.2rem;
 }

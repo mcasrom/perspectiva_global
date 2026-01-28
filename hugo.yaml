@@ -3,12 +3,11 @@ languageCode: "es-es"
 title: "Perspectiva Global | Crónicas del Nuevo Orden"
 theme: "PaperMod"
 
-# Configuración de salida para que la búsqueda funcione
 outputs:
   home:
     - HTML
     - RSS
-    - JSON # Necesario para la búsqueda local
+    - JSON
 
 params:
   env: "production"
@@ -16,56 +15,46 @@ params:
   description: "Análisis soberano sobre geopolítica, tecnología y el nuevo orden multipolar."
   author: "M.Castillo"
   
-  # --- MEJORAS ESTÉTICAS ---
   defaultTheme: "dark"
-  disableThemeToggle: false # Permite al lector elegir, pero inicia en Dark
+  disableThemeToggle: false 
   ShowReadingTime: true
   showCodeCopyButtons: true
-  ShowBreadCrumbs: true     # Mejora la navegación y el SEO
-  ShowPostNavLinks: true    # Enlaces "Siguiente/Anterior" al final de los artículos
+  ShowBreadCrumbs: true     
+  ShowPostNavLinks: true    
   
-  # --- CONFIGURACIÓN DE BÚSQUEDA ---
-  fuseOpts:
-    isCaseSensitive: false
-    shouldSort: true
-    location: 0
-    distance: 100
-    threshold: 0.4
-    minMatchCharLength: 0
-    keys: ["title", "permalink", "summary", "content"]
-
-  # --- MODO PERFIL ---
   profileMode:
     enabled: true
-    title: "Perspectiva Global"
-    subtitle: "Análisis estratégico en un mundo multipolar. <br> **Soberanía tecnológica e inteligencia geopolítica.**"
-    imageUrl: "images/perfil.png" 
-    imageWidth: 300
-    imageHeight: 300
+    title: "El Mapa y El Código"
+    # El uso de HTML en subtitle requiere 'HTML' en lugar de Markdown en algunas versiones de PaperMod
+    subtitle: "Perspectiva Global: Crónicas del Nuevo Orden. <br> **Soberanía tecnológica e inteligencia geopolítica.**"
+    imageUrl: "images/about-image.png" # Asegúrate de que el archivo se llame así en static/images/
+    imageWidth: 200 # Un tamaño de 200-250 suele quedar mejor que 300 para no desplazar el texto
+    imageHeight: 200
     buttons:
       - name: "📂 Ver Análisis"
         url: "posts"
-      - name: "🏷️ Etiquetas"
-        url: "tags"
+      - name: "🌐 Geo-IA"
+        url: "https://mcasrom.github.io/geo-ia/"
+      - name: "📚 Daily Readings"
+        url: "https://mcasrom.github.io/daily_readings/"
 
-  # --- ICONOS SOCIALES ---
   socialIcons:
     - name: "github"
       url: "https://github.com/mcasrom"
     - name: "rss"
       url: "index.xml"
 
-# --- MENÚ OPTIMIZADO ---
 menu:
   main:
     - name: "Análisis"
       url: "posts/"
       weight: 10
     - name: "Buscar"
-      url: "search/" # Recuerda crear content/search.md con 'layout: search'
+      url: "search/"
       weight: 20
     - name: "Acerca de"
       url: "about/"
+      weight: 30
     - name: "Contacto"
       url: "contact/"
       weight: 40

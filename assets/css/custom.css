@@ -1,182 +1,133 @@
-/* Invertir colores del mapa sutilmente en modo oscuro para que no brille demasiado */
+/* --- 1. Mapas (Leaflet) con Estética Soberana --- */
 .dark .leaflet-layer,
 .dark .leaflet-control-zoom-in,
 .dark .leaflet-control-zoom-out,
 .dark .leaflet-container {
-    filter: invert(100%) hue-rotate(180deg) brightness(95%) contrast(90%);
+    filter: invert(100%) hue-rotate(180deg) brightness(90%) contrast(85%) grayscale(20%);
 }
 
 .leaflet-container {
     background: var(--theme) !important;
-    z-index: 1; /* Evita que el mapa tape el menú de navegación */
+    z-index: 1;
+    border-radius: 8px;
 }
-/* Badge de Autoridad en el Profile Mode */
+
+/* --- 2. Identidad y Autoridad --- */
 .profile_inner h1::after {
-    content: " \2713"; /* Un check mark */
+    content: " \2713"; /* Check de verificado */
     color: #4da6ff;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     vertical-align: middle;
 }
-/* --- Landing Page Personalizada --- */
+
+/* --- 3. Landing Page: Estructura y Espaciado --- */
 .main-content-custom {
     max-width: var(--content-width);
-    margin: var(--gap) auto;
-    padding: 0 var(--gap);
+    margin: 0 auto;
+    padding: 2rem var(--gap);
 }
 
 .homepage-header {
     text-align: center;
-    margin-bottom: 3rem;
-    padding-bottom: 2rem;
-    border-bottom: 1px solid var(--border-color);
+    padding: 4rem 0; /* Más aire en el título */
+    border-bottom: 1px solid var(--tertiary);
+    margin-bottom: 4rem;
 }
 
 .homepage-header h1 {
-    font-size: 2.8rem;
+    font-size: 3rem;
+    font-weight: 800;
+    line-height: 1.1;
+    margin-bottom: 1.5rem;
     color: var(--primary);
-    margin-bottom: 0.5rem;
 }
 
 .homepage-header .subtitle {
-    font-size: 1.2rem;
+    font-size: 1.25rem;
     color: var(--secondary);
-    max-width: 700px;
-    margin: 0 auto 2rem;
+    max-width: 650px;
+    margin: 0 auto;
+    line-height: 1.6;
 }
 
-.intro-grid {
+/* --- 4. Grillas (Anti-Solapamiento) --- */
+.intro-grid, .proyectos-grid, .post-list-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 20px;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 2.5rem; /* Espacio generoso entre tarjetas */
     margin-top: 2rem;
 }
 
-.intro-card {
+/* --- 5. Tarjetas (Cards) de Visión y Proyectos --- */
+.intro-card, .proyecto-card, .post-card {
     background: var(--entry);
-    padding: 25px;
-    border-radius: 10px;
-    border: 1px solid var(--tertiary);
-    box-shadow: 0 4px 15px rgba(0,0,0,0.3);
-    text-align: left;
-}
-
-.intro-card h3 {
-    color: #4da6ff;
-    margin-top: 0;
-    font-size: 1.4rem;
-    margin-bottom: 10px;
-}
-
-.proyectos-section, .latest-posts-section {
-    margin-top: 4rem;
-    margin-bottom: 3rem;
-}
-
-.proyectos-section h2, .latest-posts-section h2 {
-    text-align: center;
-    font-size: 2.2rem;
-    margin-bottom: 2.5rem;
-    color: var(--primary);
-    border-bottom: 2px solid #4da6ff;
-    padding-bottom: 10px;
-    display: inline-block;
-    width: auto;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.proyectos-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 30px;
-}
-
-.proyecto-card {
-    display: block;
-    background: var(--entry);
-    padding: 30px;
+    padding: 2rem;
     border-radius: 12px;
     border: 1px solid var(--tertiary);
-    text-decoration: none;
-    color: var(--primary);
-    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
-    box-shadow: 0 5px 20px rgba(0,0,0,0.4);
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
 }
 
-.proyecto-card:hover {
-    transform: translateY(-8px);
-    box-shadow: 0 8px 25px rgba(0,0,0,0.6);
+.proyecto-card:hover, .post-card:hover {
+    transform: translateY(-5px);
+    border-color: #4da6ff;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.4);
 }
 
-.proyecto-card h3 {
+.intro-card h3, .proyecto-card h3, .post-card h2 {
     color: #4da6ff;
-    margin-top: 0;
-    font-size: 1.6rem;
-    margin-bottom: 10px;
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
 }
 
-.proyecto-card p {
-    font-size: 0.95rem;
-    color: var(--secondary);
-}
-
+/* Variación para el Blog Principal */
 .proyecto-card.main-blog {
-    border-color: #ff4d4d; /* Un color distintivo para este blog */
+    border-left: 4px solid #ff4d4d;
 }
 .proyecto-card.main-blog h3 {
     color: #ff4d4d;
 }
 
-.post-list-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 30px;
-}
-
-.post-card {
-    background: var(--entry);
-    padding: 25px;
-    border-radius: 10px;
-    border: 1px solid var(--tertiary);
-    box-shadow: 0 4px 15px rgba(0,0,0,0.3);
-}
-
-.post-card h2 {
-    font-size: 1.5rem;
-    margin-top: 0;
-    margin-bottom: 15px;
-}
-
-.post-card h2 a {
-    color: var(--primary);
-    text-decoration: none;
-}
-
-.post-card h2 a:hover {
-    color: #4da6ff;
-    text-decoration: underline;
-}
-
-.post-card .post-summary {
+/* --- 6. Títulos de Sección --- */
+.proyectos-section h2, .latest-posts-section h2 {
     font-size: 0.9rem;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
     color: var(--secondary);
-    margin-bottom: 15px;
+    text-align: center;
+    margin-bottom: 3rem;
+    position: relative;
+    display: block;
 }
 
-.post-card .post-footer time {
-    font-size: 0.8rem;
-    color: var(--tertiary);
+.proyectos-section h2::after, .latest-posts-section h2::after {
+    content: "";
+    display: block;
+    width: 40px;
+    height: 2px;
+    background: #4da6ff;
+    margin: 10px auto 0;
 }
 
-/* --- Responsiveness --- */
+/* --- 7. Ajustes de Texto en Posts --- */
+.post-summary {
+    line-height: 1.6;
+    color: var(--secondary);
+    margin-bottom: 1.5rem;
+}
+
+.post-footer {
+    margin-top: auto; /* Empuja la fecha al final de la tarjeta */
+    font-size: 0.85rem;
+    opacity: 0.7;
+}
+
+/* --- 8. Responsividad (Mobile First) --- */
 @media (max-width: 768px) {
-    .homepage-header h1 {
-        font-size: 2rem;
-    }
-    .homepage-header .subtitle {
-        font-size: 1rem;
-    }
-    .proyectos-section h2, .latest-posts-section h2 {
-        font-size: 1.8rem;
-    }
+    .homepage-header { padding: 2rem 0; }
+    .homepage-header h1 { font-size: 2rem; }
+    .intro-grid, .proyectos-grid { gap: 1.5rem; }
+    .main-content-custom { padding: 1rem; }
 }

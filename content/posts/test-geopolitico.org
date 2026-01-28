@@ -1,7 +1,8 @@
 #+TITLE: El Gran Tablero: Análisis de Prueba
 #+DATE: 2026-01-28
 #+DRAFT: false
-#+TAGS: geopolitica, prueba, debian
+#+TAGS[]: "geopolitica" "prueba" "debian"
+
 
 * Introducción
 Este es un análisis de prueba para el blog *Perspectiva Global*. 

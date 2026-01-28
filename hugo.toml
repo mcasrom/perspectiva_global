@@ -3,6 +3,25 @@ languageCode = 'es-es'
 title = 'Perspectiva Global: Crónicas del Nuevo Orden'
 theme = 'PaperMod'
 
+
 [params]
-    defaultTheme = "dark" # Porque los usuarios de Debian preferimos el modo oscuro
+    env = "production"
+    title = "Perspectiva Global"
+    description = "Crónicas de un nuevo orden mundial"
+    author = "M. Castro"
+    
+    # Estética y Funcionalidad
+    defaultTheme = "auto" # Cambia entre luz/oscuridad según el sistema
     showCodeCopyButtons = true
+    displayFullContent = false
+    ShowReadingTime = true
+    ShowShareButtons = true
+    ShowPostNavLinks = true
+    
+    [params.homeInfoParams]
+        Title = "Perspectiva Global 🌍"
+        Content = "Análisis soberano sobre geopolítica, tecnología y el gran tablero mundial. Publicado desde Debian."
+
+    [[params.socialIcons]]
+        name = "github"
+        url = "https://github.com/mcasrom"

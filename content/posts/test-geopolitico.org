@@ -1,0 +1,15 @@
+#+TITLE: El Gran Tablero: Análisis de Prueba
+#+DATE: 2026-01-28
+#+DRAFT: false
+#+TAGS: geopolitica, prueba, debian
+
+* Introducción
+Este es un análisis de prueba para el blog *Perspectiva Global*. 
+
+* Puntos Clave
+- **Soberanía Tecnológica**: Publicado desde un sistema Debian estable.
+- **Automatización**: Desplegado mediante GitHub Actions.
+- **Formato**: Escrito íntegramente en Org-mode.
+
+* Conclusión
+Si estás leyendo esto en la web, el sistema de publicación es 100% funcional.

@@ -28,9 +28,21 @@ theme = 'PaperMod'
             name = "Etiquetas"
             url = "tags"
 
+
+    [params.searchConfig]
+        kind = "lunr" # Motor de búsqueda ligero
+        placeholder = "Buscar análisis..."
+        mainSections = ["posts"]
+
+
     [[params.socialIcons]]
         name = "github"
         url = "https://github.com/mcasrom"
     [[params.socialIcons]]
         name = "rss"
         url = "index.xml"
+
+
+# Añade esto para habilitar el índice de búsqueda
+[outputs]
+    home = ["HTML", "RSS", "JSON"]

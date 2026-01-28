@@ -1,0 +1,16 @@
+:root {
+    --nav-width: 900px;
+    --article-width: 700px;
+}
+
+/* Mejora el contraste del modo oscuro */
+.dark {
+    --theme: #1a1a1b;
+    --entry: #2e2e33;
+    --primary: #e5e5e5;
+}
+
+/* Un toque de color sutil para los enlaces (Azul institucional) */
+a {
+    color: #4da6ff;
+}

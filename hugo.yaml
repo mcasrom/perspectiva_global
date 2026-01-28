@@ -14,7 +14,7 @@ params:
   env: "production"
   title: "Perspectiva Global"
   description: "Análisis soberano sobre geopolítica, tecnología y el nuevo orden multipolar."
-  author: "M. Castro"
+  author: "M.Castillo"
   
   # --- MEJORAS ESTÉTICAS ---
   defaultTheme: "dark"

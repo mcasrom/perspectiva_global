@@ -1,0 +1,71 @@
+baseURL: "https://mcasrom.github.io/perspectiva_global/"
+languageCode: "es-es"
+title: "Perspectiva Global | Crónicas del Nuevo Orden"
+theme: "PaperMod"
+
+# Configuración de salida para que la búsqueda funcione
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON # Necesario para la búsqueda local
+
+params:
+  env: "production"
+  title: "Perspectiva Global"
+  description: "Análisis soberano sobre geopolítica, tecnología y el nuevo orden multipolar."
+  author: "M. Castro"
+  
+  # --- MEJORAS ESTÉTICAS ---
+  defaultTheme: "dark"
+  disableThemeToggle: false # Permite al lector elegir, pero inicia en Dark
+  ShowReadingTime: true
+  showCodeCopyButtons: true
+  ShowBreadCrumbs: true     # Mejora la navegación y el SEO
+  ShowPostNavLinks: true    # Enlaces "Siguiente/Anterior" al final de los artículos
+  
+  # --- CONFIGURACIÓN DE BÚSQUEDA ---
+  fuseOpts:
+    isCaseSensitive: false
+    shouldSort: true
+    location: 0
+    distance: 100
+    threshold: 0.4
+    minMatchCharLength: 0
+    keys: ["title", "permalink", "summary", "content"]
+
+  # --- MODO PERFIL ---
+  profileMode:
+    enabled: true
+    title: "Perspectiva Global"
+    subtitle: "Análisis estratégico en un mundo multipolar. <br> **Soberanía tecnológica e inteligencia geopolítica.**"
+    imageUrl: "images/perfil.png" 
+    imageWidth: 300
+    imageHeight: 300
+    buttons:
+      - name: "📂 Ver Análisis"
+        url: "posts"
+      - name: "🏷️ Etiquetas"
+        url: "tags"
+
+  # --- ICONOS SOCIALES ---
+  socialIcons:
+    - name: "github"
+      url: "https://github.com/mcasrom"
+    - name: "rss"
+      url: "index.xml"
+
+# --- MENÚ OPTIMIZADO ---
+menu:
+  main:
+    - name: "Análisis"
+      url: "posts/"
+      weight: 10
+    - name: "Buscar"
+      url: "search/" # Recuerda crear content/search.md con 'layout: search'
+      weight: 20
+    - name: "Acerca de"
+      url: "about/"
+    - name: "Contacto"
+      url: "contact/"
+      weight: 40

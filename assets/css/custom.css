@@ -1,0 +1,12 @@
+/* Invertir colores del mapa sutilmente en modo oscuro para que no brille demasiado */
+.dark .leaflet-layer,
+.dark .leaflet-control-zoom-in,
+.dark .leaflet-control-zoom-out,
+.dark .leaflet-container {
+    filter: invert(100%) hue-rotate(180deg) brightness(95%) contrast(90%);
+}
+
+.leaflet-container {
+    background: var(--theme) !important;
+    z-index: 1; /* Evita que el mapa tape el menú de navegación */
+}

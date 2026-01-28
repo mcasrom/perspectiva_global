@@ -1,0 +1,19 @@
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+
+<div id="map-{{ .Get "id" }}" style="height: {{ default "400px" (.Get "height") }}; width: 100%; border-radius: 12px; margin: 20px 0; border: 1px solid var(--tertiary);"></div>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+        var map = L.map('map-{{ .Get "id" }}').setView([{{ .Get "lat" }}, {{ .Get "lon" }}], {{ .Get "zoom" }});
+        
+        // Usamos CartoDB Voyager: estilo moderno, limpio y sin distracciones
+        L.tileLayer('https://{s}.basemaps.cartocdn.com/rastertiles/voyager_labels_under/{z}/{x}/{y}{r}.png', {
+            attribution: '© OpenStreetMap'
+        }).addTo(map);
+
+        L.marker([{{ .Get "lat" }}, {{ .Get "lon" }}]).addTo(map)
+            .bindPopup('{{ .Get "caption" }}')
+            .openPopup();
+    });
+</script>

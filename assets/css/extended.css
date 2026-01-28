@@ -1,16 +1,102 @@
+/* --- CONFIGURACIÓN DE VARIABLES Y ANCHOS --- */
 :root {
     --nav-width: 900px;
     --article-width: 700px;
+    /* PaperMod usa --main-width para el contenedor central */
+    --main-width: 850px; 
+    --gap: 24px;
 }
 
-/* Mejora el contraste del modo oscuro */
+/* --- ESTÉTICA MODO OSCURO (Contraste Mejorado) --- */
 .dark {
-    --theme: #1a1a1b;
-    --entry: #2e2e33;
-    --primary: #e5e5e5;
+    --theme: #121213;        /* Fondo un poco más profundo */
+    --entry: #1d1d1f;        /* Tarjetas de posts */
+    --primary: #f0f0f0;      /* Texto principal */
+    --secondary: #a1a1a6;    /* Texto secundario/metadatos */
+    --tertiary: #333336;     /* Bordes y separadores */
+    --content: #e5e5e5;      /* Texto de los artículos */
 }
 
-/* Un toque de color sutil para los enlaces (Azul institucional) */
-a {
+/* --- TIPOGRAFÍA Y ENLACES --- */
+.post-content {
+    font-size: 1.15rem;
+    line-height: 1.7;
+    text-align: justify;
+}
+
+/* Enlaces con estilo moderno (Azul institucional) */
+.post-content a, .post-summary a {
     color: #4da6ff;
+    text-decoration: none;
+    border-bottom: 1px solid rgba(77, 166, 255, 0.3);
+    transition: all 0.2s ease;
+}
+
+.post-content a:hover {
+    color: #82c1ff;
+    border-bottom: 1px solid #82c1ff;
+    background-color: rgba(77, 166, 255, 0.1);
+}
+
+/* --- IMAGEN DE PERFIL (Visión Amplia y Moderna) --- */
+.profile_inner img {
+    /* Rompemos el círculo */
+    border-radius: 12px !important; 
+    object-fit: cover;
+    
+    /* Proporciones más amplias */
+    aspect-ratio: 16 / 9; 
+    width: 100% !important;
+    max-width: 450px; /* Tamaño ideal para escritorio */
+    height: auto;
+    
+    /* Efectos visuales */
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    transition: transform 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.profile_inner img:hover {
+    transform: translateY(-5px) scale(1.01);
+}
+
+/* Optimización del texto de perfil */
+.profile_inner .subtitle {
+    max-width: 650px;
+    margin: 1.5rem auto;
+    line-height: 1.6;
+    font-size: 1.25rem;
+    font-weight: 300;
+    color: var(--secondary);
+}
+
+/* --- TARJETAS DE POSTS (Listado) --- */
+.entry-wrapper {
+    border-radius: 12px;
+    margin-bottom: var(--gap);
+    border: 1px solid transparent;
+    transition: all 0.2s ease;
+}
+
+.dark .entry-wrapper {
+    background: var(--entry);
+    border: 1px solid var(--tertiary);
+}
+
+.entry-wrapper:hover {
+    transform: translateX(5px);
+    border-color: #4da6ff;
+}
+
+/* --- BOTONES MODERNOS --- */
+.button {
+    border-radius: 8px !important;
+    background: #4da6ff !important;
+    color: #121213 !important;
+    font-weight: 600;
+    transition: opacity 0.2s ease;
+}
+
+.button:hover {
+    opacity: 0.9;
 }

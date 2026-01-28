@@ -1,0 +1,6 @@
+---
+title: "Analisis Inicial"
+date: 2026-01-28T15:32:42+01:00
+draft: true
+---
+

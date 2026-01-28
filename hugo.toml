@@ -1,0 +1,8 @@
+baseURL = 'https://mcasrom.github.io/perspectiva_global/'
+languageCode = 'es-es'
+title = 'Perspectiva Global: Crónicas del Nuevo Orden'
+theme = 'PaperMod'
+
+[params]
+    defaultTheme = "dark" # Porque los usuarios de Debian preferimos el modo oscuro
+    showCodeCopyButtons = true

@@ -1,0 +1,9 @@
+- nombre: "El Mapa y El Código (Geo-IA)"
+  descripcion: "Análisis en la intersección de la IA y la geopolítica. La tecnología como motor del poder global."
+  url: "https://mcasrom.github.io/geo-ia/"
+  rss: "https://mcasrom.github.io/geo-ia/index.xml" # Ajusta si el RSS tiene otra ruta
+
+- nombre: "Daily Readings"
+  descripcion: "Curación diaria de lecturas esenciales sobre tecnología, geopolítica y economía. El pulso del nuevo orden."
+  url: "https://mcasrom.github.io/daily_readings/"
+  rss: "https://mcasrom.github.io/daily_readings/index.xml" # Ajusta si el RSS tiene otra ruta

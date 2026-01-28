@@ -1,0 +1,57 @@
+{{ define "main" }}
+<div class="main-content-custom">
+    <header class="homepage-header">
+        <h1>Perspectiva Global: El Mapa y El Código</h1>
+        <p class="subtitle">Análisis estratégico sobre soberanía tecnológica, geopolítica y el nuevo orden multipolar.</p>
+        <div class="intro-grid">
+            <div class="intro-card">
+                <h3>Visión</h3>
+                <p>Decodificamos el impacto de la tecnología y la IA en la conformación de los bloques de poder globales. Un radar constante para el futuro.</p>
+            </div>
+            <div class="intro-card">
+                <h3>Método</h3>
+                <p>Combinamos décadas de experiencia en sistemas abiertos con una aproximación rigurosa al análisis geopolítico. Veracidad y profundidad.</p>
+            </div>
+        </div>
+    </header>
+
+    <section class="proyectos-section">
+        <h2>Nuestros Proyectos</h2>
+        <div class="proyectos-grid">
+            {{ range .Site.Data.proyectos }}
+            <a href="{{ .url }}" target="_blank" rel="noopener noreferrer" class="proyecto-card">
+                <h3>{{ .nombre }}</h3>
+                <p>{{ .descripcion }}</p>
+            </a>
+            {{ end }}
+            <a href="/posts/" class="proyecto-card main-blog">
+                <h3>Perspectiva Global (Este Blog)</h3>
+                <p>Crónicas detalladas y análisis en profundidad que conectan el mapa con el código.</p>
+            </a>
+        </div>
+    </section>
+
+    <section class="latest-posts-section">
+        <h2>Últimos Posts de Perspectiva Global</h2>
+        <div class="post-list-grid">
+            {{ range first 3 .Site.RegularPages.ByDate.Reverse }}
+            <article class="post-card">
+                <header class="post-header">
+                    <h2><a href="{{ .RelPermalink }}">{{ .Title }}</a></h2>
+                </header>
+                <div class="post-summary">
+                    {{ .Summary | plainify | safeHTML | truncate 150 "..." }}
+                </div>
+                <footer class="post-footer">
+                    <time datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}">{{ .Date.Format "Jan 2, 2006" }}</time>
+                </footer>
+            </article>
+            {{ end }}
+        </div>
+    </section>
+
+    {{/* Aquí podrías añadir un script para fetch/parse RSS si quisieras mostrar posts externos,
+         pero es más complejo y requeriría JS o un proceso de construcción.
+         Por ahora, enlazamos directamente a los proyectos. */}}
+</div>
+{{ end }}

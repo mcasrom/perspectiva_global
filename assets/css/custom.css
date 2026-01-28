@@ -10,3 +10,10 @@
     background: var(--theme) !important;
     z-index: 1; /* Evita que el mapa tape el menú de navegación */
 }
+/* Badge de Autoridad en el Profile Mode */
+.profile_inner h1::after {
+    content: " \2713"; /* Un check mark */
+    color: #4da6ff;
+    font-size: 1.2rem;
+    vertical-align: middle;
+}

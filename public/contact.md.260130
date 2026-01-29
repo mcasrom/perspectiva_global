@@ -1,0 +1,32 @@
+---
+title: "Contacto"
+date: 2026-01-28
+draft: false
+---
+.
+Si deseas colaborar en el análisis de soberanía tecnológica, geoeconomía o reportar información relevante para /Perspectiva Global/, utiliza los canales oficiales.
+
+* Canales de Comunicación
+- **Email Directo:** [[mailto:miguel@tudominio.com][miguel@tudominio.com]]
+- **PGP Key:** `0x123456789ABCDEF0` (Para comunicaciones cifradas)
+- **Repositorio:** [[https://github.com/tu-usuario][GitHub Project]]
+
+#+begin_export html
+<div class="contact-form">
+    <form action="https://formspree.io/f/tu-id-aqui" method="POST">
+        <div class="field">
+            <label>Tu Nombre:</label>
+            <input type="text" name="name" required>
+        </div>
+        <div class="field">
+            <label>Email de contacto:</label>
+            <input type="email" name="_replyto" required>
+        </div>
+        <div class="field">
+            <label>Mensaje / Briefing:</label>
+            <textarea name="message" rows="5" required></textarea>
+        </div>
+        <button type="submit" class="submit-btn">Enviar Mensaje</button>
+    </form>
+</div>
+#+end_export

@@ -2,16 +2,37 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>http://localhost:1313/perspectiva_global/categories/an%C3%A1lisis/</loc>
+    <lastmod>2026-01-29T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/perspectiva_global/categories/an%C3%A1lisis-estrat%C3%A9gico/</loc>
     <lastmod>2026-01-29T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/perspectiva_global/categories/</loc>
     <lastmod>2026-01-29T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/perspectiva_global/tags/comercio-global/</loc>
+    <lastmod>2026-01-29T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/perspectiva_global/contact/</loc>
+    <lastmod>2026-01-29T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/perspectiva_global/tags/defensa-estrat%C3%A9gica/</loc>
+    <lastmod>2026-01-29T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/perspectiva_global/tags/energ%C3%ADa/</loc>
     <lastmod>2026-01-29T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/perspectiva_global/posts/ue-india-fta/</loc>
+    <lastmod>2026-01-29T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/perspectiva_global/tags/geoeconom%C3%ADa/</loc>
+    <lastmod>2026-01-29T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/perspectiva_global/tags/geopol%C3%ADtica/</loc>
+    <lastmod>2026-01-29T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/perspectiva_global/tags/india/</loc>
     <lastmod>2026-01-29T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/perspectiva_global/posts/geopolitica-petroleo/</loc>
@@ -29,6 +50,9 @@
     <loc>http://localhost:1313/perspectiva_global/tags/</loc>
     <lastmod>2026-01-29T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/perspectiva_global/tags/union-europea/</loc>
+    <lastmod>2026-01-29T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/perspectiva_global/posts/analisis-inicial/</loc>
     <lastmod>2026-01-28T15:32:42+01:00</lastmod>
   </url><url>
@@ -39,9 +63,6 @@
     <lastmod>2026-01-28T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/perspectiva_global/tags/china/</loc>
-    <lastmod>2026-01-28T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/perspectiva_global/contact/</loc>
     <lastmod>2026-01-28T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/perspectiva_global/tags/econom%C3%ADa/</loc>

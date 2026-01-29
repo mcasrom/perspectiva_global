@@ -1,0 +1,15 @@
+#+TITLE: Contacto
+#+DATE: 2026-01-29
+
+* Contacto Directo
+Para comunicaciones sobre inteligencia comercial o geoeconomía, utiliza los siguientes canales:
+
+- **Email:** [[mailto:mybloggingnotes@gmail.com][mybloggingnotes@gmail.com]]
+- **Mensajería Segura:** @tu_usuario (Signal / Telegram)
+
+* Seguridad
+Si el contenido es sensible, se recomienda el uso de cifrado PGP.
+#+begin_example
+Key ID: 0x123456789ABCDEF0
+Fingerprint: 4D32 109F ...
+#+end_example

@@ -1,4 +1,4 @@
-#+title: Acerca de: El Mapa y El Código
+#+title: Acerca de: Crónicas del Nuevo Orden
 #+date: 2026-01-28
 #+draft: false
 #+url: /about/
@@ -9,12 +9,12 @@
 #+end_quote
 
 * El Hook: ¿Por qué Perspectiva Global?
-Vivimos en una era donde las fronteras ya no solo se dibujan con tratados diplomáticos, sino con algoritmos, semiconductores y protocolos de red. Como autor de **[[https://mcasrom.github.io/geo-ia/][El Mapa y El Código]]**, mi misión es descifrar cómo la Inteligencia Artificial y la tecnología disruptiva están redibujando el tablero geopolítico.
+Vivimos en una era donde las fronteras ya no solo se dibujan con tratados diplomáticos, sino con algoritmos, semiconductores y protocolos de red. Como autor de **[[https://mcasrom.github.io/geo-ia/][El Mapa y El Código]]**, mi objetivo es descifrar cómo la Inteligencia Artificial y la tecnología disruptiva están redibujando el tablero geopolítico.
 
 Este espacio no es un blog de noticias; es un laboratorio de **inteligencia estratégica**. Aquí, el análisis no se detiene en la superficie de la prensa convencional: profundizamos en la arquitectura técnica que sostiene las decisiones globales.
 
 * Quién es M.Castillo
-Con más de 26 años de trayectoria operando exclusivamente en entornos de **Sistemas Abiertos (Linux/Unix)**, mi enfoque se basa en la **soberanía tecnológica radical**. 
+Con más de 20 años como apasionado de los entornos de **Sistemas Abiertos (Linux/Unix)**, mi enfoque se basa en la **soberanía tecnológica radical**. 
 
 - **Analista Geopolítico:** Especializado en la transición hacia un mundo multipolar.
 - **Arquitecto de Sistemas:** Defensor del software libre como única garantía de independencia estatal e individual.

@@ -1,36 +1,80 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Perspectiva Global | Crónicas del Nuevo Orden</title><link>https://mcasrom.github.io/perspectiva_global/</link><description>Recent content on Perspectiva Global | Crónicas del Nuevo Orden</description><generator>Hugo -- 0.146.0</generator><language>es-es</language><lastBuildDate>Wed, 28 Jan 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://mcasrom.github.io/perspectiva_global/index.xml" rel="self" type="application/rss+xml"/><item><title>Acerca de: El Mapa y El Código</title><link>https://mcasrom.github.io/perspectiva_global/about/</link><pubDate>Wed, 28 Jan 2026 00:00:00 +0000</pubDate><guid>https://mcasrom.github.io/perspectiva_global/about/</guid><description>&lt;blockquote>
-&lt;p>&amp;#34;En la intersección entre la soberanía tecnológica y el nuevo orden multipolar, la información es el territorio, pero el código es el arma.&amp;#34;&lt;/p>
-&lt;/blockquote>
-&lt;div id="outline-container-headline-1" class="outline-2">
-&lt;h2 id="headline-1">
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Perspectiva Global | Crónicas del Nuevo Orden</title>
+    <link>https://mcasrom.github.io/perspectiva_global/</link>
+    <description>Recent content on Perspectiva Global | Crónicas del Nuevo Orden</description>
+    <image>
+      <title>Perspectiva Global | Crónicas del Nuevo Orden</title>
+      <url>https://mcasrom.github.io/perspectiva_global/images/preview.jpg</url>
+      <link>https://mcasrom.github.io/perspectiva_global/images/preview.jpg</link>
+    </image>
+    <generator>Hugo -- 0.146.0</generator>
+    <language>es-es</language>
+    <lastBuildDate>Wed, 28 Jan 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://mcasrom.github.io/perspectiva_global/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Acerca de: El Mapa y El Código</title>
+      <link>https://mcasrom.github.io/perspectiva_global/about/</link>
+      <pubDate>Wed, 28 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>https://mcasrom.github.io/perspectiva_global/about/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;&amp;#34;En la intersección entre la soberanía tecnológica y el nuevo orden multipolar, la información es el territorio, pero el código es el arma.&amp;#34;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;div id=&#34;outline-container-headline-1&#34; class=&#34;outline-2&#34;&gt;
+&lt;h2 id=&#34;headline-1&#34;&gt;
 El Hook: ¿Por qué Perspectiva Global?
-&lt;/h2>
-&lt;div id="outline-text-headline-1" class="outline-text-2">
-&lt;p>Vivimos en una era donde las fronteras ya no solo se dibujan con tratados diplomáticos, sino con algoritmos, semiconductores y protocolos de red. Como autor de &lt;strong>&lt;strong>&lt;a href="https://mcasrom.github.io/geo-ia/">El Mapa y El Código&lt;/a>&lt;/strong>&lt;/strong>, mi misión es descifrar cómo la Inteligencia Artificial y la tecnología disruptiva están redibujando el tablero geopolítico.&lt;/p></description></item><item><title>Contacto</title><link>https://mcasrom.github.io/perspectiva_global/contact/</link><pubDate>Wed, 28 Jan 2026 00:00:00 +0000</pubDate><guid>https://mcasrom.github.io/perspectiva_global/contact/</guid><description>&lt;p>Ponte en contacto con Perspectiva Global.&lt;/p></description></item><item><title>El Desafío de los BRICS+ al Orden de Bretton Woods</title><link>https://mcasrom.github.io/perspectiva_global/posts/analisis-brics/</link><pubDate>Wed, 28 Jan 2026 00:00:00 +0000</pubDate><guid>https://mcasrom.github.io/perspectiva_global/posts/analisis-brics/</guid><description>Un análisis profundo sobre la desdolarización y la nueva arquitectura financiera global.</description></item><item><title>El Gran Tablero: Análisis de Prueba</title><link>https://mcasrom.github.io/perspectiva_global/posts/test-geopolitico/</link><pubDate>Wed, 28 Jan 2026 00:00:00 +0000</pubDate><guid>https://mcasrom.github.io/perspectiva_global/posts/test-geopolitico/</guid><description>&lt;div id="outline-container-headline-1" class="outline-2">
-&lt;h2 id="headline-1">
+&lt;/h2&gt;
+&lt;div id=&#34;outline-text-headline-1&#34; class=&#34;outline-text-2&#34;&gt;
+&lt;p&gt;Vivimos en una era donde las fronteras ya no solo se dibujan con tratados diplomáticos, sino con algoritmos, semiconductores y protocolos de red. Como autor de &lt;strong&gt;&lt;strong&gt;&lt;a href=&#34;https://mcasrom.github.io/geo-ia/&#34;&gt;El Mapa y El Código&lt;/a&gt;&lt;/strong&gt;&lt;/strong&gt;, mi misión es descifrar cómo la Inteligencia Artificial y la tecnología disruptiva están redibujando el tablero geopolítico.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Contacto</title>
+      <link>https://mcasrom.github.io/perspectiva_global/contact/</link>
+      <pubDate>Wed, 28 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>https://mcasrom.github.io/perspectiva_global/contact/</guid>
+      <description>&lt;p&gt;Ponte en contacto con Perspectiva Global.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>El Desafío de los BRICS&#43; al Orden de Bretton Woods</title>
+      <link>https://mcasrom.github.io/perspectiva_global/posts/analisis-brics/</link>
+      <pubDate>Wed, 28 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>https://mcasrom.github.io/perspectiva_global/posts/analisis-brics/</guid>
+      <description>Un análisis profundo sobre la desdolarización y la nueva arquitectura financiera global.</description>
+    </item>
+    <item>
+      <title>El Gran Tablero: Análisis de Prueba</title>
+      <link>https://mcasrom.github.io/perspectiva_global/posts/test-geopolitico/</link>
+      <pubDate>Wed, 28 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>https://mcasrom.github.io/perspectiva_global/posts/test-geopolitico/</guid>
+      <description>&lt;div id=&#34;outline-container-headline-1&#34; class=&#34;outline-2&#34;&gt;
+&lt;h2 id=&#34;headline-1&#34;&gt;
 Introducción
-&lt;/h2>
-&lt;div id="outline-text-headline-1" class="outline-text-2">
-&lt;p>Este es un análisis de prueba para el blog &lt;strong>Perspectiva Global&lt;/strong>. &lt;/p>
-&lt;/div>
-&lt;/div>
-&lt;div id="outline-container-headline-2" class="outline-2">
-&lt;h2 id="headline-2">
+&lt;/h2&gt;
+&lt;div id=&#34;outline-text-headline-1&#34; class=&#34;outline-text-2&#34;&gt;
+&lt;p&gt;Este es un análisis de prueba para el blog &lt;strong&gt;Perspectiva Global&lt;/strong&gt;. &lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&#34;outline-container-headline-2&#34; class=&#34;outline-2&#34;&gt;
+&lt;h2 id=&#34;headline-2&#34;&gt;
 Puntos Clave
-&lt;/h2>
-&lt;div id="outline-text-headline-2" class="outline-text-2">
-&lt;ul>
-&lt;li>&lt;strong>&lt;strong>Soberanía Tecnológica&lt;/strong>&lt;/strong>: Publicado desde un sistema Debian estable.&lt;/li>
-&lt;li>&lt;strong>&lt;strong>Automatización&lt;/strong>&lt;/strong>: Desplegado mediante GitHub Actions.&lt;/li>
-&lt;li>&lt;strong>&lt;strong>Formato&lt;/strong>&lt;/strong>: Escrito íntegramente en Org-mode.&lt;/li>
-&lt;/ul>
-&lt;/div>
-&lt;/div>
-&lt;div id="outline-container-headline-3" class="outline-2">
-&lt;h2 id="headline-3">
+&lt;/h2&gt;
+&lt;div id=&#34;outline-text-headline-2&#34; class=&#34;outline-text-2&#34;&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;&lt;strong&gt;Soberanía Tecnológica&lt;/strong&gt;&lt;/strong&gt;: Publicado desde un sistema Debian estable.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&lt;strong&gt;Automatización&lt;/strong&gt;&lt;/strong&gt;: Desplegado mediante GitHub Actions.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&lt;strong&gt;Formato&lt;/strong&gt;&lt;/strong&gt;: Escrito íntegramente en Org-mode.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&#34;outline-container-headline-3&#34; class=&#34;outline-2&#34;&gt;
+&lt;h2 id=&#34;headline-3&#34;&gt;
 Conclusión
-&lt;/h2>
-&lt;div id="outline-text-headline-3" class="outline-text-2">
-&lt;p>Si estás leyendo esto en la web, el sistema de publicación es 100% funcional.&lt;/p>
-&lt;/div>
-&lt;/div></description></item></channel></rss>
+&lt;/h2&gt;
+&lt;div id=&#34;outline-text-headline-3&#34; class=&#34;outline-text-2&#34;&gt;
+&lt;p&gt;Si estás leyendo esto en la web, el sistema de publicación es 100% funcional.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;</description>
+    </item>
+  </channel>
+</rss>

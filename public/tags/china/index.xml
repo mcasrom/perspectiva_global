@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>China on Perspectiva Global | Crónicas del Nuevo Orden</title>
-    <link>https://mcasrom.github.io/perspectiva_global/tags/china/</link>
+    <link>http://localhost:1313/perspectiva_global/tags/china/</link>
     <description>Recent content in China on Perspectiva Global | Crónicas del Nuevo Orden</description>
     <image>
       <title>Perspectiva Global | Crónicas del Nuevo Orden</title>
-      <url>https://mcasrom.github.io/perspectiva_global/images/preview.jpg</url>
-      <link>https://mcasrom.github.io/perspectiva_global/images/preview.jpg</link>
+      <url>http://localhost:1313/perspectiva_global/images/preview.jpg</url>
+      <link>http://localhost:1313/perspectiva_global/images/preview.jpg</link>
     </image>
     <generator>Hugo -- 0.146.0</generator>
     <language>es-es</language>
     <lastBuildDate>Wed, 28 Jan 2026 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://mcasrom.github.io/perspectiva_global/tags/china/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/perspectiva_global/tags/china/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>El Desafío de los BRICS&#43; al Orden de Bretton Woods</title>
-      <link>https://mcasrom.github.io/perspectiva_global/posts/analisis-brics/</link>
+      <link>http://localhost:1313/perspectiva_global/posts/analisis-brics/</link>
       <pubDate>Wed, 28 Jan 2026 00:00:00 +0000</pubDate>
-      <guid>https://mcasrom.github.io/perspectiva_global/posts/analisis-brics/</guid>
+      <guid>http://localhost:1313/perspectiva_global/posts/analisis-brics/</guid>
       <description>Un análisis profundo sobre la desdolarización y la nueva arquitectura financiera global.</description>
     </item>
   </channel>

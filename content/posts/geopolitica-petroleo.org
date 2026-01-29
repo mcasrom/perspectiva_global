@@ -1,0 +1,49 @@
+#+title: La Geopolítica del Petróleo: Del Petrodólar al Petroyuan
+#+date: 2026-01-29
+#+author: M.Castillo
+#+tags[]: Geopolítica Energía Soberanía
+#+categories[]: Análisis-Estratégico
+#+draft: false
+
+* La Transición del Orden Energético
+El petróleo no es solo un recurso; es la infraestructura de poder que ha definido el siglo XX. Sin embargo, la emergencia de los *BRICS+* y el uso de monedas alternativas para el settlement de contratos petroleros está redibujando el mapa.
+
+#+begin_export html
+{{< alerta >}}
+**ALERTA ESTRATÉGICA:** La reciente decisión de Arabia Saudí de no renovar en exclusividad el acuerdo de petrodólares marca el fin de una era de 50 años.
+{{< /alerta >}}
+#+end_export
+
+* Análisis de Flujos y Bloques
+El control de los puntos de estrangulamiento (chokepoints) como Ormuz y Malaca ya no es solo una cuestión militar, sino de supervivencia digital y energética.
+
+** Factores Clave: **
+- *Desdolarización:* El aumento del comercio en Yuanes y Rublos.
+- *OPEP+:* El eje Riad-Moscú controlando el grifo del mercado global.
+- *Resiliencia:* La tecnología de extracción soberana.
+
+* Visualización de la Cadena de Poder
+Este diagrama (PlantUML) muestra cómo la energía financia la soberanía tecnológica:
+
+#+begin_src plantuml :file images/petro-logic.png
+@startuml
+skinparam backgroundColor #1e1e1e
+skinparam ArrowColor #4da6ff
+skinparam NodeBorderColor #4da6ff
+skinparam defaultFontColor #eee
+
+node "Reservas Crudo" as RC #333
+node "Eje Euroasiático" as EE #880000
+node "Soberanía Tecnológica" as ST #006400
+node "IA y Defensa" as IA #4da6ff
+
+RC -> EE : Flujo Físico
+EE -> ST : Capital Soberano
+ST -> IA : Inversión Crítica
+IA -> RC : Eficiencia / Control
+@enduml
+#+end_src
+
+#+begin_export html
+<p align="center"><i>Diagrama 1.0: Ciclo de retroalimentación Energía-Tecnología.</i></p>
+#+end_export

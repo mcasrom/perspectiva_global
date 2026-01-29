@@ -3,6 +3,7 @@ languageCode: "es-es"
 title: "Perspectiva Global | Crónicas del Nuevo Orden"
 theme: "PaperMod"
 
+# Configuración de salida
 outputs:
   home:
     - HTML
@@ -10,11 +11,16 @@ outputs:
     - JSON
 
 params:
+  # --- METADATOS DE REDES (Aquí es donde deben ir) ---
+  images: ["images/preview.jpg"]
+  SocialMetadata:
+    twitter: "summary_large_image"
+
   env: "production"
   title: "Perspectiva Global"
   description: "Análisis soberano sobre geopolítica, tecnología y el nuevo orden multipolar."
   author: "M.Castillo"
-  
+
   defaultTheme: "dark"
   disableThemeToggle: false 
   ShowReadingTime: true
@@ -69,3 +75,7 @@ menu:
     - name: "Contacto"
       url: "contact/"
       weight: 40
+markup:
+  goldmark:
+    renderer:
+      unsafe: true

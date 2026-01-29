@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Geopolítica on Perspectiva Global | Crónicas del Nuevo Orden</title>
-    <link>http://localhost:1313/perspectiva_global/tags/geopol%C3%ADtica/</link>
-    <description>Recent content in Geopolítica on Perspectiva Global | Crónicas del Nuevo Orden</description>
+    <title>Energía on Perspectiva Global | Crónicas del Nuevo Orden</title>
+    <link>http://localhost:1313/perspectiva_global/tags/energ%C3%ADa/</link>
+    <description>Recent content in Energía on Perspectiva Global | Crónicas del Nuevo Orden</description>
     <image>
       <title>Perspectiva Global | Crónicas del Nuevo Orden</title>
       <url>http://localhost:1313/perspectiva_global/images/preview.jpg</url>
@@ -12,7 +12,7 @@
     <generator>Hugo -- 0.146.0</generator>
     <language>es-es</language>
     <lastBuildDate>Thu, 29 Jan 2026 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/perspectiva_global/tags/geopol%C3%ADtica/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/perspectiva_global/tags/energ%C3%ADa/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>La Geopolítica del Petróleo: Del Petrodólar al Petroyuan</title>
       <link>http://localhost:1313/perspectiva_global/posts/geopolitica-petroleo/</link>
@@ -39,13 +39,6 @@ Análisis de Flujos y Bloques
 &lt;/h2&gt;
 &lt;div id=&#34;outline-text-headline-2&#34; class=&#34;outline-text-2&#34;&gt;
 &lt;p&gt;El control de los puntos de estrangulamiento (chokepoints) como Ormuz y Malaca ya no es solo una cuestión militar, sino de supervivencia digital y energética.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>El Desafío de los BRICS&#43; al Orden de Bretton Woods</title>
-      <link>http://localhost:1313/perspectiva_global/posts/analisis-brics/</link>
-      <pubDate>Wed, 28 Jan 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/perspectiva_global/posts/analisis-brics/</guid>
-      <description>Un análisis profundo sobre la desdolarización y la nueva arquitectura financiera global.</description>
     </item>
   </channel>
 </rss>

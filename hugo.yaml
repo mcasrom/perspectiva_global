@@ -3,7 +3,6 @@ languageCode: "es-es"
 title: "Perspectiva Global | Crónicas del Nuevo Orden"
 theme: "PaperMod"
 
-# Configuración de salida
 outputs:
   home:
     - HTML
@@ -11,16 +10,24 @@ outputs:
     - JSON
 
 params:
-  # --- METADATOS DE REDES (Aquí es donde deben ir) ---
-  images: ["images/preview.jpg"]
-  SocialMetadata:
-    twitter: "summary_large_image"
-
   env: "production"
   title: "Perspectiva Global"
   description: "Análisis soberano sobre geopolítica, tecnología y el nuevo orden multipolar."
   author: "M.Castillo"
 
+  # --- CONFIGURACIÓN VISUAL (Favicon y Redes) ---
+  assets:
+    favicon: "favicon.png"
+    favicon16x16: "favicon.png"
+    favicon32x32: "favicon.png"
+    apple_touch_icon: "favicon.png"
+  
+  images: ["images/preview.jpg"]
+  
+  SocialMetadata:
+    twitter: "summary_large_image"
+
+  # --- INTERFAZ ---
   defaultTheme: "dark"
   disableThemeToggle: false 
   ShowReadingTime: true
@@ -31,10 +38,9 @@ params:
   profileMode:
     enabled: true
     title: "El Mapa y El Código"
-    # El uso de HTML en subtitle requiere 'HTML' en lugar de Markdown en algunas versiones de PaperMod
     subtitle: "Perspectiva Global: Crónicas del Nuevo Orden. <br> **Soberanía tecnológica e inteligencia geopolítica.**"
-    imageUrl: "images/blog.jpg" # Asegúrate de que el archivo se llame así en static/images/
-    imageWidth: 200 # Un tamaño de 200-250 suele quedar mejor que 300 para no desplazar el texto
+    imageUrl: "images/blog.jpg" 
+    imageWidth: 200 
     imageHeight: 200
     buttons:
       - name: "📂 Ver Análisis"
@@ -50,17 +56,7 @@ params:
     - name: "rss"
       url: "index.xml"
 
-# Favicons
-  assets:
-    favicon: "/favicon.png"
-    favicon16x16: "/favicon.png"
-    favicon32x32: "/favicon.png"
-    apple_touch_icon: "/favicon.png"
-
-  # Imagen para compartir en redes (OpenGraph / Twitter Cards)
-  images: ["images/preview.jpg"]
-
-
+# --- MENÚ Y OTROS (Fuera de params) ---
 menu:
   main:
     - name: "Análisis"
@@ -75,6 +71,7 @@ menu:
     - name: "Contacto"
       url: "contact/"
       weight: 40
+
 markup:
   goldmark:
     renderer:

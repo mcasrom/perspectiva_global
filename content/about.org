@@ -8,10 +8,17 @@
 "En la intersección entre la soberanía tecnológica y el nuevo orden multipolar, la información es el territorio, pero el código es el arma."
 #+end_quote
 
-* El Hook: ¿Por qué Perspectiva Global?
-Vivimos en una era donde las fronteras ya no solo se dibujan con tratados diplomáticos, sino con algoritmos, semiconductores y protocolos de red. Como autor de **[[https://mcasrom.github.io/geo-ia/][El Mapa y El Código]]**, mi objetivo es descifrar cómo la Inteligencia Artificial y la tecnología disruptiva están redibujando el tablero geopolítico.
+* ¿Por qué Perspectiva Global?
+Vivimos un tiempo en el que las fronteras ya no se delimitan únicamente mediante tratados diplomáticos o despliegues militares. Hoy se trazan con algoritmos, semiconductores, infraestructuras digitales y protocolos de red.
 
-Este espacio no es un blog de noticias; es un laboratorio de **inteligencia estratégica**. Aquí, el análisis no se detiene en la superficie de la prensa convencional: profundizamos en la arquitectura técnica que sostiene las decisiones globales.
+*Perspectiva Global* nace para analizar ese nuevo tablero. Como autor de  **[[https://mcasrom.github.io/geo-ia/][El Mapa y El Código (Geo-IA)]]**, mi propósito es desentrañar cómo la Inteligencia Artificial, la soberanía tecnológica y las tecnologías disruptivas están redefiniendo el equilibrio de poder global.
+
+Este no es un blog de actualidad inmediata.
+Es un espacio de análisis estratégico, donde la geopolítica se estudia desde su base técnica, económica y sistémica.
+
+Aquí no nos detenemos en el titular:
+Exploramos la arquitectura invisible que condiciona las decisiones de Estados, corporaciones y bloques geopolíticos.
+
 
 * Quién es M.Castillo
 Con más de 20 años como apasionado de los entornos de **Sistemas Abiertos (Linux/Unix)**, mi enfoque se basa en la **soberanía tecnológica radical**. 

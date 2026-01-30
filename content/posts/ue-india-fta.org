@@ -10,109 +10,109 @@
 {{< /alerta >}}
 #+end_export
 
-El acuerdo de libre comercio entre la Unión Europea y la India (“India–EU FTA”), cerrado el 27 de enero de 2026 en Nueva Delhi, no es un pacto comercial más: supone la creación de una de las mayores zonas de libre comercio del planeta, cubriendo en torno a una cuarta parte del PIB mundial y un mercado cercano a los 2.000 millones de personas. Para la UE y la India es, ante todo, una apuesta estratégica de diversificación frente a la creciente fragmentación del orden económico internacional y el auge de la guerra de aranceles impulsada por Estados Unidos y las disrupciones asociadas al peso de China en las cadenas de valor.aljazeera+3
+El acuerdo de libre comercio entre la Unión Europea y la India (“India–EU FTA”), cerrado el 27 de enero de 2026 en Nueva Delhi, no es un pacto comercial más: supone la creación de una de las mayores zonas de libre comercio del planeta, cubriendo en torno a una cuarta parte del PIB mundial y un mercado cercano a los 2.000 millones de personas. Para la UE y la India es, ante todo, una apuesta estratégica de diversificación frente a la creciente fragmentación del orden económico internacional y el auge de la guerra de aranceles impulsada por Estados Unidos y las disrupciones asociadas al peso de China en las cadenas de valor.
 
 * Antecedentes históricos y políticos
-Tras casi dos décadas de negociaciones intermitentes, la UE y la India han logrado culminar un tratado cuya primera ronda formal se remonta a mediados de la década de 2000 y que quedó congelado en 2013, para ser relanzado en 2022. El anuncio oficial del cierre de las negociaciones se produjo en la cumbre India–UE celebrada en Nueva Delhi el 27 de enero de 2026, con la presencia de Ursula von der Leyen y Narendra Modi.wikipedia+2
+Tras casi dos décadas de negociaciones intermitentes, la UE y la India han logrado culminar un tratado cuya primera ronda formal se remonta a mediados de la década de 2000 y que quedó congelado en 2013, para ser relanzado en 2022. El anuncio oficial del cierre de las negociaciones se produjo en la cumbre India–UE celebrada en Nueva Delhi el 27 de enero de 2026, con la presencia de Ursula von der Leyen y Narendra Modi.
 El contexto inmediato del acuerdo está marcado por tres factores principales:
 
-1. La escalada arancelaria global, incluida la estrategia de la Administración Trump de imponer aranceles de hasta el 50% a determinadas exportaciones indias y medidas punitivas sobre productos energéticos.allianz+1
-2. La voluntad de la UE de acelerar una agenda de acuerdos comerciales (Mercosur, India, otros) para reducir su exposición tanto a Estados Unidos como a China.allianzgi+1
-3. La ambición india de consolidarse como gran potencia manufacturera y de servicios, sin abandonar su tradicional no alineamiento político, pero construyendo interdependencias selectivas con Europa.euronews+1
+1. La escalada arancelaria global, incluida la estrategia de la Administración Trump de imponer aranceles de hasta el 50% a determinadas exportaciones indias y medidas punitivas sobre productos energéticos.
+2. La voluntad de la UE de acelerar una agenda de acuerdos comerciales (Mercosur, India, otros) para reducir su exposición tanto a Estados Unidos como a China.
+3. La ambición india de consolidarse como gran potencia manufacturera y de servicios, sin abandonar su tradicional no alineamiento político, pero construyendo interdependencias selectivas con Europa.
 
-En términos institucionales, el acuerdo va más allá de la mera reducción de aranceles e incorpora capítulos sobre servicios, inversiones, contratación pública, normas técnicas, cuestiones ambientales (incluido el ajuste de carbono en frontera europeo) y cooperación regulatoria. Se alinea así con la lógica de “acuerdos de nueva generación” que mezclan agenda comercial y de valores, en un contexto de competencia sistémica con China y fricciones con Estados Unidos.commission.europa+2
+En términos institucionales, el acuerdo va más allá de la mera reducción de aranceles e incorpora capítulos sobre servicios, inversiones, contratación pública, normas técnicas, cuestiones ambientales (incluido el ajuste de carbono en frontera europeo) y cooperación regulatoria. Se alinea así con la lógica de “acuerdos de nueva generación” que mezclan agenda comercial y de valores, en un contexto de competencia sistémica con China y fricciones con Estados Unidos.
 
 * Contenido, objetivos y arquitectura del acuerdo
 ** Cobertura arancelaria y de servicios
-El FTA elimina o reduce de forma significativa aranceles en más del 90% de las líneas arancelarias entre ambas partes, tanto en bienes industriales como agrícolas. En el caso de la UE, el compromiso implica eliminar aranceles en más del 90% de líneas y en torno al 91% del comercio en valor. En el caso de India, se eliminarán aranceles en aproximadamente el 86% de las líneas, que representan cerca del 93% del comercio en valor, si se incluyen las liberalizaciones parciales se alcanza una cobertura efectiva aproximada del 96,6%.policy.trade.europa+2
-La UE obtiene una apertura sin precedentes al tradicionalmente protegido mercado indio, con especial énfasis en maquinaria, productos químicos, productos farmacéuticos, equipos de transporte y servicios financieros y marítimos. India consigue, por su parte, un acceso preferencial amplio para sectores intensivos en mano de obra —textil, confección, piel, gemas y joyería, procesados alimentarios— así como mejoras en la movilidad y reconocimiento de cualificaciones para servicios de TI y back-office.timesofindia.indiatimes+2
+El FTA elimina o reduce de forma significativa aranceles en más del 90% de las líneas arancelarias entre ambas partes, tanto en bienes industriales como agrícolas. En el caso de la UE, el compromiso implica eliminar aranceles en más del 90% de líneas y en torno al 91% del comercio en valor. En el caso de India, se eliminarán aranceles en aproximadamente el 86% de las líneas, que representan cerca del 93% del comercio en valor, si se incluyen las liberalizaciones parciales se alcanza una cobertura efectiva aproximada del 96,6%.
+La UE obtiene una apertura sin precedentes al tradicionalmente protegido mercado indio, con especial énfasis en maquinaria, productos químicos, productos farmacéuticos, equipos de transporte y servicios financieros y marítimos. India consigue, por su parte, un acceso preferencial amplio para sectores intensivos en mano de obra —textil, confección, piel, gemas y joyería, procesados alimentarios— así como mejoras en la movilidad y reconocimiento de cualificaciones para servicios de TI y back-office.
 
 ** Sectores clave y concesiones simbólicas
 Algunas cifras y compromisos sectoriales ilustran el carácter político del acuerdo:
-- India reducirá o eliminará aranceles sobre el 96,6% de bienes importados desde la UE, incluyendo un calendario gradual de reducción en automóviles y alcohol.policy.trade.europa+1
-- Aranceles sobre automóviles europeos, que habían llegado a niveles “astronómicos” cercanos al 110%, se reducirán de forma escalonada hasta en torno al 40% y posteriormente al 10% para una cuota anual de 250.000 vehículos, con mecanismos de protección para el mercado de coches de bajo coste indio.tapen.substack+1
-- Se eliminan o reducen de forma muy significativa los aranceles sobre vinos, espirituosos, cerveza, zumos y alimentos procesados europeos, aunque con salvaguardias para algunos sectores agrícolas sensibles en India (lácteos, avícola).aljazeera+1
-- La UE obtiene reducciones o eliminación de aranceles en maquinaria, químicos y farmacéuticos, donde sus empresas están altamente competitivas.aljazeera+1
-- En el plano de servicios, el acuerdo contempla acceso preferente para proveedores europeos en finanzas, transporte marítimo, aeronáutica y otros servicios de alto valor, mientras que India persigue un reconocimiento más amplio de sus proveedores de servicios digitales y profesionales.euronews+1
-
+- India reducirá o eliminará aranceles sobre el 96,6% de bienes importados desde la UE, incluyendo un calendario gradual de reducción en automóviles y alcohol.
+- Aranceles sobre automóviles europeos, que habían llegado a niveles “astronómicos” cercanos al 110%, se reducirán de forma escalonada hasta en torno al 40% y posteriormente al 10% para una cuota anual de 250.000 vehículos, con mecanismos de protección para el mercado de coches de bajo coste indio.
+- Se eliminan o reducen de forma muy significativa los aranceles sobre vinos, espirituosos, cerveza, zumos y alimentos procesados europeos, aunque con salvaguardias para algunos sectores agrícolas sensibles en India (lácteos, avícola).
+- La UE obtiene reducciones o eliminación de aranceles en maquinaria, químicos y farmacéuticos, donde sus empresas están altamente competitivas.
+- En el plano de servicios, el acuerdo contempla acceso preferente para proveedores europeos en finanzas, transporte marítimo, aeronáutica y otros servicios de alto valor, mientras que India persigue un reconocimiento más amplio de sus proveedores de servicios digitales y profesionales.
+  
 ** Objetivos estratégicos declarados
 Más allá de las cifras, el acuerdo persigue varios objetivos estratégicos:
 
 *Para India:*
-- Consolidar su posición como polo manufacturero y de servicios alternativo a China, atrayendo inversión europea y accediendo a tecnología y estándares.euronews+1
-- Crear un “colchón” frente a la presión arancelaria de Estados Unidos, diversificando mercados para exportaciones clave (textil, joyería, productos refinados de petróleo).allianz+1
-- Mantener el relato de potencia no alineada que coopera con todos sin someterse a bloques rígidos.tapen.substack+1
+- Consolidar su posición como polo manufacturero y de servicios alternativo a China, atrayendo inversión europea y accediendo a tecnología y estándares.
+- Crear un “colchón” frente a la presión arancelaria de Estados Unidos, diversificando mercados para exportaciones clave (textil, joyería, productos refinados de petróleo).
+- Mantener el relato de potencia no alineada que coopera con todos sin someterse a bloques rígidos.
 
 *Para la UE:*
-- Asegurar acceso temprano a uno de los mercados de mayor crecimiento del mundo, en un momento de desaceleración europea y de tensiones con EEUU.allianzgi+2
-- Diversificar cadenas de suministro y reducir dependencia de China en segmentos industriales, farmacéuticos y de bienes intermedios.allianz+1
-- Convertir la relación con India en un pilar de su estrategia de “autonomía estratégica abierta”, combinando comercio, estándares, clima y seguridad.commission.europa+1
+- Asegurar acceso temprano a uno de los mercados de mayor crecimiento del mundo, en un momento de desaceleración europea y de tensiones con EEUU.
+- Diversificar cadenas de suministro y reducir dependencia de China en segmentos industriales, farmacéuticos y de bienes intermedios.
+- Convertir la relación con India en un pilar de su estrategia de “autonomía estratégica abierta”, combinando comercio, estándares, clima y seguridad.
 
 * Impacto global: economía mundial, ganadores y perdedores
 ** Impacto macroeconómico estimado
-Estimaciones de distintos servicios de análisis apuntan a que el acuerdo podría desbloquear decenas de miles de millones de euros en comercio adicional entre ambas partes y reforzar su papel conjunto como bloque comercial relevante. Antes incluso del acuerdo, el comercio UE–India superaba los 120.000 millones de euros en 2024, con un superávit a favor de India de unos 22.000 millones.allianzgi+1
+Estimaciones de distintos servicios de análisis apuntan a que el acuerdo podría desbloquear decenas de miles de millones de euros en comercio adicional entre ambas partes y reforzar su papel conjunto como bloque comercial relevante. Antes incluso del acuerdo, el comercio UE–India superaba los 120.000 millones de euros en 2024, con un superávit a favor de India de unos 22.000 millones.
 Desde la perspectiva de la economía mundial, el FTA UE–India contribuye a:
-- Aumentar el comercio intra-bloques “amigos” (friend-shoring) en detrimento parcial de terceros actores como EEUU, China y Japón.tapen.substack+1
-- Reconfigurar cadenas de suministro en sectores como automoción, químicos, farmacéuticos, textil y agroalimentario.euronews+2
-- Acelerar la tendencia hacia una economía global más fragmentada en “mega-acuerdos” regionales.allianz+1
+- Aumentar el comercio intra-bloques “amigos” (friend-shoring) en detrimento parcial de terceros actores como EEUU, China y Japón.
+- Reconfigurar cadenas de suministro en sectores como automoción, químicos, farmacéuticos, textil y agroalimentario.
+- Acelerar la tendencia hacia una economía global más fragmentada en “mega-acuerdos” regionales.
 
 
 
 #+CAPTION: Tabla 1. Cobertura arancelaria y efectos comerciales aproximados del FTA UE–India
-| Indicador | Unión Europea | India |
-|-----------+---------------+-------|
-| Eliminación de aranceles (líneas, % aprox.) | > 90% de líneas, 91% del comercio en valor [policy.trade.ec.europa]​ | 86% de líneas, 93% del comercio en valor [policy.trade.ec.europa]​ |
-| Cobertura total liberalizada (incl. parcial) | 99,3% del comercio en valor [policy.trade.ec.europa]​ | 96,6% del comercio en valor timesofindia.indiatimes+1 |
-| Comercio bilateral 2024 | ~120.000 M€ [allianzgi]​ | ~120.000 M€ [allianzgi]​ |
-| Saldo comercial 2024 | Déficit ~22.000 M€ frente a India [allianzgi]​ | Superávit ~22.000 M€ frente a la UE [allianzgi]​ |
-| Ganancia exportadora potencial (anual) | Decenas de miles de millones de € allianz+1 | ~11.700 M USD estimados [allianz]​ |
-| Principales sectores ganadores | Maquinaria, químicos, farma, servicios aljazeera+1 | Textil, confección, cuero, joyería, agro aljazeera+1 |
+| Indicador                                    | Unión Europea                              | India                                    |
+|----------------------------------------------+--------------------------------------------+------------------------------------------|
+| Eliminación de aranceles (líneas, % aprox.)  | > 90% de líneas, 91% del comercio en valor | 86% de líneas, 93% del comercio en valor |
+| Cobertura total liberalizada (incl. parcial) | 99,3% del comercio en valor                | 96,6% del comercio en valor              |
+| Comercio bilateral 2024                      | ~120.000 M€                                | ~120.000 M€                              |
+| Saldo comercial 2024                         | Déficit ~22.000 M€ frente a India          | Superávit ~22.000 M€ frente a la UE      |
+| Ganancia exportadora potencial (anual)       | Decenas de miles de millones de €          | ~11.700 M USD estimados                  |
+| Principales sectores ganadores               | Maquinaria, químicos, farma, servicios     | Textil, confección, cuero, joyería, agro |
 
 ** Ganadores y perdedores sectoriales
-*Ganadores probables en la India:* timesofindia.indiatimes+2
+*Ganadores probables en la India:* 
 - Textil y confección, con eliminación de aranceles europeos (4–12%).
 - Cuero, calzado, gemas y joyería (acceso a cero arancel para hasta 33.000 millones de dólares).
 - Agroindustria (té, café, especias, frutas procesadas).
 - Servicios de TI, BPO y servicios profesionales.
 
-*Ganadores probables en la UE:* policy.trade.europa+3
+*Ganadores probables en la UE:* 
 - Automoción de gama media y alta (Alemania, Francia, Italia).
 - Industria química y farmacéutica.
 - Bienes de capital (maquinaria, equipos industriales) y servicios financieros.
 - Exportadores de vinos y productos agroalimentarios procesados.
 
-*Perdedores potenciales internos:* aljazeera+3
+*Perdedores potenciales internos:* 
 - Automoción india orientada al segmento de gama media y alta.
 - Productores indios de alcohol ante la caída de aranceles.
 - Sectores sensibles europeos expuestos a la competencia india de bajo coste.
 
-*Terceros países perdedores relativos:* allianz+1
+*Terceros países perdedores relativos:* 
 - Estados Unidos, con una pérdida estimada de exportaciones hacia UE e India.
 - China, que podría perder alrededor de 2.000 millones de dólares en exportaciones.
 - Japón y otros exportadores de alto valor añadido sin acceso preferencial.
 
 * Implicaciones geopolíticas: EEUU, China y Rusia
 ** Estados Unidos: erosión de la “diplomacia de aranceles”
-La administración de Donald Trump ha utilizado aranceles punitivos como instrumento de presión. El FTA introduce una “válvula de escape” para Nueva Delhi, reduciendo la capacidad de Washington para condicionar su política comercial y energética.tapen.substack+1
-Las principales implicaciones para EEUU son:allianz+1
+La administración de Donald Trump ha utilizado aranceles punitivos como instrumento de presión. El FTA introduce una “válvula de escape” para Nueva Delhi, reduciendo la capacidad de Washington para condicionar su política comercial y energética.
+Las principales implicaciones para EEUU son:
 - Pérdida de competitividad en automoción, maquinaria y agroalimentario frente a la UE.
 - Menor eficacia de futuras amenazas arancelarias como palanca política.
-A nivel geopolítico, el acuerdo desplaza el centro de gravedad de la relación triangular EEUU–UE–India.allianzgi+2
+A nivel geopolítico, el acuerdo desplaza el centro de gravedad de la relación triangular EEUU–UE–India.
 
 ** China: diversificación y contención silenciosa
-China es objetivo implícito y perdedor relativo.euronews+2
-Para la UE, India es la plataforma para diversificar cadenas de suministro alejándolas de China. Para India, el FTA es un modo de atraer inversión y tecnología que reduzca su dependencia de insumos chinos.aljazeera+3
-El resultado es un escenario de “contención blanda” basada en diversificación y competencia regulatoria.commission.europa+2
+China es objetivo implícito y perdedor relativo.
+Para la UE, India es la plataforma para diversificar cadenas de suministro alejándolas de China. Para India, el FTA es un modo de atraer inversión y tecnología que reduzca su dependencia de insumos chinos.
+El resultado es un escenario de “contención blanda” basada en diversificación y competencia regulatoria.
 
 ** Rusia: impacto indirecto y margen energético
-El impacto directo es limitado, pero el acuerdo ofrece a India más opciones de exportación de refinados de petróleo, reduciendo el impacto de las presiones sobre sus compras de crudo ruso.allianz+1
-Refuerza la interdependencia económica UE–India y puede consolidar el desacople estructural euro-ruso.allianzgi+1
+El impacto directo es limitado, pero el acuerdo ofrece a India más opciones de exportación de refinados de petróleo, reduciendo el impacto de las presiones sobre sus compras de crudo ruso.
+Refuerza la interdependencia económica UE–India y puede consolidar el desacople estructural euro-ruso.
 
 * Riesgos, tensiones y escenarios futuros
-En la UE, el acuerdo puede intensificar tensiones políticas internas por sectores industriales expuestos. El uso del CBAM podría provocar fricciones con India si se percibe como proteccionismo verde.policy.trade.europa+1
-En India, los riesgos se concentran en la presión sobre la industria automotriz y el descontento de sectores agroalimentarios sensibles.timesofindia.indiatimes+2
+En la UE, el acuerdo puede intensificar tensiones políticas internas por sectores industriales expuestos. El uso del CBAM podría provocar fricciones con India si se percibe como proteccionismo verde.
+En India, los riesgos se concentran en la presión sobre la industria automotriz y el descontento de sectores agroalimentarios sensibles.
 
-#+begin_src plantuml :file images/eu-india-fta.png
+#+begin_src plantuml :file ../../static/eu-india-fta.png :exports none
 @startuml
 title Lógica estratégica del FTA UE–India
 rectangle "Bloque UE" as EU {
@@ -139,16 +139,25 @@ I2 -left-> G3 : Mantener\nmargen de maniobra
 @enduml
 #+end_src
 
+#+RESULTS:
+[[file:../../static/eu-india-fta.png]]
+
+
+
+#+begin_export html
+{{< figure src="/images/eu-india-fta.png" alt="EU-India-FTA" >}}
+#+end_export
+
+
 #+CAPTION: Ganadores y perdedores geoestratégicos del FTA UE–India
-| Actor | Situación relativa | Efectos clave |
-|-------+--------------------+---------------|
-| India | Ganador claro | Más acceso a mercado UE, refugio frente a aranceles EEUU.aljazeera+2 |
-| UE | Ganador | Diversifica cadenas lejos de China y EEUU.euronews+2 |
-| EEUU | Perdedor relativo | Pierde influencia arancelaria y competitividad.tapen.substack+1 |
-| China | Perdedor relativo | Desvío comercial y menor capacidad de arbitrar.euronews+1 |
-| Rusia | Perdedor indirecto | Refuerzo del desacople UE–Rusia.[allianz]​ |
-| Sur Global | Mixto | Riesgo de quedar fuera de mega-bloques.allianz+1 |
+| Actor      | Situación relativa | Efectos clave                                             |
+|------------+--------------------+-----------------------------------------------------------|
+| India      | Ganador claro      | Más acceso a mercado UE, refugio frente a aranceles EEUU. |
+| UE         | Ganador            | Diversifica cadenas lejos de China y EEUU.                |
+| EEUU       | Perdedor relativo  | Pierde influencia arancelaria y competitividad.           |
+| China      | Perdedor relativo  | Desvío comercial y menor capacidad de arbitrar.           |
+| Rusia      | Perdedor indirecto | Refuerzo del desacople UE–Rusia.                          |
+| Sur Global | Mixto              | Riesgo de quedar fuera de mega-bloques.                   |
 
 * Consideraciones finales
-Desde un prisma de seguridad económica, el FTA UE–India consolida un eje euro-indio que tiene implicaciones en la arquitectura de poder en el Indo–Pacífico. Para India, el acuerdo es una pieza central de su estrategia de potencia bisagra: mantiene sus vínculos con Rusia y BRICS mientras profundiza la integración económica con un bloque occidental clave.commission.europa+3
-allianzgi+3
+Desde un prisma de seguridad económica, el FTA UE–India consolida un eje euro-indio que tiene implicaciones en la arquitectura de poder en el Indo–Pacífico. Para India, el acuerdo es una pieza central de su estrategia de potencia bisagra: mantiene sus vínculos con Rusia y BRICS mientras profundiza la integración económica con un bloque occidental clave.

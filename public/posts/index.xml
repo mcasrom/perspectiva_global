@@ -2,29 +2,29 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Posts on Perspectiva Global | Crónicas del Nuevo Orden</title>
-    <link>http://localhost:40561/perspectiva_global/posts/</link>
+    <link>http://localhost:1313/posts/</link>
     <description>Recent content in Posts on Perspectiva Global | Crónicas del Nuevo Orden</description>
     <image>
       <title>Perspectiva Global | Crónicas del Nuevo Orden</title>
-      <url>http://localhost:40561/perspectiva_global/images/preview.jpg</url>
-      <link>http://localhost:40561/perspectiva_global/images/preview.jpg</link>
+      <url>http://localhost:1313/images/preview.jpg</url>
+      <link>http://localhost:1313/images/preview.jpg</link>
     </image>
     <generator>Hugo -- 0.146.0</generator>
     <language>es-es</language>
     <lastBuildDate>Thu, 29 Jan 2026 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:40561/perspectiva_global/posts/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Geopolítica: Del Poder Territorial a la Complejidad Global</title>
-      <link>http://localhost:40561/perspectiva_global/posts/260129_geopol-tica-del-poder-territorial-a-la-complejidad-global/</link>
+      <link>http://localhost:1313/posts/260129_geopol-tica-del-poder-territorial-a-la-complejidad-global/</link>
       <pubDate>Thu, 29 Jan 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:40561/perspectiva_global/posts/260129_geopol-tica-del-poder-territorial-a-la-complejidad-global/</guid>
+      <guid>http://localhost:1313/posts/260129_geopol-tica-del-poder-territorial-a-la-complejidad-global/</guid>
       <description>Análisis comprehensivo sobre la geopolítica como disciplina: definición, evolución histórica, escuelas de pensamiento y desafíos contemporáneos</description>
     </item>
     <item>
       <title>La Geopolítica del Petróleo: Del Petrodólar al Petroyuan</title>
-      <link>http://localhost:40561/perspectiva_global/posts/geopolitica-petroleo/</link>
+      <link>http://localhost:1313/posts/geopolitica-petroleo/</link>
       <pubDate>Thu, 29 Jan 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:40561/perspectiva_global/posts/geopolitica-petroleo/</guid>
+      <guid>http://localhost:1313/posts/geopolitica-petroleo/</guid>
       <description>&lt;div id=&#34;outline-container-headline-1&#34; class=&#34;outline-2&#34;&gt;
 &lt;h2 id=&#34;headline-1&#34;&gt;
 La Transición del Orden Energético
@@ -48,51 +48,10 @@ Análisis de Flujos y Bloques
 &lt;p&gt;El control de los puntos de estrangulamiento (chokepoints) como Ormuz y Malaca ya no es solo una cuestión militar, sino de supervivencia digital y energética.&lt;/p&gt;</description>
     </item>
     <item>
-      <title>El Desafío de los BRICS&#43; al Orden de Bretton Woods</title>
-      <link>http://localhost:40561/perspectiva_global/posts/analisis-brics/</link>
-      <pubDate>Wed, 28 Jan 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:40561/perspectiva_global/posts/analisis-brics/</guid>
-      <description>Un análisis profundo sobre la desdolarización y la nueva arquitectura financiera global.</description>
-    </item>
-    <item>
-      <title>El Gran Tablero: Análisis de Prueba</title>
-      <link>http://localhost:40561/perspectiva_global/posts/test-geopolitico/</link>
-      <pubDate>Wed, 28 Jan 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:40561/perspectiva_global/posts/test-geopolitico/</guid>
-      <description>&lt;div id=&#34;outline-container-headline-1&#34; class=&#34;outline-2&#34;&gt;
-&lt;h2 id=&#34;headline-1&#34;&gt;
-Introducción
-&lt;/h2&gt;
-&lt;div id=&#34;outline-text-headline-1&#34; class=&#34;outline-text-2&#34;&gt;
-&lt;p&gt;Este es un análisis de prueba para el blog &lt;strong&gt;Perspectiva Global&lt;/strong&gt;. &lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div id=&#34;outline-container-headline-2&#34; class=&#34;outline-2&#34;&gt;
-&lt;h2 id=&#34;headline-2&#34;&gt;
-Puntos Clave
-&lt;/h2&gt;
-&lt;div id=&#34;outline-text-headline-2&#34; class=&#34;outline-text-2&#34;&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;&lt;strong&gt;Soberanía Tecnológica&lt;/strong&gt;&lt;/strong&gt;: Publicado desde un sistema Debian estable.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;&lt;strong&gt;Automatización&lt;/strong&gt;&lt;/strong&gt;: Desplegado mediante GitHub Actions.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;&lt;strong&gt;Formato&lt;/strong&gt;&lt;/strong&gt;: Escrito íntegramente en Org-mode.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div id=&#34;outline-container-headline-3&#34; class=&#34;outline-2&#34;&gt;
-&lt;h2 id=&#34;headline-3&#34;&gt;
-Conclusión
-&lt;/h2&gt;
-&lt;div id=&#34;outline-text-headline-3&#34; class=&#34;outline-text-2&#34;&gt;
-&lt;p&gt;Si estás leyendo esto en la web, el sistema de publicación es 100% funcional.&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;</description>
-    </item>
-    <item>
       <title>EU–India FTA: la “Madre de Todos los Acuerdos” y el giro del comercio global</title>
-      <link>http://localhost:40561/perspectiva_global/posts/ue-india-fta/</link>
+      <link>http://localhost:1313/posts/ue-india-fta/</link>
       <pubDate>Wed, 28 Jan 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:40561/perspectiva_global/posts/ue-india-fta/</guid>
+      <guid>http://localhost:1313/posts/ue-india-fta/</guid>
       <description>&lt;div style=&#34;border: 2px solid #ff4d4d; background: rgba(255, 77, 77, 0.05); padding: 20px; border-radius: 8px; margin: 20px 0;&#34;&gt;
     &lt;strong style=&#34;color: #ff4d4d; text-transform: uppercase; letter-spacing: 2px;&#34;&gt;📡 ALERTA ESTRATÉGICA:&lt;/strong&gt;
     &lt;div style=&#34;margin-top: 10px; font-style: italic;&#34;&gt;
@@ -101,7 +60,7 @@ Conclusión
 &lt;/div&gt;
 
 &lt;p&gt;
-El acuerdo de libre comercio entre la Unión Europea y la India (“India–EU FTA”), cerrado el 27 de enero de 2026 en Nueva Delhi, no es un pacto comercial más: supone la creación de una de las mayores zonas de libre comercio del planeta, cubriendo en torno a una cuarta parte del PIB mundial y un mercado cercano a los 2.000 millones de personas. Para la UE y la India es, ante todo, una apuesta estratégica de diversificación frente a la creciente fragmentación del orden económico internacional y el auge de la guerra de aranceles impulsada por Estados Unidos y las disrupciones asociadas al peso de China en las cadenas de valor.aljazeera+3&lt;/p&gt;</description>
+El acuerdo de libre comercio entre la Unión Europea y la India (“India–EU FTA”), cerrado el 27 de enero de 2026 en Nueva Delhi, no es un pacto comercial más: supone la creación de una de las mayores zonas de libre comercio del planeta, cubriendo en torno a una cuarta parte del PIB mundial y un mercado cercano a los 2.000 millones de personas. Para la UE y la India es, ante todo, una apuesta estratégica de diversificación frente a la creciente fragmentación del orden económico internacional y el auge de la guerra de aranceles impulsada por Estados Unidos y las disrupciones asociadas al peso de China en las cadenas de valor.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

@@ -2,78 +2,57 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Tags on Perspectiva Global | Crónicas del Nuevo Orden</title>
-    <link>http://localhost:40561/perspectiva_global/tags/</link>
+    <link>http://localhost:1313/tags/</link>
     <description>Recent content in Tags on Perspectiva Global | Crónicas del Nuevo Orden</description>
     <image>
       <title>Perspectiva Global | Crónicas del Nuevo Orden</title>
-      <url>http://localhost:40561/perspectiva_global/images/preview.jpg</url>
-      <link>http://localhost:40561/perspectiva_global/images/preview.jpg</link>
+      <url>http://localhost:1313/images/preview.jpg</url>
+      <link>http://localhost:1313/images/preview.jpg</link>
     </image>
     <generator>Hugo -- 0.146.0</generator>
     <language>es-es</language>
     <lastBuildDate>Thu, 29 Jan 2026 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:40561/perspectiva_global/tags/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Energía</title>
-      <link>http://localhost:40561/perspectiva_global/tags/energ%C3%ADa/</link>
+      <link>http://localhost:1313/tags/energ%C3%ADa/</link>
       <pubDate>Thu, 29 Jan 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:40561/perspectiva_global/tags/energ%C3%ADa/</guid>
+      <guid>http://localhost:1313/tags/energ%C3%ADa/</guid>
       <description></description>
     </item>
     <item>
       <title>Estrategia</title>
-      <link>http://localhost:40561/perspectiva_global/tags/estrategia/</link>
+      <link>http://localhost:1313/tags/estrategia/</link>
       <pubDate>Thu, 29 Jan 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:40561/perspectiva_global/tags/estrategia/</guid>
+      <guid>http://localhost:1313/tags/estrategia/</guid>
       <description></description>
     </item>
     <item>
       <title>Geopolítica</title>
-      <link>http://localhost:40561/perspectiva_global/tags/geopol%C3%ADtica/</link>
+      <link>http://localhost:1313/tags/geopol%C3%ADtica/</link>
       <pubDate>Thu, 29 Jan 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:40561/perspectiva_global/tags/geopol%C3%ADtica/</guid>
+      <guid>http://localhost:1313/tags/geopol%C3%ADtica/</guid>
       <description></description>
     </item>
     <item>
       <title>Política-Internacional</title>
-      <link>http://localhost:40561/perspectiva_global/tags/pol%C3%ADtica-internacional/</link>
+      <link>http://localhost:1313/tags/pol%C3%ADtica-internacional/</link>
       <pubDate>Thu, 29 Jan 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:40561/perspectiva_global/tags/pol%C3%ADtica-internacional/</guid>
+      <guid>http://localhost:1313/tags/pol%C3%ADtica-internacional/</guid>
       <description></description>
     </item>
     <item>
       <title>Relaciones-Internacionales</title>
-      <link>http://localhost:40561/perspectiva_global/tags/relaciones-internacionales/</link>
+      <link>http://localhost:1313/tags/relaciones-internacionales/</link>
       <pubDate>Thu, 29 Jan 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:40561/perspectiva_global/tags/relaciones-internacionales/</guid>
+      <guid>http://localhost:1313/tags/relaciones-internacionales/</guid>
       <description></description>
     </item>
     <item>
       <title>Soberanía</title>
-      <link>http://localhost:40561/perspectiva_global/tags/soberan%C3%ADa/</link>
+      <link>http://localhost:1313/tags/soberan%C3%ADa/</link>
       <pubDate>Thu, 29 Jan 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:40561/perspectiva_global/tags/soberan%C3%ADa/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>BRICS</title>
-      <link>http://localhost:40561/perspectiva_global/tags/brics/</link>
-      <pubDate>Wed, 28 Jan 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:40561/perspectiva_global/tags/brics/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>China</title>
-      <link>http://localhost:40561/perspectiva_global/tags/china/</link>
-      <pubDate>Wed, 28 Jan 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:40561/perspectiva_global/tags/china/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Economía</title>
-      <link>http://localhost:40561/perspectiva_global/tags/econom%C3%ADa/</link>
-      <pubDate>Wed, 28 Jan 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:40561/perspectiva_global/tags/econom%C3%ADa/</guid>
+      <guid>http://localhost:1313/tags/soberan%C3%ADa/</guid>
       <description></description>
     </item>
   </channel>

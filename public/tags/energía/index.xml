@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Energía on Perspectiva Global | Crónicas del Nuevo Orden</title>
-    <link>http://localhost:40561/perspectiva_global/tags/energ%C3%ADa/</link>
+    <link>http://localhost:1313/tags/energ%C3%ADa/</link>
     <description>Recent content in Energía on Perspectiva Global | Crónicas del Nuevo Orden</description>
     <image>
       <title>Perspectiva Global | Crónicas del Nuevo Orden</title>
-      <url>http://localhost:40561/perspectiva_global/images/preview.jpg</url>
-      <link>http://localhost:40561/perspectiva_global/images/preview.jpg</link>
+      <url>http://localhost:1313/images/preview.jpg</url>
+      <link>http://localhost:1313/images/preview.jpg</link>
     </image>
     <generator>Hugo -- 0.146.0</generator>
     <language>es-es</language>
     <lastBuildDate>Thu, 29 Jan 2026 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:40561/perspectiva_global/tags/energ%C3%ADa/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/energ%C3%ADa/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>La Geopolítica del Petróleo: Del Petrodólar al Petroyuan</title>
-      <link>http://localhost:40561/perspectiva_global/posts/geopolitica-petroleo/</link>
+      <link>http://localhost:1313/posts/geopolitica-petroleo/</link>
       <pubDate>Thu, 29 Jan 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:40561/perspectiva_global/posts/geopolitica-petroleo/</guid>
+      <guid>http://localhost:1313/posts/geopolitica-petroleo/</guid>
       <description>&lt;div id=&#34;outline-container-headline-1&#34; class=&#34;outline-2&#34;&gt;
 &lt;h2 id=&#34;headline-1&#34;&gt;
 La Transición del Orden Energético

@@ -1,13 +1,8 @@
-#+TITLE: EU–India FTA: la “madre de todos los acuerdos” y el giro del comercio global
-#+AUTHOR: David Rodríguez
-#+DATE: 2026-01-29
-#+HUGO_BASE_DIR: ~/perspectiva_global
-#+HUGO_SECTION: posts
-#+HUGO_DRAFT: false
-#+LANGUAGE: es
-#+tags[]: geoeconomía india union-europea comercio-global defensa-estratégica
-#+categories[]: análisis
-#+HUGO_CUSTOM_FRONT_MATTER: :summary "Análisis estratégico del histórico acuerdo de libre comercio entre la UE y la India, su historia, objetivos, ganadores, perdedores y el impacto en EEUU, China y Rusia."
+#+TITLE: EU–India FTA: la “Madre de Todos los Acuerdos” y el giro del comercio global
+#+DATE: 2026-01-28
+#+DRAFT: false
+#+KEYWORDS[]: geopolitica geoeconomía india union-europea comercio-global defensa-estratégica
+#+IMAGE: https://images.unsplash.com/photo-1521295121812-af4657ed0606
 
 #+begin_export html
 {{< alerta >}}

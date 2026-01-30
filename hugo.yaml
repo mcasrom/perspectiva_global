@@ -3,9 +3,10 @@ languageCode: "es-es"
 title: "Perspectiva Global | Crónicas del Nuevo Orden"
 theme: "PaperMod"
 
-# AÑADE ESTO AQUÍ:
+# --- AÑADE ESTAS TRES LÍNEAS ---
 canonifyURLs: true
-relativeURLs: true
+relativeURLs: false
+uglyURLs: false
 
 outputs:
   home:

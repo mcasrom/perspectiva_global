@@ -2,29 +2,29 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Geopolítica on Perspectiva Global | Crónicas del Nuevo Orden</title>
-    <link>http://localhost:1313/tags/geopol%C3%ADtica/</link>
+    <link>http://localhost:40561/perspectiva_global/tags/geopol%C3%ADtica/</link>
     <description>Recent content in Geopolítica on Perspectiva Global | Crónicas del Nuevo Orden</description>
     <image>
       <title>Perspectiva Global | Crónicas del Nuevo Orden</title>
-      <url>http://localhost:1313/images/preview.jpg</url>
-      <link>http://localhost:1313/images/preview.jpg</link>
+      <url>http://localhost:40561/perspectiva_global/images/preview.jpg</url>
+      <link>http://localhost:40561/perspectiva_global/images/preview.jpg</link>
     </image>
     <generator>Hugo -- 0.146.0</generator>
     <language>es-es</language>
     <lastBuildDate>Thu, 29 Jan 2026 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/geopol%C3%ADtica/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:40561/perspectiva_global/tags/geopol%C3%ADtica/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Geopolítica: Del Poder Territorial a la Complejidad Global</title>
-      <link>http://localhost:1313/posts/260129_geopol-tica-del-poder-territorial-a-la-complejidad-global/</link>
+      <link>http://localhost:40561/perspectiva_global/posts/260129_geopol-tica-del-poder-territorial-a-la-complejidad-global/</link>
       <pubDate>Thu, 29 Jan 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/260129_geopol-tica-del-poder-territorial-a-la-complejidad-global/</guid>
+      <guid>http://localhost:40561/perspectiva_global/posts/260129_geopol-tica-del-poder-territorial-a-la-complejidad-global/</guid>
       <description>Análisis comprehensivo sobre la geopolítica como disciplina: definición, evolución histórica, escuelas de pensamiento y desafíos contemporáneos</description>
     </item>
     <item>
       <title>La Geopolítica del Petróleo: Del Petrodólar al Petroyuan</title>
-      <link>http://localhost:1313/posts/geopolitica-petroleo/</link>
+      <link>http://localhost:40561/perspectiva_global/posts/geopolitica-petroleo/</link>
       <pubDate>Thu, 29 Jan 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/geopolitica-petroleo/</guid>
+      <guid>http://localhost:40561/perspectiva_global/posts/geopolitica-petroleo/</guid>
       <description>&lt;div id=&#34;outline-container-headline-1&#34; class=&#34;outline-2&#34;&gt;
 &lt;h2 id=&#34;headline-1&#34;&gt;
 La Transición del Orden Energético
@@ -49,9 +49,9 @@ Análisis de Flujos y Bloques
     </item>
     <item>
       <title>El Desafío de los BRICS&#43; al Orden de Bretton Woods</title>
-      <link>http://localhost:1313/posts/analisis-brics/</link>
+      <link>http://localhost:40561/perspectiva_global/posts/analisis-brics/</link>
       <pubDate>Wed, 28 Jan 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/analisis-brics/</guid>
+      <guid>http://localhost:40561/perspectiva_global/posts/analisis-brics/</guid>
       <description>Un análisis profundo sobre la desdolarización y la nueva arquitectura financiera global.</description>
     </item>
   </channel>

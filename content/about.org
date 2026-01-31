@@ -23,11 +23,11 @@ Exploramos la arquitectura invisible que condiciona las decisiones de Estados, c
 * Quién es M.Castillo
 Con más de 20 años como apasionado de los entornos de **Sistemas Abiertos (Linux/Unix)**, mi enfoque se basa en la **soberanía tecnológica radical**. 
 
-- **Analista Geopolítico:** Especializado en la transición hacia un mundo multipolar.
-- **Arquitecto de Sistemas:** Defensor del software libre como única garantía de independencia estatal e individual.
-- **Curador de Inteligencia:** Gestor del hub **[[https://mcasrom.github.io/daily_readings/][Daily Readings]]**, donde filtro el ruido informativo para extraer señales críticas sobre el futuro del poder global.
+- **Interes Geopolítico:** Especializado en la transición hacia un mundo multipolar.
+- **Entusiata de OSs Linux y derivados:** Defensor del software libre como única garantía de independencia estatal e individual.
+- **Apasionado por la Información:** Gestor del hub **[[https://mcasrom.github.io/daily_readings/][Daily Readings]]**, donde filtro el ruido informativo para extraer señales críticas sobre el futuro del poder global.
 
-* Mi Ecosistema de Inteligencia (CTR)
+* Mi Ecosistema de Inteligencia
 Para comprender el mundo actual, un solo formato no es suficiente. Mi trabajo se ramifica en tres pilares:
 
 1. **[[https://mcasrom.github.io/geo-ia/][El Mapa y El Código (Geo-IA)]]**: Donde analizo la convergencia entre la IA y la defensa soberana.

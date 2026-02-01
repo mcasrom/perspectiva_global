@@ -6,27 +6,14 @@ Contacto Directo
 &lt;p>Para comunicaciones sobre inteligencia comercial o geoeconomía, utiliza los siguientes canales:&lt;/p>
 &lt;ul>
 &lt;li>&lt;strong>&lt;strong>Email:&lt;/strong>&lt;/strong> &lt;a href="mailto:mybloggingnotes@gmail.com">mybloggingnotes@gmail.com&lt;/a>&lt;/li>
-&lt;li>**Mensajería Segura:&lt;/li>
 &lt;/ul>
 &lt;/div>
 &lt;/div>
 &lt;div id="outline-container-headline-2" class="outline-2">
 &lt;h2 id="headline-2">
-Seguridad
-&lt;/h2>
-&lt;div id="outline-text-headline-2" class="outline-text-2">
-&lt;p>Si el contenido es sensible, se recomienda el uso de cifrado PGP.&lt;/p>
-&lt;div style="background-color:#f5f5f5; color:#000000; padding:15px; border-radius:8px;">
-&lt;p>&lt;strong>Key ID:&lt;/strong> 0x123456789ABCDEF0&lt;/p>
-&lt;p>&lt;strong>Fingerprint:&lt;/strong> 4D32 109F ...&lt;/p>
-&lt;/div>
-&lt;/div>
-&lt;/div>
-&lt;div id="outline-container-headline-3" class="outline-2">
-&lt;h2 id="headline-3">
 Formulario de Contacto
 &lt;/h2>
-&lt;div id="outline-text-headline-3" class="outline-text-2">
+&lt;div id="outline-text-headline-2" class="outline-text-2">
 &lt;p>Puedes enviar un mensaje directamente desde la web usando este formulario seguro (Hugo / Freeform):&lt;/p>
 &lt;div style="background-color:#f5f5f5; color:#000000; padding:15px; border-radius:8px;">
 &lt;form action="https://formspree.io/f/mgozkprk" method="POST">

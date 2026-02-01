@@ -29,9 +29,7 @@ Formulario de Contacto
 &lt;div id="outline-text-headline-3" class="outline-text-2">
 &lt;p>Puedes enviar un mensaje directamente desde la web usando este formulario seguro (Hugo / Freeform):&lt;/p>
 &lt;div style="background-color:#f5f5f5; color:#000000; padding:15px; border-radius:8px;">
-&lt;form name="contacto" method="POST" data-netlify="true">
-&lt;!-- Campo oculto necesario para Freeform -->
-&lt;input type="hidden" name="form-name" value="contacto">
+&lt;form action="https://formspree.io/f/mgozkprk" method="POST">
 &lt;label for="name">Nombre:&lt;/label>&lt;br>
 &lt;input type="text" id="name" name="name" required
 style="color:#000000; background-color:#ffffff; width:100%; padding:6px;">&lt;br>&lt;br>

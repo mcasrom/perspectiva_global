@@ -1,5 +1,5 @@
 #+TITLE: Contacto
-#+DATE: 2026-01-29
+#+DATE: 2026-02-01
 
 * Contacto Directo
 Para comunicaciones sobre inteligencia comercial o geoeconomía, utiliza los siguientes canales:
@@ -9,7 +9,45 @@ Para comunicaciones sobre inteligencia comercial o geoeconomía, utiliza los sig
 
 * Seguridad
 Si el contenido es sensible, se recomienda el uso de cifrado PGP.
-#+begin_example
-Key ID: 0x123456789ABCDEF0
-Fingerprint: 4D32 109F ...
-#+end_example
+
+#+begin_export html
+<div style="background-color:#f5f5f5; color:#000000; padding:15px; border-radius:8px;">
+  <p><strong>Key ID:</strong> 0x123456789ABCDEF0</p>
+  <p><strong>Fingerprint:</strong> 4D32 109F ...</p>
+</div>
+#+end_export
+
+* Formulario de Contacto
+Puedes enviar un mensaje directamente desde la web usando este formulario seguro (Hugo / Freeform):
+
+#+begin_export html
+<div style="background-color:#f5f5f5; color:#000000; padding:15px; border-radius:8px;">
+  <form name="contacto" method="POST" data-netlify="true">
+    <!-- Campo oculto necesario para Freeform -->
+    <input type="hidden" name="form-name" value="contacto">
+    
+    <label for="name">Nombre:</label><br>
+    <input type="text" id="name" name="name" required
+           style="color:#000000; background-color:#ffffff; width:100%; padding:6px;"><br><br>
+
+    <label for="email">Email:</label><br>
+    <input type="email" id="email" name="email" required
+           style="color:#000000; background-color:#ffffff; width:100%; padding:6px;"><br><br>
+
+    <label for="message">Mensaje:</label><br>
+    <textarea id="message" name="message" rows="5" required
+              style="color:#000000; background-color:#ffffff; width:100%; padding:6px;"></textarea><br><br>
+
+    <button type="submit"
+            style="color:#ffffff; background-color:#007BFF; border:none; padding:10px 20px; border-radius:4px; cursor:pointer;">
+      Enviar
+    </button>
+  </form>
+</div>
+#+end_export
+
+* Nota
+- Este formulario está listo para **Hugo + Freeform / Netlify Forms**.  
+- Asegúrate de **publicar el sitio** para que los envíos sean procesados.  
+- Los campos `name`, `email`, `message` se capturan automáticamente en Freeform.  
+- Se puede personalizar colores, tamaños o añadir **captcha** según necesidad.

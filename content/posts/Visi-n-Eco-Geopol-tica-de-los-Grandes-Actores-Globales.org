@@ -1,0 +1,358 @@
+#+TITLE: Visión Eco-Geopolítica de los Grandes Actores Globales
+#+SUBTITLE: Recursos, energía, clima y poder en el orden internacional
+#+AUTHOR: M. Castillo
+#+EMAIL: mcasrom.emacs@gmail.com
+#+DATE: 2026-02-01
+#+DESCRIPTION: Análisis comparado y estructural de la visión eco-geopolítica de Rusia, Estados Unidos, China y la Unión Europea.
+#+KEYWORDS: ecogeopolitica, energia, clima, seguridad, poder global, multipolaridad
+#+TAGS: geopolitica energia clima poder
+#+LANGUAGE: es
+#+OPTIONS: toc:3 num:t
+#+STARTUP: overview
+
+
+#+begin_export html
+{{< alerta >}}
+**CRÓNICA GLOBAL:** Análisis Visión Eco-Geopolítica de los Grandes Actores Globales.
+{{< /alerta >}}
+#+end_export
+
+
+* Resumen Ejecutivo
+
+La eco-geopolítica se ha consolidado como una dimensión central del poder global.  
+Lejos de constituir un ámbito autónomo, el medio ambiente se integra en estrategias de seguridad, competitividad económica y proyección internacional.
+
+
+El análisis comparado muestra cuatro modelos diferenciados:
+
+- *Rusia*: instrumentalización directa de los recursos naturales como herramienta de coerción estratégica.
+- *Estados Unidos (Trump)*: priorización del crecimiento económico y la autonomía energética sobre la gobernanza climática.
+- *China*: integración sistémica entre transición energética, control tecnológico y hegemonía industrial.
+- *Unión Europea*: liderazgo normativo ambiental con limitaciones materiales y estratégicas.
+
+La variable ecológica no reduce el conflicto internacional; lo reconfigura.
+
+
+
+* Marco Analítico
+
+La *eco-geopolítica* se analiza como la interacción entre:
+
+- Recursos naturales estratégicos
+- Política energética
+- Seguridad nacional
+- Capacidad tecnológica
+- Poder económico
+- Gobernanza ambiental
+
+El enfoque es descriptivo y estructural, no normativo.
+
+* Análisis por Actor
+
+** Rusia (Vladimir Putin)
+
+*** Medio ambiente como activo estratégico
+El medio ambiente no es concebido como un bien a proteger, sino como un *recurso geopolítico*.  
+El territorio, los hidrocarburos y las materias primas funcionan como multiplicadores de poder estatal.
+
+*** Modelo energético
+Modelo fósil dominante, con fuerte control estatal.  
+La transición energética es secundaria y selectiva, orientada a mantener ingresos y autonomía estratégica.
+
+*** Ecología, soberanía y seguridad
+Existe una relación directa entre control energético y seguridad nacional.  
+La soberanía se refuerza mediante la autosuficiencia y la capacidad de presión exterior.
+
+*** Uso exterior de recursos
+Los recursos energéticos se utilizan como herramienta coercitiva, especialmente en el espacio europeo y euroasiático.
+
+*** Cambio climático
+Enfoque instrumental: reconocimiento táctico sin integración estructural en la estrategia nacional.
+
+*** Impacto internacional
+Contribuye a la fragmentación del orden energético global y a la securitización del suministro.
+
+** Estados Unidos (Donald Trump)
+
+*** Medio ambiente como activo estratégico
+El medio ambiente es considerado un factor secundario frente al crecimiento económico y la competitividad industrial.
+
+*** Modelo energético
+Modelo mixto con fuerte peso de combustibles fósiles y protagonismo del sector privado.  
+La independencia energética es un objetivo central.
+
+*** Ecología, soberanía y seguridad
+La soberanía se asocia a la desregulación y al control nacional de recursos.  
+La seguridad energética se vincula al mercado y a la producción interna.
+
+*** Uso exterior de recursos
+Uso económico y geoeconómico, más que coercitivo directo.  
+Exportación de energía como instrumento de influencia.
+
+*** Cambio climático
+Enfoque escéptico o subordinado a intereses económicos.  
+Diferencia notable entre discurso político y políticas estatales subnacionales.
+
+*** Impacto internacional
+Debilita los marcos multilaterales climáticos, pero refuerza la competencia energética global.
+
+** República Popular China (Xi Jinping)
+
+*** Medio ambiente como activo estratégico
+El medio ambiente es integrado como variable central de planificación estatal y proyección de poder.
+
+*** Modelo energético
+Modelo híbrido: uso intensivo de fósiles combinado con liderazgo en renovables y tecnologías verdes.  
+Control estatal muy elevado.
+
+*** Ecología, soberanía y seguridad
+La transición energética es vista como requisito de seguridad nacional y estabilidad social.
+
+*** Uso exterior de recursos
+Uso sistémico: inversión, control de cadenas de suministro, diplomacia energética y tecnológica.
+
+*** Cambio climático
+Enfoque estratégico y adaptativo.  
+El clima es una oportunidad para liderazgo industrial y normativo.
+
+*** Impacto internacional
+Reconfigura el equilibrio global mediante dependencia tecnológica y energética de terceros países.
+
+** Unión Europea
+
+*** Medio ambiente como activo estratégico
+El medio ambiente es un eje normativo central del proyecto europeo.
+
+*** Modelo energético
+Modelo de transición acelerada, con dependencia externa significativa y control regulatorio elevado.
+
+*** Ecología, soberanía y seguridad
+Existe tensión entre ambición climática y vulnerabilidad estratégica.  
+La seguridad energética es un desafío estructural.
+
+*** Uso exterior de recursos
+Uso regulador y normativo (estándares, mercados de carbono).
+
+*** Cambio climático
+Enfoque normativo y multilateral.  
+Alta coherencia discursiva, limitada capacidad coercitiva.
+
+*** Impacto internacional
+Influencia normativa elevada, poder material limitado.
+
+
+* Tabla Comparativa Sintética
+
+#+CAPTION: Comparativa Eco-Geopolítica de los Actores Analizados
+| Actor        | Energía como Poder | Clima | Control Estatal | Proyección Exterior | Riesgos Principales |
+|--------------|-------------------|-------|-----------------|---------------------|---------------------|
+| Rusia        | Muy Alto          | Instrumental | Alto        | Coercitiva          | Aislamiento         |
+| EE.UU.      | Alto              | Secundario   | Bajo-Medio  | Económica           | Fragmentación       |
+| China        | Muy Alto          | Estratégico  | Muy Alto    | Sistémica           | Dependencias cruzadas |
+| UE           | Medio             | Normativo    | Medio       | Regulatoria         | Vulnerabilidad      |
+
+
+* Diagrama Conceptual de Relaciones Eco-Geopolíticas
+
+
+
+#+BEGIN_SRC plantuml :file ecogeopolitica-relaciones.png :exports none
+@startuml
+skinparam backgroundColor #F8F9FA
+skinparam defaultFontName "Segoe UI", Arial, sans-serif
+skinparam defaultFontSize 11
+
+' ============================================================
+' LEYENDA DE COLORES
+' ============================================================
+skinparam rectangle {
+  BackgroundColor<<vector>>    #D5E8D4
+  BorderColor<<vector>>        #82B366
+  FontStyle<<vector>>          B
+
+  BackgroundColor<<actor_ru>>  #DAE8FC
+  BorderColor<<actor_ru>>      #6C8EBF
+
+  BackgroundColor<<actor_us>>  #FFF2CC
+  BorderColor<<actor_us>>      #D6B656
+
+  BackgroundColor<<actor_cn>>  #F8CECC
+  BorderColor<<actor_cn>>      #B85450
+
+  BackgroundColor<<actor_eu>>  #E1D5E7
+  BorderColor<<actor_eu>>      #9673A6
+
+  BackgroundColor<<riesgo>>    #F5F5F5
+  BorderColor<<riesgo>>        #666666
+  FontColor<<riesgo>>          #333333
+}
+
+skinparam card {
+  BackgroundColor<<proj_coer>>  #DAE8FC
+  BorderColor<<proj_coer>>      #6C8EBF
+  BackgroundColor<<proj_econ>>  #FFF2CC
+  BorderColor<<proj_econ>>      #D6B656
+  BackgroundColor<<proj_sist>>  #F8CECC
+  BorderColor<<proj_sist>>      #B85450
+  BackgroundColor<<proj_reg>>   #E1D5E7
+  BorderColor<<proj_reg>>       #9673A6
+}
+
+skinparam arrow {
+  Color       #555555
+  FontSize    9
+  FontColor   #444444
+}
+
+title "Eco-Geopolítica: Estructura Sistémica y Actores Globales"
+
+' ============================================================
+' CAPA CENTRAL — VECTORES DE PODER (estructura sistémica)
+' ============================================================
+package "Vectores de Poder Eco-Geopolíticos" as CENTRO #FAFAFA {
+
+  rectangle "Recursos\nNaturales" <<vector>> as REC
+  rectangle "Energía" <<vector>> as ENG
+  rectangle "Seguridad\nNacional" <<vector>> as SEG
+  rectangle "Tecnología" <<vector>> as TEC
+  rectangle "Poder\nEconómico" <<vector>> as POD
+  rectangle "Clima" <<vector>> as CLI
+  rectangle "Gobernanza\nAmbiental" <<vector>> as GOB
+
+  REC --> ENG : "materia prima\n→ fuente energética"
+  ENG --> SEG : "suministro\n→ estabilidad"
+  TEC --> POD : "innovación\n→ competitividad"
+  CLI --> GOB : "riesgo global\n→ regulación"
+  ENG --> POD : "ingreso\n→ crecimiento"
+}
+
+' ============================================================
+' CAPA ACTORES — Posicionamiento según modelo del documento
+' ============================================================
+
+' --- RUSIA ---
+rectangle "RUSIA" <<actor_ru>> as RU {
+  card "Modelo fósil dominante\nControl estatal alto\nEnergía como Poder: Muy Alto" as RU_mod
+  card "Proyección: Coercitiva\nCliMA: Instrumental" <<proj_coer>> as RU_proy
+}
+
+' --- ESTADOS UNIDOS ---
+rectangle "EE.UU." <<actor_us>> as US {
+  card "Modelo mixto\nSector privado protagonista\nEnergía como Poder: Alto" as US_mod
+  card "Proyección: Económica\nClima: Secundario" <<proj_econ>> as US_proy
+}
+
+' --- CHINA ---
+rectangle "CHINA" <<actor_cn>> as CN {
+  card "Modelo híbrido\nLiderazgo en renovables\nEnergía como Poder: Muy Alto" as CN_mod
+  card "Proyección: Sistémica\nClima: Estratégico" <<proj_sist>> as CN_proy
+}
+
+' --- UNIÓN EUROPEA ---
+rectangle "UNIÓN EUROPEA" <<actor_eu>> as EU {
+  card "Modelo de transición\nDependencia externa\nEnergía como Poder: Medio" as EU_mod
+  card "Proyección: Regulatoria\nClima: Normativo" <<proj_reg>> as EU_proy
+}
+
+' ============================================================
+' CONEXIONES: actores -> vectores dominantes
+' ============================================================
+RU_mod --> REC : "instrumentalización\ndirecta"
+RU_mod --> ENG : "hegemonía\nenergética"
+
+US_mod --> ENG : "independencia\nenergética"
+US_mod --> POD : "crecimiento\neconómico"
+
+CN_mod --> TEC : "control tecnológico\ny cadenas de suministro"
+CN_mod --> ENG : "transición\nhíbrida"
+CN_mod --> POD : "hegemonía\nindustrial"
+
+EU_mod --> GOB : "liderazgo\nnormativo"
+EU_mod --> CLI : "ambición\nclimatica"
+EU_mod --> ENG : "vulnerabilidad\nestructural"
+
+' ============================================================
+' FLUJOS DE PROYECCIÓN EXTERIOR (interacciones entre actores)
+' ============================================================
+RU_proy -[#6C8EBF]-> EU_mod : "coerción energética\n(gas, petróleo)"
+CN_proy -[#B85450]-> US_mod : "competencia\ntecnológica"
+CN_proy -[#B85450]-> EU_mod : "dependencia\ntecnológica"
+US_proy -[#D6B656]-> EU_mod : "exportación\nenergética (GNL)"
+EU_proy -[#9673A6]-> CN_mod : "estándares\nregulatorios"
+
+' ============================================================
+' CAPA DE RIESGOS (consecuencias por actor — tabla del doc)
+' ============================================================
+rectangle "Riesgos Principales" as RIESGOS #F0F0F0 {
+  card "Rusia:\nAislamiento\nenergético" <<riesgo>> as R_RU
+  card "EE.UU.:\nFragmentación\nmultilateral" <<riesgo>> as R_US
+  card "China:\nDependencias\ncruzadas" <<riesgo>> as R_CN
+  card "UE:\nVulnerabilidad\nestratégica" <<riesgo>> as R_EU
+}
+
+RU_mod -.-> R_RU
+US_mod -.-> R_US
+CN_mod -.-> R_CN
+EU_mod -.-> R_EU
+
+' ============================================================
+' NOTA CONCLUSIVA
+' ============================================================
+note bottom of CENTRO
+  **Conclusión del análisis:**
+  La eco-geopolítica no sustituye a la geopolítica clásica; la amplifica.
+  Recursos, energía y clima son vectores de poder, no frenos al conflicto.
+  La transición energética es competitiva, no cooperativa.
+end note
+
+@enduml
+#+END_SRC
+
+#+RESULTS:
+[[file:ecogeopolitica-relaciones.png]]
+
+
+#+begin_export html
+<a href="/images/ecogeopolitica-relaciones.png" target="_blank">
+  {{< figure src="/images/ecogeopolitica-relaciones.png" alt="Ecogeopolitica-Relaciones.png" caption="Ecogeopolitica-Relaciones.png – Click para ver en tamaño real" >}}
+</a>
+#+end_export
+
+
+
+** Notas de lectura del diagrama
+
+- Los recuadros verdes centrales representan los *vectores de poder* sistémicos que conectan medio ambiente con estrategia geopolítica.
+- Los recuadros de color por actor reflejan su modelo energético y tipo de proyección exterior según la tabla comparativa.
+- Las flecha sólidas de color entre actores representan flujos de proyección exterior real (coerción, competencia, estándares).
+- Las líneas punteadas conectan cada actor con su riesgo principal identificado en el análisis.
+- La nota inferior recupera la tesis central: la eco-geopolítica *amplifica* el conflicto, no lo reduce.
+
+
+
+
+* Conclusión Estructural
+
+La eco-geopolítica no sustituye a la geopolítica clásica; la amplifica.  
+Los recursos, la energía y el clima actúan como *vectores de poder*, no como frenos al conflicto.
+
+El sistema internacional evoluciona hacia un escenario donde:
+- La transición energética es competitiva, no cooperativa
+- El clima se convierte en instrumento de influencia
+- La sostenibilidad es inseparable del poder
+
+Comprender esta lógica es clave para interpretar el nuevo orden global.
+
+
+* Referencias
+
+- Mearsheimer, J. *The Tragedy of Great Power Politics*
+- Kaplan, R. *The Revenge of Geography*
+- IEA – World Energy Outlook
+- IPCC – Sixth Assessment Report
+- RAND Corporation – Energy & Security
+- EEAS – Strategic Foresight Reports
+- Chinese Energy Policy White Papers
+- Russian Energy Strategy 2035
+

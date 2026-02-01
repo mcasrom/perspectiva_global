@@ -5,7 +5,7 @@
 Para comunicaciones sobre inteligencia comercial o geoeconomía, utiliza los siguientes canales:
 
 - **Email:** [[mailto:mybloggingnotes@gmail.com][mybloggingnotes@gmail.com]]
-- **Mensajería Segura:** @tu_usuario (Signal / Telegram)
+- **Mensajería Segura:
 
 * Seguridad
 Si el contenido es sensible, se recomienda el uso de cifrado PGP.
@@ -43,9 +43,3 @@ Puedes enviar un mensaje directamente desde la web usando este formulario seguro
 </div>
 #+end_export
 
-
-* Nota
-- Este formulario está listo para **Hugo + Freeform / Netlify Forms**.  
-- Asegúrate de **publicar el sitio** para que los envíos sean procesados.  
-- Los campos `name`, `email`, `message` se capturan automáticamente en Freeform.  
-- Se puede personalizar colores, tamaños o añadir **captcha** según necesidad.

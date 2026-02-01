@@ -21,13 +21,6 @@
       <description></description>
     </item>
     <item>
-      <title>Energía</title>
-      <link>http://localhost:1313/tags/energ%C3%ADa/</link>
-      <pubDate>Thu, 29 Jan 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/energ%C3%ADa/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Estrategia</title>
       <link>http://localhost:1313/tags/estrategia/</link>
       <pubDate>Thu, 29 Jan 2026 00:00:00 +0000</pubDate>
@@ -53,13 +46,6 @@
       <link>http://localhost:1313/tags/relaciones-internacionales/</link>
       <pubDate>Thu, 29 Jan 2026 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/tags/relaciones-internacionales/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Soberanía</title>
-      <link>http://localhost:1313/tags/soberan%C3%ADa/</link>
-      <pubDate>Thu, 29 Jan 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/soberan%C3%ADa/</guid>
       <description></description>
     </item>
   </channel>

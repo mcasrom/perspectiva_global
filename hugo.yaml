@@ -45,8 +45,8 @@ params:
     title: "El Mapa y El Código"
     subtitle: "Perspectiva Global: Crónicas del Nuevo Orden. <br> **Soberanía tecnológica e inteligencia geopolítica.**"
     imageUrl: "images/blog.jpg" 
-    imageWidth: 200 
-    imageHeight: 200
+    imageWidth: 250 
+    imageHeight: 250
     buttons:
       - name: "📂 Ver Análisis"
         url: "posts"

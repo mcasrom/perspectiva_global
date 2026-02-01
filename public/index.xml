@@ -26,33 +26,17 @@ Contacto Directo
 &lt;p&gt;Para comunicaciones sobre inteligencia comercial o geoeconomía, utiliza los siguientes canales:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;&lt;strong&gt;Email:&lt;/strong&gt;&lt;/strong&gt; &lt;a href=&#34;mailto:mybloggingnotes@gmail.com&#34;&gt;mybloggingnotes@gmail.com&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;&lt;strong&gt;Mensajería Segura:&lt;/strong&gt;&lt;/strong&gt; @tu_usuario (Signal / Telegram)&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;div id=&#34;outline-container-headline-2&#34; class=&#34;outline-2&#34;&gt;
 &lt;h2 id=&#34;headline-2&#34;&gt;
-Seguridad
-&lt;/h2&gt;
-&lt;div id=&#34;outline-text-headline-2&#34; class=&#34;outline-text-2&#34;&gt;
-&lt;p&gt;Si el contenido es sensible, se recomienda el uso de cifrado PGP.&lt;/p&gt;
-&lt;div style=&#34;background-color:#f5f5f5; color:#000000; padding:15px; border-radius:8px;&#34;&gt;
-  &lt;p&gt;&lt;strong&gt;Key ID:&lt;/strong&gt; 0x123456789ABCDEF0&lt;/p&gt;
-  &lt;p&gt;&lt;strong&gt;Fingerprint:&lt;/strong&gt; 4D32 109F ...&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div id=&#34;outline-container-headline-3&#34; class=&#34;outline-2&#34;&gt;
-&lt;h2 id=&#34;headline-3&#34;&gt;
 Formulario de Contacto
 &lt;/h2&gt;
-&lt;div id=&#34;outline-text-headline-3&#34; class=&#34;outline-text-2&#34;&gt;
+&lt;div id=&#34;outline-text-headline-2&#34; class=&#34;outline-text-2&#34;&gt;
 &lt;p&gt;Puedes enviar un mensaje directamente desde la web usando este formulario seguro (Hugo / Freeform):&lt;/p&gt;
 &lt;div style=&#34;background-color:#f5f5f5; color:#000000; padding:15px; border-radius:8px;&#34;&gt;
-  &lt;form name=&#34;contacto&#34; method=&#34;POST&#34; data-netlify=&#34;true&#34;&gt;
-    &lt;!-- Campo oculto necesario para Freeform --&gt;
-    &lt;input type=&#34;hidden&#34; name=&#34;form-name&#34; value=&#34;contacto&#34;&gt;
-    
+  &lt;form action=&#34;https://formspree.io/f/mgozkprk&#34; method=&#34;POST&#34;&gt;
     &lt;label for=&#34;name&#34;&gt;Nombre:&lt;/label&gt;&lt;br&gt;
     &lt;input type=&#34;text&#34; id=&#34;name&#34; name=&#34;name&#34; required
            style=&#34;color:#000000; background-color:#ffffff; width:100%; padding:6px;&#34;&gt;&lt;br&gt;&lt;br&gt;
@@ -71,19 +55,6 @@ Formulario de Contacto
     &lt;/button&gt;
   &lt;/form&gt;
 &lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div id=&#34;outline-container-headline-4&#34; class=&#34;outline-2&#34;&gt;
-&lt;h2 id=&#34;headline-4&#34;&gt;
-Nota
-&lt;/h2&gt;
-&lt;div id=&#34;outline-text-headline-4&#34; class=&#34;outline-text-2&#34;&gt;
-&lt;ul&gt;
-&lt;li&gt;Este formulario está listo para &lt;strong&gt;&lt;strong&gt;Hugo + Freeform / Netlify Forms&lt;/strong&gt;&lt;/strong&gt;.  &lt;/li&gt;
-&lt;li&gt;Asegúrate de &lt;strong&gt;&lt;strong&gt;publicar el sitio&lt;/strong&gt;&lt;/strong&gt; para que los envíos sean procesados.  &lt;/li&gt;
-&lt;li&gt;Los campos `name`, `email`, `message` se capturan automáticamente en Freeform.  &lt;/li&gt;
-&lt;li&gt;Se puede personalizar colores, tamaños o añadir &lt;strong&gt;&lt;strong&gt;captcha&lt;/strong&gt;&lt;/strong&gt; según necesidad.&lt;/li&gt;
-&lt;/ul&gt;
 &lt;/div&gt;
 &lt;/div&gt;</description>
     </item>

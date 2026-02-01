@@ -5,17 +5,6 @@
 Para comunicaciones sobre inteligencia comercial o geoeconomía, utiliza los siguientes canales:
 
 - **Email:** [[mailto:mybloggingnotes@gmail.com][mybloggingnotes@gmail.com]]
-- **Mensajería Segura:
-
-* Seguridad
-Si el contenido es sensible, se recomienda el uso de cifrado PGP.
-
-#+begin_export html
-<div style="background-color:#f5f5f5; color:#000000; padding:15px; border-radius:8px;">
-  <p><strong>Key ID:</strong> 0x123456789ABCDEF0</p>
-  <p><strong>Fingerprint:</strong> 4D32 109F ...</p>
-</div>
-#+end_export
 
 * Formulario de Contacto
 Puedes enviar un mensaje directamente desde la web usando este formulario seguro (Hugo / Freeform):

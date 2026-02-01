@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Perspectiva Global | Crónicas del Nuevo Orden</title><link>https://mcasrom.github.io/perspectiva_global/</link><description>Recent content on Perspectiva Global | Crónicas del Nuevo Orden</description><image><title>Perspectiva Global | Crónicas del Nuevo Orden</title><url>https://mcasrom.github.io/perspectiva_global/images/preview.jpg</url><link>https://mcasrom.github.io/perspectiva_global/images/preview.jpg</link></image><generator>Hugo -- 0.146.0</generator><language>es-es</language><lastBuildDate>Thu, 29 Jan 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://mcasrom.github.io/perspectiva_global/index.xml" rel="self" type="application/rss+xml"/><item><title>Contacto</title><link>https://mcasrom.github.io/perspectiva_global/contact/</link><pubDate>Thu, 29 Jan 2026 00:00:00 +0000</pubDate><guid>https://mcasrom.github.io/perspectiva_global/contact/</guid><description>&lt;div id="outline-container-headline-1" class="outline-2">
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Perspectiva Global | Crónicas del Nuevo Orden</title><link>https://mcasrom.github.io/perspectiva_global/</link><description>Recent content on Perspectiva Global | Crónicas del Nuevo Orden</description><image><title>Perspectiva Global | Crónicas del Nuevo Orden</title><url>https://mcasrom.github.io/perspectiva_global/images/preview.jpg</url><link>https://mcasrom.github.io/perspectiva_global/images/preview.jpg</link></image><generator>Hugo -- 0.146.0</generator><language>es-es</language><lastBuildDate>Sun, 01 Feb 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://mcasrom.github.io/perspectiva_global/index.xml" rel="self" type="application/rss+xml"/><item><title>Contacto</title><link>https://mcasrom.github.io/perspectiva_global/contact/</link><pubDate>Sun, 01 Feb 2026 00:00:00 +0000</pubDate><guid>https://mcasrom.github.io/perspectiva_global/contact/</guid><description>&lt;div id="outline-container-headline-1" class="outline-2">
 &lt;h2 id="headline-1">
 Contacto Directo
 &lt;/h2>
@@ -16,31 +16,52 @@ Seguridad
 &lt;/h2>
 &lt;div id="outline-text-headline-2" class="outline-text-2">
 &lt;p>Si el contenido es sensible, se recomienda el uso de cifrado PGP.&lt;/p>
-&lt;pre class="example">
-Key ID: 0x123456789ABCDEF0
-Fingerprint: 4D32 109F ...
-&lt;/pre>
+&lt;div style="background-color:#f5f5f5; color:#000000; padding:15px; border-radius:8px;">
+&lt;p>&lt;strong>Key ID:&lt;/strong> 0x123456789ABCDEF0&lt;/p>
+&lt;p>&lt;strong>Fingerprint:&lt;/strong> 4D32 109F ...&lt;/p>
 &lt;/div>
-&lt;/div></description></item><item><title>Geopolítica: Del Poder Territorial a la Complejidad Global</title><link>https://mcasrom.github.io/perspectiva_global/posts/260129_geopol-tica-del-poder-territorial-a-la-complejidad-global/</link><pubDate>Thu, 29 Jan 2026 00:00:00 +0000</pubDate><guid>https://mcasrom.github.io/perspectiva_global/posts/260129_geopol-tica-del-poder-territorial-a-la-complejidad-global/</guid><description>Análisis comprehensivo sobre la geopolítica como disciplina: definición, evolución histórica, escuelas de pensamiento y desafíos contemporáneos</description></item><item><title>La Geopolítica del Petróleo: Del Petrodólar al Petroyuan</title><link>https://mcasrom.github.io/perspectiva_global/posts/geopolitica-petroleo/</link><pubDate>Thu, 29 Jan 2026 00:00:00 +0000</pubDate><guid>https://mcasrom.github.io/perspectiva_global/posts/geopolitica-petroleo/</guid><description>&lt;div id="outline-container-headline-1" class="outline-2">
-&lt;h2 id="headline-1">
-La Transición del Orden Energético
+&lt;/div>
+&lt;/div>
+&lt;div id="outline-container-headline-3" class="outline-2">
+&lt;h2 id="headline-3">
+Formulario de Contacto
 &lt;/h2>
-&lt;div id="outline-text-headline-1" class="outline-text-2">
-&lt;p>El petróleo no es solo un recurso; es la infraestructura de poder que ha definido el siglo XX. Sin embargo, la emergencia de los &lt;strong>BRICS+&lt;/strong> y el uso de monedas alternativas para el settlement de contratos petroleros está redibujando el mapa.&lt;/p>
-&lt;div style="border: 2px solid #ff4d4d; background: rgba(255, 77, 77, 0.05); padding: 20px; border-radius: 8px; margin: 20px 0;">
-&lt;strong style="color: #ff4d4d; text-transform: uppercase; letter-spacing: 2px;">📡 ALERTA ESTRATÉGICA:&lt;/strong>
-&lt;div style="margin-top: 10px; font-style: italic;">
-&lt;strong>ALERTA ESTRATÉGICA:&lt;/strong> La reciente decisión de Arabia Saudí de no renovar en exclusividad el acuerdo de petrodólares marca el fin de una era de 50 años.
+&lt;div id="outline-text-headline-3" class="outline-text-2">
+&lt;p>Puedes enviar un mensaje directamente desde la web usando este formulario seguro (Hugo / Freeform):&lt;/p>
+&lt;div style="background-color:#f5f5f5; color:#000000; padding:15px; border-radius:8px;">
+&lt;form name="contacto" method="POST" data-netlify="true">
+&lt;!-- Campo oculto necesario para Freeform -->
+&lt;input type="hidden" name="form-name" value="contacto">
+&lt;label for="name">Nombre:&lt;/label>&lt;br>
+&lt;input type="text" id="name" name="name" required
+style="color:#000000; background-color:#ffffff; width:100%; padding:6px;">&lt;br>&lt;br>
+&lt;label for="email">Email:&lt;/label>&lt;br>
+&lt;input type="email" id="email" name="email" required
+style="color:#000000; background-color:#ffffff; width:100%; padding:6px;">&lt;br>&lt;br>
+&lt;label for="message">Mensaje:&lt;/label>&lt;br>
+&lt;textarea id="message" name="message" rows="5" required
+style="color:#000000; background-color:#ffffff; width:100%; padding:6px;">&lt;/textarea>&lt;br>&lt;br>
+&lt;button type="submit"
+style="color:#ffffff; background-color:#007BFF; border:none; padding:10px 20px; border-radius:4px; cursor:pointer;">
+Enviar
+&lt;/button>
+&lt;/form>
 &lt;/div>
 &lt;/div>
 &lt;/div>
-&lt;/div>
-&lt;div id="outline-container-headline-2" class="outline-2">
-&lt;h2 id="headline-2">
-Análisis de Flujos y Bloques
+&lt;div id="outline-container-headline-4" class="outline-2">
+&lt;h2 id="headline-4">
+Nota
 &lt;/h2>
-&lt;div id="outline-text-headline-2" class="outline-text-2">
-&lt;p>El control de los puntos de estrangulamiento (chokepoints) como Ormuz y Malaca ya no es solo una cuestión militar, sino de supervivencia digital y energética.&lt;/p></description></item><item><title>Acerca de: Crónicas del Nuevo Orden</title><link>https://mcasrom.github.io/perspectiva_global/about/</link><pubDate>Wed, 28 Jan 2026 00:00:00 +0000</pubDate><guid>https://mcasrom.github.io/perspectiva_global/about/</guid><description>&lt;blockquote>
+&lt;div id="outline-text-headline-4" class="outline-text-2">
+&lt;ul>
+&lt;li>Este formulario está listo para &lt;strong>&lt;strong>Hugo + Freeform / Netlify Forms&lt;/strong>&lt;/strong>. &lt;/li>
+&lt;li>Asegúrate de &lt;strong>&lt;strong>publicar el sitio&lt;/strong>&lt;/strong> para que los envíos sean procesados. &lt;/li>
+&lt;li>Los campos `name`, `email`, `message` se capturan automáticamente en Freeform. &lt;/li>
+&lt;li>Se puede personalizar colores, tamaños o añadir &lt;strong>&lt;strong>captcha&lt;/strong>&lt;/strong> según necesidad.&lt;/li>
+&lt;/ul>
+&lt;/div>
+&lt;/div></description></item><item><title>Visión Eco-Geopolítica de los Grandes Actores Globales</title><link>https://mcasrom.github.io/perspectiva_global/posts/visi-n-eco-geopol-tica-de-los-grandes-actores-globales/</link><pubDate>Sun, 01 Feb 2026 00:00:00 +0000</pubDate><guid>https://mcasrom.github.io/perspectiva_global/posts/visi-n-eco-geopol-tica-de-los-grandes-actores-globales/</guid><description>Análisis comparado y estructural de la visión eco-geopolítica de Rusia, Estados Unidos, China y la Unión Europea.</description></item><item><title>Geopolítica: Del Poder Territorial a la Complejidad Global</title><link>https://mcasrom.github.io/perspectiva_global/posts/260129_geopol-tica-del-poder-territorial-a-la-complejidad-global/</link><pubDate>Thu, 29 Jan 2026 00:00:00 +0000</pubDate><guid>https://mcasrom.github.io/perspectiva_global/posts/260129_geopol-tica-del-poder-territorial-a-la-complejidad-global/</guid><description>Análisis comprehensivo sobre la geopolítica como disciplina: definición, evolución histórica, escuelas de pensamiento y desafíos contemporáneos</description></item><item><title>Acerca de: Crónicas del Nuevo Orden</title><link>https://mcasrom.github.io/perspectiva_global/about/</link><pubDate>Wed, 28 Jan 2026 00:00:00 +0000</pubDate><guid>https://mcasrom.github.io/perspectiva_global/about/</guid><description>&lt;blockquote>
 &lt;p>&amp;#34;En la intersección entre la soberanía tecnológica y el nuevo orden multipolar, la información es el territorio, pero el código es el arma.&amp;#34;&lt;/p>
 &lt;/blockquote>
 &lt;div id="outline-container-headline-1" class="outline-2">

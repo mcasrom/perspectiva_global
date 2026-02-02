@@ -265,7 +265,7 @@ MOD --> NEG
 
 #+begin_export html
 <a href="/images/impacto_economico.png" target="_blank">
-  {{< figure src="/images/imàcto_economico.png" alt="Impacto Económico" caption="impacto_economico.png – Click para ver en tamaño real" >}}
+  {{< figure src="/images/impacto_economico.png" alt="Impacto Económico" caption="impacto_economico.png – Click para ver en tamaño real" >}}
 </a>
 #+end_export
 

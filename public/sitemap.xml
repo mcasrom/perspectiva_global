@@ -2,19 +2,34 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>http://localhost:1313/tags/complejidad/</loc>
+    <lastmod>2026-02-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/eeuu/</loc>
+    <lastmod>2026-02-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/geopolitica/</loc>
+    <lastmod>2026-02-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/migraci%C3%B3n/</loc>
+    <lastmod>2026-02-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/</loc>
+    <lastmod>2026-02-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/pol%C3%ADticas-migratorias-en-estados-unidos-an%C3%A1lisis-comparativo-1975-2025/</loc>
+    <lastmod>2026-02-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/</loc>
+    <lastmod>2026-02-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/</loc>
+    <lastmod>2026-02-02T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/contact/</loc>
     <lastmod>2026-02-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/geopolitica-energia-clima-poder/</loc>
-    <lastmod>2026-02-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/</loc>
-    <lastmod>2026-02-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/posts/</loc>
-    <lastmod>2026-02-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/</loc>
     <lastmod>2026-02-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/posts/visi-n-eco-geopol-tica-de-los-grandes-actores-globales/</loc>
@@ -51,5 +66,9 @@
     <lastmod>2026-01-28T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/search/</loc>
+  </url><url>
+    <loc>http://localhost:1313/tags/geopolitica-complejidad-migraci%C3%B3n-eeuu/</loc>
+  </url><url>
+    <loc>http://localhost:1313/tags/geopolitica-complejidad-migraci%C3%B3n-eeuu/</loc>
   </url>
 </urlset>

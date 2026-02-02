@@ -1,0 +1,437 @@
+#+TITLE: Políticas Migratorias en Estados Unidos: Análisis Comparativo 1975-2025
+#+DATE: 2026-02-02T16:44:07
+#+DRAFT: true
+#+TAGS: geopolitica, complejidad
+
+
+* Resumen Ejecutivo
+
+Este documento analiza las políticas migratorias estadounidenses desde 1975 hasta 2025, examinando las posturas de los principales partidos políticos, las legislaciones implementadas y su impacto socioeconómico. El análisis revela patrones cíclicos de apertura y restricción, influenciados por factores económicos, de seguridad nacional y demografía electoral.
+
+* Introducción
+
+** Contexto Histórico
+
+La migración ha sido un elemento definitorio de la identidad estadounidense. En el período 1975-2025, las políticas migratorias han oscilado entre paradigmas de inclusión económica y control fronterizo, reflejando tensiones entre valores tradicionales de apertura y preocupaciones contemporáneas sobre soberanía, seguridad y cohesión social.
+
+** Metodología
+
+Este análisis se basa en:
+- Revisión de legislación federal (1975-2025)
+- Datos estadísticos del Department of Homeland Security
+- Plataformas partidistas y declaraciones políticas
+- Análisis de impacto económico y laboral
+
+* Marco Legal: Evolución Legislativa
+
+** Tabla 1: Legislación Migratoria Fundamental (1975-2025)
+
+| Año | Legislación                          | Presidente | Partido | Orientación    |
+|-----+--------------------------------------+------------+---------+----------------|
+| 1986| Immigration Reform and Control Act   | Reagan     | Rep.    | Mixta          |
+| 1990| Immigration Act                      | Bush Sr.   | Rep.    | Expansiva      |
+| 1996| Illegal Immigration Reform           | Clinton    | Dem.    | Restrictiva    |
+| 2001| PATRIOT Act                          | Bush Jr.   | Rep.    | Restrictiva    |
+| 2006| Secure Fence Act                     | Bush Jr.   | Rep.    | Restrictiva    |
+| 2012| DACA (Acción Ejecutiva)              | Obama      | Dem.    | Proteccionista |
+| 2017| Executive Order 13769 (Travel Ban)   | Trump      | Rep.    | Restrictiva    |
+| 2021| U.S. Citizenship Act (propuesta)     | Biden      | Dem.    | Expansiva      |
+| 2025| Border Security Measures             | Trump      | Rep.    | Restrictiva    |
+
+** Análisis por Períodos
+
+*** Período 1975-1990: Transición Post-Vietnam
+- Refugee Act (1980): respuesta humanitaria
+- IRCA (1986): primera amnistía masiva (2.7 millones)
+- Enfoque en integración económica
+
+*** Período 1990-2001: Globalización
+- Expansión de visas H-1B
+- Aumento en deportaciones bajo Clinton
+- Dualidad: apertura económica vs. control fronterizo
+
+*** Período 2001-2016: Post-9/11
+- Securitización de la política migratoria
+- Creación de DHS (2003)
+- DACA: protección a "Dreamers" (800,000 beneficiarios)
+
+*** Período 2017-2025: Polarización
+- Trump: construcción de muro, Remain in Mexico
+- Biden: reversión de políticas, crisis fronteriza 2021-2023
+- Trump 2025: retorno a políticas restrictivas
+
+* Posiciones Partidistas Comparadas
+
+** Diagrama 1: Evolución Ideológica de Partidos
+
+#+BEGIN_SRC plantuml :file evolucion_partidos.png :exports none
+@startuml
+!theme plain
+skinparam backgroundColor transparent
+skinparam defaultFontSize 11
+
+rectangle "PARTIDO REPUBLICANO" as REP {
+  card "1975-1990\n**Pragmatismo Económico**\n- Reagan: amnistía 1986\n- Bush Sr.: expansión visas" as REP1
+  card "1990-2010\n**Seguridad Nacional**\n- Control fronterizo\n- Post-9/11: enforcement" as REP2
+  card "2010-2025\n**Nacionalismo Populista**\n- Tea Party influence\n- Trump: 'America First'\n- Restricción masiva" as REP3
+}
+
+rectangle "PARTIDO DEMÓCRATA" as DEM {
+  card "1975-1990\n**Derechos Laborales**\n- Protección trabajadores\n- Regulación empleadores" as DEM1
+  card "1990-2010\n**Multiculturalismo**\n- Diversidad cultural\n- Path to citizenship\n- Clinton: enforcement" as DEM2
+  card "2010-2025\n**Justicia Social**\n- DACA/DAPA\n- Reforma comprensiva\n- Derechos humanos" as DEM3
+}
+
+REP1 -down-> REP2
+REP2 -down-> REP3
+DEM1 -down-> DEM2
+DEM2 -down-> DEM3
+
+note right of REP3
+  **Temas Clave**
+  - Muro fronterizo
+  - Deportaciones masivas
+  - Restricción asilo
+end note
+
+note left of DEM3
+  **Temas Clave**
+  - Camino a ciudadanía
+  - Reunificación familiar
+  - Protección refugiados
+end note
+
+@enduml
+#+END_SRC
+
+#+RESULTS:
+[[file:evolucion_partidos.png]]
+
+** Tabla 2: Matriz Comparativa de Posiciones (2020-2025)
+
+| Dimensión            | Republicanos                       | Demócratas                         |
+|----------------------+------------------------------------+------------------------------------|
+| **Frontera**           | Muro físico, tecnología            | Inversión en países origen         |
+| **Aplicación Ley**     | Enforcement estricto, ICE          | Priorización criminales            |
+| **Visas Trabajo**      | Merit-based, H-1B limitado         | Protección trabajadores, expansión |
+| **Indocumentados**     | Deportación, auto-deportación      | Camino a ciudadanía (11M personas) |
+| **Refugiados/Asilo**   | Límites estrictos, vetting extremo | Cuotas humanitarias ampliadas      |
+| **Dreamers**           | División interna, algunos apoyan   | Apoyo unánime, legislación         |
+| **Ciudades Santuario** | Oposición, corte fondos federales  | Apoyo, protección local            |
+
+* Flujos Migratorios y Demografía
+
+** Tabla 3: Estadísticas de Inmigración por Década
+
+| Período    | Total Inmigrantes | Países Origen Principal        | % Población | Indocumentados |
+|------------+-------------------+--------------------------------+-------------+----------------|
+| 1975-1980  | 4.5 millones      | México, Filipinas, Corea       | 6.2%        | ~3-5 millones  |
+| 1981-1990  | 7.3 millones      | México, Filipinas, China       | 7.9%        | ~5 millones    |
+| 1991-2000  | 9.1 millones      | México, China, India           | 11.1%       | ~8.5 millones  |
+| 2001-2010  | 10.5 millones     | México, China, India, Filipinas| 12.9%       | ~11.2 millones |
+| 2011-2020  | 8.8 millones      | India, China, México, Filipinas| 13.7%       | ~10.5 millones |
+| 2021-2025* | ~4.2 millones     | India, China, México, Venezuela| 14.3%       | ~11 millones   |
+
+*Proyección basada en datos parciales
+
+** Gráfico 1: Tendencias de Admisiones
+
+#+BEGIN_SRC plantuml :file tendencias_admisiones.png :exports none
+@startuml
+!theme plain
+skinparam backgroundColor transparent
+
+@startsalt
+{
+{T
++ **Admisiones Legales por Categoría (Promedio Anual)**
+++ Basadas en Familia | 1990: 215K | 2000: 235K | 2010: 214K | 2020: 186K
+++ Basadas en Empleo   | 1990: 58K  | 2000: 107K | 2010: 148K | 2020: 121K
+++ Refugiados/Asilo    | 1990: 97K  | 2000: 73K  | 2010: 136K | 2020: 30K
+++ Diversidad (DV)     | 1990: 0    | 2000: 42K  | 2010: 47K  | 2020: 26K
+}
+}
+@endsalt
+@enduml
+#+END_SRC
+
+#+RESULTS:
+[[file:tendencias_admisiones.png]]
+
+** Tabla 4: Principales Países de Origen (2020-2025)
+
+| Ranking | País        | Inmigrantes/año | % Total | Categoría Principal       |
+|---------+-------------+-----------------+---------+---------------------------|
+|       1 | México      | 161,000         | 16.8%   | Familiar                  |
+|       2 | India       | 127,000         | 13.2%   | Empleo (H-1B)             |
+|       3 | China       | 89,000          | 9.3%    | Empleo/Estudiantes        |
+|       4 | Filipinas   | 47,000          | 4.9%    | Familiar                  |
+|       5 | El Salvador | 31,000          | 3.2%    | TPS/Familiar              |
+|       6 | Vietnam     | 30,000          | 3.1%    | Familiar/Refugiados       |
+|       7 | Cuba        | 28,000          | 2.9%    | Refugiados/Familiar       |
+|       8 | República D.| 25,000          | 2.6%    | Familiar                  |
+|       9 | Corea del S.| 22,000          | 2.3%    | Familiar/Empleo           |
+|      10 | Venezuela   | 21,000          | 2.2%    | Asilo/TPS                 |
+
+* Impacto en el Mercado Laboral
+
+** Análisis Económico
+
+*** Contribuciones Positivas
+- PIB: Los inmigrantes contribuyen ~$2 trillones anuales
+- Impuestos: $458 mil millones en impuestos federales/estatales (2022)
+- Emprendimiento: 25% de nuevas empresas fundadas por inmigrantes
+- Innovación: 36% de premios Nobel científicos son inmigrantes
+
+*** Preocupaciones Documentadas
+- Presión salarial en sectores de baja cualificación (debate académico)
+- Concentración geográfica: impactos locales diferenciados
+- Competencia por recursos públicos en comunidades específicas
+
+** Tabla 5: Distribución Sectorial de Trabajadores Inmigrantes (2023)
+
+| Sector                        | % Fuerza Laboral | Salario Promedio | Documentación     |
+|-------------------------------+------------------+------------------+-------------------|
+| Agricultura                   | 73%              | $28,000          | 50% indocumentada |
+| Construcción                  | 25%              | $42,000          | 30% indocumentada |
+| Servicios de Alimentación     | 22%              | $26,000          | 20% indocumentada |
+| Manufactura                   | 21%              | $38,000          | 15% indocumentada |
+| Salud/Asistencia Social       | 18%              | $52,000          | 5% indocumentada  |
+| Tecnología/STEM               | 27%              | $98,000          | Legal (H-1B/GC)   |
+| Servicios Profesionales       | 16%              | $67,000          | Legal             |
+| Limpieza/Mantenimiento        | 35%              | $29,000          | 25% indocumentada |
+
+** Diagrama 2: Flujo de Impacto Económico
+
+#+BEGIN_SRC plantuml :file impacto_economico.png :exports none
+@startuml
+!theme plain
+skinparam backgroundColor transparent
+skinparam defaultFontSize 10
+
+rectangle "INMIGRACIÓN" as IMM #lightblue
+
+rectangle "IMPACTOS POSITIVOS" as POS {
+  card "Crecimiento PIB\n+$2T anuales" as GDP
+  card "Innovación\n36% Nobel STEM" as INNOV
+  card "Emprendimiento\n25% nuevas empresas" as ENTREP
+  card "Contribución Fiscal\n$458B impuestos" as TAX
+  card "Dinamismo Laboral\nOcupan vacantes críticas" as LABOR
+}
+
+rectangle "DESAFÍOS" as NEG {
+  card "Presión Salarial\nSectores baja cualif." as WAGE
+  card "Tensión Servicios\nEducación, salud local" as SERV
+  card "Integración Cultural\nCohesión social" as CULT
+  card "Competencia Laboral\nTrabajadores nativos" as COMP
+}
+
+rectangle "FACTORES MODERADORES" as MOD {
+  card "Nivel Educativo\nInmigrantes" as EDU
+  card "Condiciones Económicas\nCrecimiento/Recesión" as ECON
+  card "Distribución Geográfica\nConcentración" as GEO
+  card "Status Legal\nDocumentación" as LEGAL
+}
+
+IMM --> POS
+IMM --> NEG
+MOD --> POS
+MOD --> NEG
+
+@enduml
+#+END_SRC
+
+#+RESULTS:
+[[file:impacto_economico.png]]
+
+* Acciones Administrativas por Presidencia
+
+** Tabla 6: Principales Acciones Ejecutivas (2000-2025)
+
+| Presidente    | Período    | Acción Destacada                         | Impacto                      |
+|---------------+------------+------------------------------------------+------------------------------|
+| Clinton (D)   | 1993-2001  | Operation Gatekeeper (1994)              | 450K deportaciones/año       |
+| Bush Jr. (R)  | 2001-2009  | Creación DHS, ICE                        | Securitización migratoria    |
+| Obama (D)     | 2009-2017  | DACA (2012), Deportación récord          | 800K protegidos, 3M deportad.|
+| Trump (R)     | 2017-2021  | Muslim Ban, Muro, MPP, Title 42          | Admisiones -70%, muro parcial|
+| Biden (D)     | 2021-2025  | Reversión políticas Trump, Crisis 2021   | 2.4M encuentros frontera/año |
+| Trump (R)     | 2025-      | Executive Orders: deportaciones masivas  | Operaciones enforcement      |
+
+** Diagrama 3: Ciclo Político-Migratorio
+
+#+BEGIN_SRC plantuml :file ciclo_politico.png :exports none
+@startuml
+!theme plain
+skinparam backgroundColor transparent
+skinparam defaultFontSize 10
+
+start
+:Administración
+Demócrata;
+:Políticas
+Inclusivas;
+note right
+  Prioridad:
+  - Camino a ciudadanía
+  - Reunificación familiar
+  - Protección refugiados
+end note
+:Aumento de
+Flujos Migratorios;
+:Reacción Pública
+(Percepción inseguridad);
+:Cambio Electoral;
+:Administración
+Republicana;
+:Políticas
+Restrictivas;
+note right
+  Prioridad:
+  - Control fronterizo
+  - Enforcement
+  - Deportaciones
+end note
+:Reducción de
+Flujos;
+:Escasez Laboral
+en Sectores Clave;
+:Presión Empresarial
+y Económica;
+:Cambio Electoral;
+
+note left
+  **CICLO OBSERVABLE 1975-2025**
+  
+  Oscilación cada 8-12 años
+  
+  **Factores Influyentes:**
+  • Economía (crecimiento/recesión)
+  • Seguridad (terrorismo, crimen)
+  • Demografía electoral
+  • Crisis humanitarias
+  • Presión de grupos interés
+end note
+
+:Administración
+Demócrata;
+stop
+
+@enduml
+#+END_SRC
+
+#+RESULTS:
+[[file:ciclo_politico.png]]
+
+
+
+* Debates Contemporáneos (2020-2025)
+
+** Temas Principales
+
+*** 1. Seguridad Fronteriza vs. Derechos Humanos
+- Republicanos: Prioridad absoluta a control fronterizo
+- Demócratas: Balance entre seguridad y protección humanitaria
+- Datos: 2.4M encuentros fronterizos (2023), récord histórico
+
+*** 2. Reforma Migratoria Comprensiva
+- Republicanos: Enforcement primero, legalización después
+- Demócratas: Simultáneo: camino a ciudadanía + seguridad
+- Estancamiento: No hay legislación mayor desde 1990
+
+*** 3. Migración Laboral
+- H-1B: Debate sobre salarios, desplazamiento trabajadores
+- Agricultura: Dependencia (73% fuerza laboral inmigrante)
+- STEM: Competencia global por talento
+
+*** 4. Crisis Humanitarias
+- Centroamérica: Violencia, pobreza impulsan migración
+- Venezuela: 7+ millones desplazados (500K+ a EEUU)
+- Afganistán: Evacuación 2021, reasentamiento
+
+** Tabla 7: Opinión Pública sobre Inmigración (2020-2024)
+
+| Pregunta                                  | Republicanos | Independientes | Demócratas | Nacional |
+|-------------------------------------------+--------------+----------------+------------+----------|
+| ¿Inmigración beneficia al país?           | 38%          | 62%            | 84%        | 62%      |
+| ¿Apoya camino a ciudadanía?               | 42%          | 72%            | 91%        | 68%      |
+| ¿Apoya construcción de muro?              | 82%          | 43%            | 13%        | 46%      |
+| ¿Aumentar admisiones legales?             | 28%          | 51%            | 73%        | 51%      |
+| ¿Deportar todos los indocumentados?       | 67%          | 31%            | 9%         | 36%      |
+| ¿Preocupación principal: seguridad?       | 79%          | 52%            | 31%        | 54%      |
+| ¿Preocupación principal: economía?        | 15%          | 28%            | 18%        | 21%      |
+
+Fuente: Pew Research Center, Gallup (2020-2024)
+
+* Conclusiones Analíticas
+
+** Patrones Identificados
+
+1. **Ciclicidad Política**: Alternancia entre apertura y restricción correlaciona con ciclos electorales
+2. **Securitización Post-9/11**: Cambio paradigmático permanente hacia lente de seguridad nacional
+3. **Polarización Creciente**: Brecha entre partidos se amplía desde 2010
+4. **Estancamiento Legislativo**: Ausencia de reformas comprensivas por 35+ años
+5. **Pragmatismo Económico**: Sectores empresariales moderan restricciones extremas
+
+** Desafíos Estructurales
+
+- **Demográficos**: Envejecimiento poblacional requiere trabajadores
+- **Geopolíticos**: Presión migratoria desde América Latina, competencia por talento STEM
+- **Institucionales**: Sistema migratorio obsoleto, tiempos de espera 20+ años
+- **Políticos**: Imposibilidad de consenso bipartidista
+
+** Proyecciones
+
+1. Continuará polarización sin reforma legislativa mayor
+2. Uso creciente de acciones ejecutivas (reversibles)
+3. Presión económica forzará aperturas selectivas (H-1B, agricultura)
+4. Tecnología jugará rol creciente: vigilancia fronteriza, verificación empleo
+5. Migración climática emergente como factor (2030+)
+
+* Referencias
+
+** Fuentes Legislativas
+- Immigration Reform and Control Act (1986), Pub. L. 99-603
+- Illegal Immigration Reform and Immigrant Responsibility Act (1996), Pub. L. 104-208
+- REAL ID Act (2005), Pub. L. 109-13
+- Deferred Action for Childhood Arrivals Memo (2012), DHS
+
+** Fuentes Estadísticas
+- U.S. Department of Homeland Security, /Yearbook of Immigration Statistics/ (2000-2023)
+- Pew Research Center, "Modern Immigration Wave Brings 59 Million to U.S." (2015-2024)
+- Migration Policy Institute, /Data Hub/ (2024)
+- U.S. Census Bureau, /American Community Survey/ (2022)
+
+** Literatura Académica
+- Borjas, G. (2016). /We Wanted Workers: Unraveling the Immigration Narrative/. Norton.
+- Card, D. (1990). "The Impact of the Mariel Boatlift on the Miami Labor Market." /Industrial and Labor Relations Review/, 43(2).
+- Massey, D. et al. (2016). "Why Border Enforcement Backfired." /American Journal of Sociology/, 121(5).
+- Tichenor, D. (2002). /Dividing Lines: The Politics of Immigration Control in America/. Princeton.
+
+** Fuentes Políticas
+- Republican National Committee, /Platform/ (2016, 2020, 2024)
+- Democratic National Committee, /Platform/ (2016, 2020, 2024)
+- Congressional Research Service, "Immigration: Major Legislative Issues" (Multiple reports)
+
+** Organizaciones
+- American Immigration Council (research and analysis)
+- Center for Immigration Studies (restrictionist perspective)
+- National Immigration Forum (pro-immigration perspective)
+- Cato Institute, Center for Global Liberty and Prosperity
+
+* Apéndice: Glosario de Términos
+
+- **DACA**: Deferred Action for Childhood Arrivals - Protección a menores traídos ilegalmente
+- **DHS**: Department of Homeland Security - Creado post-9/11
+- **H-1B**: Visa de trabajo temporal para profesionales especializados
+- **ICE**: Immigration and Customs Enforcement - Agencia de aplicación migratoria
+- **MPP**: Migrant Protection Protocols ("Remain in Mexico")
+- **TPS**: Temporary Protected Status - Protección por crisis en país origen
+- **Title 42**: Orden de salud pública usada para expulsiones rápidas (COVID-19)
+- **Path to Citizenship**: Camino a legalización para indocumentados
+- **Sanctuary Cities**: Ciudades que limitan cooperación con ICE
+
+#+BEGIN_COMMENT
+Documento generado para análisis académico - Febrero 2026
+Perspectiva neutral, basada en datos y fuentes documentales
+Total: ~2,450 palabras
+#+END_COMMENT

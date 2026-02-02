@@ -3,7 +3,7 @@ languageCode: "es-es"
 title: "Perspectiva Global | Crónicas del Nuevo Orden"
 theme: "PaperMod"
 
-# --- AÑADE ESTAS TRES LÍNEAS ---
+# --- URLs SANEADAS ---
 canonifyURLs: true
 relativeURLs: false
 uglyURLs: false
@@ -20,7 +20,7 @@ params:
   description: "Análisis soberano sobre geopolítica, tecnología y el nuevo orden multipolar."
   author: "M.Castillo"
 
-  # --- CONFIGURACIÓN VISUAL (Favicon y Redes) ---
+  # --- CONFIGURACIÓN VISUAL ---
   assets:
     favicon: "favicon.png"
     favicon16x16: "favicon.png"
@@ -40,12 +40,13 @@ params:
   ShowBreadCrumbs: true     
   ShowPostNavLinks: true    
   
+  # --- BLOQUE PROFILE MODE (Corregida indentación) ---
   profileMode:
     enabled: true
     title: "El Mapa y El Código"
     subtitle: "Perspectiva Global: Crónicas del Nuevo Orden. <br> **Soberanía tecnológica e inteligencia geopolítica.**"
-    imageUrl: "images/blog.jpg" 
-    imageWidth: 250 
+    imageUrl: "images/blog.jpg"
+    imageWidth: 250
     imageHeight: 250
     buttons:
       - name: "📂 Ver Análisis"
@@ -55,14 +56,16 @@ params:
       - name: "📚 Daily Readings"
         url: "https://mcasrom.github.io/daily_readings/"
       - name: "☁️ Word Analysis"
-        url: "https://github.com/mcasrom/daily_readings/blob/main/cloud_word.html"
-   
+        url: "https://mcasrom.github.io/daily_readings/cloud_word.html"
+
+  # --- ICONOS SOCIALES (Dentro de params) ---
+  socialIcons:
     - name: "github"
       url: "https://github.com/mcasrom"
     - name: "rss"
       url: "index.xml"
 
-# --- MENÚ Y OTROS (Fuera de params) ---
+# --- MENÚ (Fuera de params) ---
 menu:
   main:
     - name: "Análisis"
@@ -81,4 +84,4 @@ menu:
 markup:
   goldmark:
     renderer:
-      unsafe: true
+      unsafe: true # Permite el HTML en el subtitle

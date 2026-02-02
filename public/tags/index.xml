@@ -11,8 +11,36 @@
     </image>
     <generator>Hugo -- 0.146.0</generator>
     <language>es-es</language>
-    <lastBuildDate>Sun, 01 Feb 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 02 Feb 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Complejidad</title>
+      <link>http://localhost:1313/tags/complejidad/</link>
+      <pubDate>Mon, 02 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/complejidad/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>EEUU</title>
+      <link>http://localhost:1313/tags/eeuu/</link>
+      <pubDate>Mon, 02 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/eeuu/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Geopolitica</title>
+      <link>http://localhost:1313/tags/geopolitica/</link>
+      <pubDate>Mon, 02 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/geopolitica/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Migración</title>
+      <link>http://localhost:1313/tags/migraci%C3%B3n/</link>
+      <pubDate>Mon, 02 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/migraci%C3%B3n/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Geopolitica Energia Clima Poder</title>
       <link>http://localhost:1313/tags/geopolitica-energia-clima-poder/</link>

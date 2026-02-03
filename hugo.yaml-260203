@@ -1,0 +1,88 @@
+baseURL: "https://mcasrom.github.io/perspectiva_global/"
+languageCode: "es-es"
+title: "Perspectiva Global | Crónicas del Nuevo Orden"
+theme: "PaperMod"
+
+# --- URLs SANEADAS ---
+canonifyURLs: true
+relativeURLs: false
+uglyURLs: false
+
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON
+
+params:
+  env: "production"
+  title: "Perspectiva Global"
+  description: "Análisis soberano sobre geopolítica, tecnología y el nuevo orden multipolar."
+  author: "M.Castillo"
+  ShowLastMod: true
+
+  # --- CONFIGURACIÓN VISUAL ---
+  assets:
+    favicon: "favicon.png"
+    favicon16x16: "favicon.png"
+    favicon32x32: "favicon.png"
+    apple_touch_icon: "favicon.png"
+  
+  images: ["images/preview.jpg"]
+  
+  SocialMetadata:
+    twitter: "summary_large_image"
+
+  # --- INTERFAZ ---
+  defaultTheme: "dark"
+  disableThemeToggle: false 
+  ShowReadingTime: true
+  showCodeCopyButtons: true
+  ShowBreadCrumbs: true     
+  ShowPostNavLinks: true    
+  
+  # --- BLOQUE PROFILE MODE (Corregida indentación) ---
+  profileMode:
+    enabled: true
+    title: "El Mapa y El Código"
+    subtitle: "Perspectiva Global: Crónicas del Nuevo Orden. <br> **Soberanía tecnológica e inteligencia geopolítica.**"
+    imageUrl: "images/blog.jpg"
+    imageWidth: 250
+    imageHeight: 250
+    buttons:
+      - name: "📂 Ver Análisis"
+        url: "posts"
+      - name: "🌐 Geo-IA"
+        url: "https://mcasrom.github.io/geo-ia/"
+      - name: "📚 Daily Readings"
+        url: "https://mcasrom.github.io/daily_readings/"
+      - name: "☁️ Word Analysis"
+        url: "https://mcasrom.github.io/daily_readings/cloud_word.html"
+
+  # --- ICONOS SOCIALES (Dentro de params) ---
+  socialIcons:
+    - name: "github"
+      url: "https://github.com/mcasrom"
+    - name: "rss"
+      url: "index.xml"
+
+# --- MENÚ (Fuera de params) ---
+menu:
+  main:
+    - name: "Análisis"
+      url: "posts/"
+      weight: 10
+    - name: "Buscar"
+      url: "search/"
+      weight: 20
+    - name: "Acerca de"
+      url: "about/"
+      weight: 30
+    - name: "Contacto"
+      url: "contact/"
+      weight: 40
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true # Permite el HTML en el subtitle

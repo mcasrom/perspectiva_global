@@ -1,50 +1,95 @@
 baseURL: "https://mcasrom.github.io/perspectiva_global/"
 languageCode: "es-es"
+defaultContentLanguage: "es"          # OPCIONAL – útil si algún día añades EN
 title: "Perspectiva Global | Crónicas del Nuevo Orden"
 theme: "PaperMod"
 
-# --- URLs SANEADAS ---
+# -------------------------
+# URLs y estructura
+# -------------------------
 canonifyURLs: true
 relativeURLs: false
 uglyURLs: false
 
+# -------------------------
+# Salidas del sitio
+# -------------------------
 outputs:
   home:
     - HTML
     - RSS
-    - JSON
+    - JSON        # Necesario para búsqueda PaperMod
+  section:        # OPCIONAL – mejora RSS por secciones
+    - HTML
+    - RSS
 
+# -------------------------
+# Git (IMPORTANTE para timestamps automáticos)
+# -------------------------
+enableGitInfo: true   # Necesario para usar fecha del último commit
+
+# -------------------------
+# Parámetros del tema
+# -------------------------
 params:
   env: "production"
+  siteName: "Perspectiva Global"   # SEO
   title: "Perspectiva Global"
-  description: "Análisis soberano sobre geopolítica, tecnología y el nuevo orden multipolar."
   author: "M.Castillo"
 
-  # --- CONFIGURACIÓN VISUAL ---
+  description: "Análisis soberano sobre geopolítica, tecnología y el nuevo orden multipolar."
+
+  keywords:                         # OPCIONAL pero recomendable
+    - geopolítica
+    - geoestrategia
+    - soberanía tecnológica
+    - inteligencia artificial
+    - nuevo orden mundial
+
+  # -------------------------
+  # FECHAS / TIMESTAMPS
+  # -------------------------
+  ShowLastMod: true                 # 🔹 Activa “Última actualización”
+  DateFormat: "02 Jan 2006"         # Formato consistente
+
+  # -------------------------
+  # Apariencia
+  # -------------------------
+  defaultTheme: "dark"
+  disableThemeToggle: false
+  ShowReadingTime: true
+  showCodeCopyButtons: true
+  ShowBreadCrumbs: true
+  ShowPostNavLinks: true
+  ShowFullTextinRSS: true           # OPCIONAL – RSS editorial completo
+
+  disableSpecial1stPost: true       # OPCIONAL – evita post “destacado”
+  disableScrollToTop: false         # OPCIONAL
+
+  # -------------------------
+  # Assets / OpenGraph
+  # -------------------------
   assets:
     favicon: "favicon.png"
     favicon16x16: "favicon.png"
     favicon32x32: "favicon.png"
     apple_touch_icon: "favicon.png"
-  
-  images: ["images/preview.jpg"]
-  
+
+  images: ["images/preview.jpg"]    # Imagen OG por defecto
+  defaultImage: "images/preview.jpg" # OPCIONAL – refuerzo OG
+
   SocialMetadata:
     twitter: "summary_large_image"
 
-  # --- INTERFAZ ---
-  defaultTheme: "dark"
-  disableThemeToggle: false 
-  ShowReadingTime: true
-  showCodeCopyButtons: true
-  ShowBreadCrumbs: true     
-  ShowPostNavLinks: true    
-  
-  # --- BLOQUE PROFILE MODE (Corregida indentación) ---
+  # -------------------------
+  # Profile Mode (HOME)
+  # -------------------------
   profileMode:
     enabled: true
     title: "El Mapa y El Código"
-    subtitle: "Perspectiva Global: Crónicas del Nuevo Orden. <br> **Soberanía tecnológica e inteligencia geopolítica.**"
+    subtitle: >
+      Perspectiva Global: Crónicas del Nuevo Orden.<br>
+      <strong>Soberanía tecnológica e inteligencia geopolítica.</strong>
     imageUrl: "images/blog.jpg"
     imageWidth: 250
     imageHeight: 250
@@ -58,14 +103,18 @@ params:
       - name: "☁️ Word Analysis"
         url: "https://mcasrom.github.io/daily_readings/cloud_word.html"
 
-  # --- ICONOS SOCIALES (Dentro de params) ---
+  # -------------------------
+  # Iconos sociales
+  # -------------------------
   socialIcons:
     - name: "github"
       url: "https://github.com/mcasrom"
     - name: "rss"
       url: "index.xml"
 
-# --- MENÚ (Fuera de params) ---
+# -------------------------
+# Menú principal
+# -------------------------
 menu:
   main:
     - name: "Análisis"
@@ -81,7 +130,10 @@ menu:
       url: "contact/"
       weight: 40
 
+# -------------------------
+# Markdown / HTML
+# -------------------------
 markup:
   goldmark:
     renderer:
-      unsafe: true # Permite el HTML en el subtitle
+      unsafe: true   # Necesario para HTML en subtitle

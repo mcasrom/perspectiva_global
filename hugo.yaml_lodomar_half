@@ -1,27 +1,45 @@
+# -------------------------
+# Configuración Base
+# -------------------------
 baseURL: "https://mcasrom.github.io/perspectiva_global/"
 languageCode: "es-es"
 defaultContentLanguage: "es"
 title: "Perspectiva Global | Crónicas del Nuevo Orden"
 theme: "PaperMod"
 
-# Configuración de URLs para GitHub Pages (Unix/Linux friendly)
-# canonifyURLs ayuda a que las rutas de imágenes no se rompan en subdirectorios
+# -------------------------
+# URLs y estructura
+# -------------------------
 canonifyURLs: true
 relativeURLs: false
+uglyURLs: false
 
+# -------------------------
+# Salidas del sitio
+# -------------------------
 outputs:
-  home: [HTML, RSS, JSON]
-  section: [HTML, RSS]
+  home:
+    - HTML
+    - RSS
+    - JSON
+  section:
+    - HTML
+    - RSS
 
+# -------------------------
+# Git e Info
+# -------------------------
 enableGitInfo: true
 
+# -------------------------
+# Parámetros del tema
+# -------------------------
 params:
   env: "production"
   siteName: "Perspectiva Global"
   title: "Perspectiva Global"
   author: "M.Castillo"
-  # Descripción de >100 caracteres para evitar warnings en LinkedIn
-  description: "Análisis soberano y profundo sobre geopolítica, tecnología y el nuevo orden multipolar. Explorando las grietas del sistema internacional desde una visión crítica y estratégica."
+  description: "Análisis soberano sobre geopolítica, tecnología y el nuevo orden multipolar."
 
   keywords:
     - geopolítica
@@ -41,24 +59,31 @@ params:
   showCodeCopyButtons: true
   ShowBreadCrumbs: true
   ShowPostNavLinks: true
+  ShowFullTextinRSS: true
+  disableSpecial1stPost: true
+  disableScrollToTop: false
 
-  # --- FIX FAVICON ---
-  # Archivo en: /static/favicon.png
+  # -------------------------
+  # ASSETS (FAVICON) - Deben estar en /static/
+  # -------------------------
   assets:
-    favicon: "favicon.png"
-    favicon16x16: "favicon.png"
-    favicon32x32: "favicon.png"
-    apple_touch_icon: "favicon.png"
+    favicon: "/favicon.png"
+    favicon16x16: "/favicon.png"
+    favicon32x32: "/favicon.png"
+    apple_touch_icon: "/favicon.png"
 
-  # --- FIX PREVIEW (OpenGraph) ---
-  # URL absoluta para forzar el renderizado correcto en redes sociales
+  # -------------------------
+  # OPENGRAPH (PREVIEW) - URL ABSOLUTA OBLIGATORIA
+  # -------------------------
   images: 
     - "https://mcasrom.github.io/perspectiva_global/images/preview.jpg"
-
+  
   SocialMetadata:
     twitter: "summary_large_image"
 
-  # --- PROFILE MODE (HOME) ---
+  # -------------------------
+  # PROFILE MODE (HOME)
+  # -------------------------
   profileMode:
     enabled: true
     title: "El Mapa y El Código"
@@ -78,13 +103,18 @@ params:
       - name: "☁️ Word Analysis"
         url: "https://mcasrom.github.io/daily_readings/cloud_word.html"
 
+  # -------------------------
+  # ICONOS SOCIALES
+  # -------------------------
   socialIcons:
     - name: "github"
       url: "https://github.com/mcasrom"
     - name: "rss"
       url: "index.xml"
 
-# Menú de navegación superior
+# -------------------------
+# Menú principal
+# -------------------------
 menu:
   main:
     - name: "Análisis"
@@ -100,6 +130,9 @@ menu:
       url: "contact/"
       weight: 40
 
+# -------------------------
+# Markdown / HTML
+# -------------------------
 markup:
   goldmark:
     renderer:

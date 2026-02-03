@@ -64,17 +64,19 @@ params:
   disableScrollToTop: false
 
   # -------------------------
-  # ASSETS (FAVICON) - Deben estar en /static/
+  # ASSETS (FAVICON FIX)
   # -------------------------
+  # Los archivos deben estar en: /static/favicon.png
   assets:
-    favicon: "/favicon.png"
-    favicon16x16: "/favicon.png"
-    favicon32x32: "/favicon.png"
-    apple_touch_icon: "/favicon.png"
+    favicon: "favicon.png"
+    favicon16x16: "favicon.png"
+    favicon32x32: "favicon.png"
+    apple_touch_icon: "favicon.png"
 
   # -------------------------
-  # OPENGRAPH (PREVIEW) - URL ABSOLUTA OBLIGATORIA
+  # OPENGRAPH (PREVIEW FIX)
   # -------------------------
+  # Forzamos URL completa para que los crawlers no fallen
   images: 
     - "https://mcasrom.github.io/perspectiva_global/images/preview.jpg"
   

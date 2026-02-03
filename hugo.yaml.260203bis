@@ -1,9 +1,6 @@
-# -------------------------
-# Configuración Base
-# -------------------------
 baseURL: "https://mcasrom.github.io/perspectiva_global/"
 languageCode: "es-es"
-defaultContentLanguage: "es"
+defaultContentLanguage: "es"          # OPCIONAL – útil si algún día añades EN
 title: "Perspectiva Global | Crónicas del Nuevo Orden"
 theme: "PaperMod"
 
@@ -21,70 +18,71 @@ outputs:
   home:
     - HTML
     - RSS
-    - JSON
-  section:
+    - JSON        # Necesario para búsqueda PaperMod
+  section:        # OPCIONAL – mejora RSS por secciones
     - HTML
     - RSS
 
 # -------------------------
-# Git e Info
+# Git (IMPORTANTE para timestamps automáticos)
 # -------------------------
-enableGitInfo: true
+enableGitInfo: true   # Necesario para usar fecha del último commit
 
 # -------------------------
 # Parámetros del tema
 # -------------------------
 params:
   env: "production"
-  siteName: "Perspectiva Global"
+  siteName: "Perspectiva Global"   # SEO
   title: "Perspectiva Global"
   author: "M.Castillo"
+
   description: "Análisis soberano sobre geopolítica, tecnología y el nuevo orden multipolar."
 
-  keywords:
+  keywords:                         # OPCIONAL pero recomendable
     - geopolítica
     - geoestrategia
     - soberanía tecnológica
     - inteligencia artificial
     - nuevo orden mundial
 
-  # FECHAS
-  ShowLastMod: true
-  DateFormat: "02 Jan 2006"
+  # -------------------------
+  # FECHAS / TIMESTAMPS
+  # -------------------------
+  ShowLastMod: true                 # 🔹 Activa “Última actualización”
+  DateFormat: "02 Jan 2006"         # Formato consistente
 
-  # APARIENCIA
+  # -------------------------
+  # Apariencia
+  # -------------------------
   defaultTheme: "dark"
   disableThemeToggle: false
   ShowReadingTime: true
   showCodeCopyButtons: true
   ShowBreadCrumbs: true
   ShowPostNavLinks: true
-  ShowFullTextinRSS: true
-  disableSpecial1stPost: true
-  disableScrollToTop: false
+  ShowFullTextinRSS: true           # OPCIONAL – RSS editorial completo
+
+  disableSpecial1stPost: true       # OPCIONAL – evita post “destacado”
+  disableScrollToTop: false         # OPCIONAL
 
   # -------------------------
-  # ASSETS (FAVICON FIX)
+  # Assets / OpenGraph
   # -------------------------
-  # Los archivos deben estar en: /static/favicon.png
   assets:
     favicon: "favicon.png"
     favicon16x16: "favicon.png"
     favicon32x32: "favicon.png"
     apple_touch_icon: "favicon.png"
 
-  # -------------------------
-  # OPENGRAPH (PREVIEW FIX)
-  # -------------------------
-  # Forzamos URL completa para que los crawlers no fallen
-  images: 
-    - "https://mcasrom.github.io/perspectiva_global/images/preview.jpg"
-  
+  images: ["images/preview.jpg"]    # Imagen OG por defecto
+  defaultImage: "images/preview.jpg" # OPCIONAL – refuerzo OG
+
   SocialMetadata:
     twitter: "summary_large_image"
 
   # -------------------------
-  # PROFILE MODE (HOME)
+  # Profile Mode (HOME)
   # -------------------------
   profileMode:
     enabled: true
@@ -106,7 +104,7 @@ params:
         url: "https://mcasrom.github.io/daily_readings/cloud_word.html"
 
   # -------------------------
-  # ICONOS SOCIALES
+  # Iconos sociales
   # -------------------------
   socialIcons:
     - name: "github"
@@ -138,4 +136,4 @@ menu:
 markup:
   goldmark:
     renderer:
-      unsafe: true
+      unsafe: true   # Necesario para HTML en subtitle

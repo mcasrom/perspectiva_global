@@ -1,38 +1,16 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
-  <channel>
-    <title>Geopolitica on Perspectiva Global | Crónicas del Nuevo Orden</title>
-    <link>http://localhost:1313/tags/geopolitica/</link>
-    <description>Recent content in Geopolitica on Perspectiva Global | Crónicas del Nuevo Orden</description>
-    <image>
-      <title>Perspectiva Global | Crónicas del Nuevo Orden</title>
-      <url>http://localhost:1313/images/preview.jpg</url>
-      <link>http://localhost:1313/images/preview.jpg</link>
-    </image>
-    <generator>Hugo -- 0.146.0</generator>
-    <language>es-es</language>
-    <lastBuildDate>Mon, 02 Feb 2026 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/geopolitica/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Políticas Migratorias en Estados Unidos: Análisis Comparativo 1975-2025</title>
-      <link>http://localhost:1313/posts/pol%C3%ADticas-migratorias-en-estados-unidos-an%C3%A1lisis-comparativo-1975-2025/</link>
-      <pubDate>Mon, 02 Feb 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/pol%C3%ADticas-migratorias-en-estados-unidos-an%C3%A1lisis-comparativo-1975-2025/</guid>
-      <description>&lt;div style=&#34;border: 2px solid #ff4d4d; background: rgba(255, 77, 77, 0.05); padding: 20px; border-radius: 8px; margin: 20px 0;&#34;&gt;
-    &lt;strong style=&#34;color: #ff4d4d; text-transform: uppercase; letter-spacing: 2px;&#34;&gt;📡 ALERTA ESTRATÉGICA:&lt;/strong&gt;
-    &lt;div style=&#34;margin-top: 10px; font-style: italic;&#34;&gt;
-        &lt;strong&gt;ANÁLISIS ESTRATÉGICO:&lt;/strong&gt; Este documento examina las políticas migratorias en EEUU 1976-2025.
-    &lt;/div&gt;
-&lt;/div&gt;
-
-&lt;div id=&#34;outline-container-headline-1&#34; class=&#34;outline-2&#34;&gt;
-&lt;h2 id=&#34;headline-1&#34;&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Geopolitica on Perspectiva Global | Crónicas del Nuevo Orden</title><link>https://mcasrom.github.io/perspectiva_global/tags/geopolitica/</link><description>Recent content in Geopolitica on Perspectiva Global | Crónicas del Nuevo Orden</description><image><title>Perspectiva Global | Crónicas del Nuevo Orden</title><url>https://mcasrom.github.io/perspectiva_global/images/preview.jpg</url><link>https://mcasrom.github.io/perspectiva_global/images/preview.jpg</link></image><generator>Hugo -- 0.146.0</generator><language>es-es</language><lastBuildDate>Mon, 02 Feb 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://mcasrom.github.io/perspectiva_global/tags/geopolitica/index.xml" rel="self" type="application/rss+xml"/><item><title>Políticas Migratorias en Estados Unidos: Análisis Comparativo 1975-2025</title><link>https://mcasrom.github.io/perspectiva_global/posts/pol%C3%ADticas-migratorias-en-estados-unidos-an%C3%A1lisis-comparativo-1975-2025/</link><pubDate>Mon, 02 Feb 2026 00:00:00 +0000</pubDate><guid>https://mcasrom.github.io/perspectiva_global/posts/pol%C3%ADticas-migratorias-en-estados-unidos-an%C3%A1lisis-comparativo-1975-2025/</guid><description>&lt;div style="border: 2px solid #ff4d4d; background: rgba(255, 77, 77, 0.05); padding: 20px; border-radius: 8px; margin: 20px 0;">
+&lt;strong style="color: #ff4d4d; text-transform: uppercase; letter-spacing: 2px;">📡 ALERTA ESTRATÉGICA:&lt;/strong>
+&lt;div style="margin-top: 10px; font-style: italic;">
+&lt;strong>ANÁLISIS ESTRATÉGICO:&lt;/strong> Este documento examina las políticas migratorias en EEUU 1976-2025.
+&lt;/div>
+&lt;/div>
+&lt;div id="outline-container-headline-1" class="outline-2">
+&lt;h2 id="headline-1">
 Resumen Ejecutivo
-&lt;/h2&gt;
-&lt;div id=&#34;outline-text-headline-1&#34; class=&#34;outline-text-2&#34;&gt;
-&lt;p&gt;
-Este documento analiza las políticas migratorias estadounidenses desde 1975 hasta 2025, examinando las posturas de los principales partidos políticos, las legislaciones implementadas y su impacto socioeconómico. El análisis revela patrones cíclicos de apertura y restricción, influenciados por factores económicos, de seguridad nacional y demografía electoral.&lt;/p&gt;</description>
-      <content:encoded><![CDATA[
+&lt;/h2>
+&lt;div id="outline-text-headline-1" class="outline-text-2">
+&lt;p>
+Este documento analiza las políticas migratorias estadounidenses desde 1975 hasta 2025, examinando las posturas de los principales partidos políticos, las legislaciones implementadas y su impacto socioeconómico. El análisis revela patrones cíclicos de apertura y restricción, influenciados por factores económicos, de seguridad nacional y demografía electoral.&lt;/p></description><content:encoded><![CDATA[
 <div style="border: 2px solid #ff4d4d; background: rgba(255, 77, 77, 0.05); padding: 20px; border-radius: 8px; margin: 20px 0;">
     <strong style="color: #ff4d4d; text-transform: uppercase; letter-spacing: 2px;">📡 ALERTA ESTRATÉGICA:</strong>
     <div style="margin-top: 10px; font-style: italic;">
@@ -953,7 +931,4 @@ Total: ~2,450 palabras</p>
 </div>
 </div>
 </div>
-]]></content:encoded>
-    </item>
-  </channel>
-</rss>
+]]></content:encoded></item></channel></rss>

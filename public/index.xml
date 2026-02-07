@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Perspectiva Global | Crónicas del Nuevo Orden</title>
-    <link>http://localhost:1313/</link>
+    <link>http://192.168.1.147:1313/</link>
     <description>Recent content on Perspectiva Global | Crónicas del Nuevo Orden</description>
     <image>
       <title>Perspectiva Global | Crónicas del Nuevo Orden</title>
@@ -12,12 +12,12 @@
     <generator>Hugo -- 0.146.0</generator>
     <language>es-es</language>
     <lastBuildDate>Mon, 02 Feb 2026 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://192.168.1.147:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Políticas Migratorias en Estados Unidos: Análisis Comparativo 1975-2025</title>
-      <link>http://localhost:1313/posts/pol%C3%ADticas-migratorias-en-estados-unidos-an%C3%A1lisis-comparativo-1975-2025/</link>
+      <link>http://192.168.1.147:1313/posts/pol%C3%ADticas-migratorias-en-estados-unidos-an%C3%A1lisis-comparativo-1975-2025/</link>
       <pubDate>Mon, 02 Feb 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/pol%C3%ADticas-migratorias-en-estados-unidos-an%C3%A1lisis-comparativo-1975-2025/</guid>
+      <guid>http://192.168.1.147:1313/posts/pol%C3%ADticas-migratorias-en-estados-unidos-an%C3%A1lisis-comparativo-1975-2025/</guid>
       <description>&lt;div style=&#34;border: 2px solid #ff4d4d; background: rgba(255, 77, 77, 0.05); padding: 20px; border-radius: 8px; margin: 20px 0;&#34;&gt;
     &lt;strong style=&#34;color: #ff4d4d; text-transform: uppercase; letter-spacing: 2px;&#34;&gt;📡 ALERTA ESTRATÉGICA:&lt;/strong&gt;
     &lt;div style=&#34;margin-top: 10px; font-style: italic;&#34;&gt;
@@ -35,9 +35,9 @@ Este documento analiza las políticas migratorias estadounidenses desde 1975 has
     </item>
     <item>
       <title>Contacto</title>
-      <link>http://localhost:1313/contact/</link>
+      <link>http://192.168.1.147:1313/contact/</link>
       <pubDate>Sun, 01 Feb 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/contact/</guid>
+      <guid>http://192.168.1.147:1313/contact/</guid>
       <description>&lt;div id=&#34;outline-container-headline-1&#34; class=&#34;outline-2&#34;&gt;
 &lt;h2 id=&#34;headline-1&#34;&gt;
 Contacto Directo
@@ -80,23 +80,23 @@ Formulario de Contacto
     </item>
     <item>
       <title>Visión Eco-Geopolítica de los Grandes Actores Globales</title>
-      <link>http://localhost:1313/posts/visi-n-eco-geopol-tica-de-los-grandes-actores-globales/</link>
+      <link>http://192.168.1.147:1313/posts/visi-n-eco-geopol-tica-de-los-grandes-actores-globales/</link>
       <pubDate>Sun, 01 Feb 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/visi-n-eco-geopol-tica-de-los-grandes-actores-globales/</guid>
+      <guid>http://192.168.1.147:1313/posts/visi-n-eco-geopol-tica-de-los-grandes-actores-globales/</guid>
       <description>Análisis comparado y estructural de la visión eco-geopolítica de Rusia, Estados Unidos, China y la Unión Europea.</description>
     </item>
     <item>
       <title>Geopolítica: Del Poder Territorial a la Complejidad Global</title>
-      <link>http://localhost:1313/posts/260129_geopol-tica-del-poder-territorial-a-la-complejidad-global/</link>
+      <link>http://192.168.1.147:1313/posts/260129_geopol-tica-del-poder-territorial-a-la-complejidad-global/</link>
       <pubDate>Thu, 29 Jan 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/260129_geopol-tica-del-poder-territorial-a-la-complejidad-global/</guid>
+      <guid>http://192.168.1.147:1313/posts/260129_geopol-tica-del-poder-territorial-a-la-complejidad-global/</guid>
       <description>Análisis comprehensivo sobre la geopolítica como disciplina: definición, evolución histórica, escuelas de pensamiento y desafíos contemporáneos</description>
     </item>
     <item>
       <title>Acerca de: Crónicas del Nuevo Orden</title>
-      <link>http://localhost:1313/about/</link>
+      <link>http://192.168.1.147:1313/about/</link>
       <pubDate>Wed, 28 Jan 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/about/</guid>
+      <guid>http://192.168.1.147:1313/about/</guid>
       <description>&lt;blockquote&gt;
 &lt;p&gt;&amp;#34;En la intersección entre la soberanía tecnológica y el nuevo orden multipolar, la información es el territorio, pero el código es el arma.&amp;#34;&lt;/p&gt;
 &lt;/blockquote&gt;
@@ -111,9 +111,9 @@ Formulario de Contacto
     </item>
     <item>
       <title>EU–India FTA: la “Madre de Todos los Acuerdos” y el giro del comercio global</title>
-      <link>http://localhost:1313/posts/ue-india-fta/</link>
+      <link>http://192.168.1.147:1313/posts/ue-india-fta/</link>
       <pubDate>Wed, 28 Jan 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/ue-india-fta/</guid>
+      <guid>http://192.168.1.147:1313/posts/ue-india-fta/</guid>
       <description>&lt;div style=&#34;border: 2px solid #ff4d4d; background: rgba(255, 77, 77, 0.05); padding: 20px; border-radius: 8px; margin: 20px 0;&#34;&gt;
     &lt;strong style=&#34;color: #ff4d4d; text-transform: uppercase; letter-spacing: 2px;&#34;&gt;📡 ALERTA ESTRATÉGICA:&lt;/strong&gt;
     &lt;div style=&#34;margin-top: 10px; font-style: italic;&#34;&gt;

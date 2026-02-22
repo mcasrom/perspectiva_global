@@ -75,10 +75,8 @@ params:
         url: "https://mcasrom.github.io/geo-ia/"
       - name: "📚 Daily Readings"
         url: "https://mcasrom.github.io/daily_readings/"
-      - name: "☁ Word Analysis"
+      - name: "☁️ Word Analysis"
         url: "https://mcasrom.github.io/daily_readings/cloud_word.html"
-      - name: "🛡️ Monitor Global"
-        url: "https://mcasrom.github.io/intel_center/"
 
   socialIcons:
     - name: "github"

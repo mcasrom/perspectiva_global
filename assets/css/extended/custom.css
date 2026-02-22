@@ -33,3 +33,34 @@
 .post-content p {
     margin-bottom: 1.2rem;
 }
+/* --- Ampliación estratégica de ancho --- */
+
+/* Contenedor principal */
+.main {
+    max-width: 1000px;  /* ancho base ampliado */
+}
+
+/* En pantallas grandes */
+@media (min-width: 1400px) {
+    .main {
+        max-width: 1150px;
+    }
+}
+
+/* Mejorar legibilidad al ampliar */
+.post-content {
+    line-height: 1.75;
+    font-size: 1.05rem;
+}
+
+/* Evitar que tablas rompan layout */
+.post-content table {
+    display: block;
+    overflow-x: auto;
+}
+
+/* Permitir que imágenes grandes aprovechen el ancho */
+.post-content img {
+    max-width: 100%;
+    height: auto;
+}

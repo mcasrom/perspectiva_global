@@ -1,0 +1,66 @@
+/* --- Utilidades de Inteligencia --- */
+
+/* Badge de Autoridad en Profile Mode */
+.profile_inner h1::after {
+    content: " \2713";
+    color: #4da6ff;
+    font-size: 1.1rem;
+    vertical-align: middle;
+}
+
+/* Optimización de Mapas en Modo Oscuro */
+.dark .leaflet-layer,
+.dark .leaflet-control-zoom-in,
+.dark .leaflet-control-zoom-out,
+.dark .leaflet-container {
+    filter: invert(100%) hue-rotate(180deg) brightness(90%) contrast(85%) grayscale(20%);
+}
+
+.leaflet-container {
+    background: var(--theme) !important;
+    z-index: 1;
+    border-radius: 8px;
+}
+
+/* Ajustes para bloques de PlantUML/Código */
+.post-content img {
+    border-radius: 8px;
+    margin: 1.5rem 0;
+    border: 1px solid var(--tertiary);
+}
+
+/* Asegurar que el texto de Org-mode respire */
+.post-content p {
+    margin-bottom: 1.2rem;
+}
+/* --- Ampliación estratégica de ancho --- */
+
+/* Contenedor principal */
+.main {
+    max-width: 1000px;  /* ancho base ampliado */
+}
+
+/* En pantallas grandes */
+@media (min-width: 1400px) {
+    .main {
+        max-width: 1150px;
+    }
+}
+
+/* Mejorar legibilidad al ampliar */
+.post-content {
+    line-height: 1.75;
+    font-size: 1.05rem;
+}
+
+/* Evitar que tablas rompan layout */
+.post-content table {
+    display: block;
+    overflow-x: auto;
+}
+
+/* Permitir que imágenes grandes aprovechen el ancho */
+.post-content img {
+    max-width: 100%;
+    height: auto;
+}

@@ -1,1 +1,31 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Análisis on Perspectiva Global | Crónicas del Nuevo Orden</title><link>https://mcasrom.github.io/perspectiva_global/categories/an%C3%A1lisis/</link><description>Recent content in Análisis on Perspectiva Global | Crónicas del Nuevo Orden</description><image><title>Perspectiva Global | Crónicas del Nuevo Orden</title><url>https://mcasrom.github.io/perspectiva_global/images/preview.jpg</url><link>https://mcasrom.github.io/perspectiva_global/images/preview.jpg</link></image><generator>Hugo -- 0.146.0</generator><language>es-es</language><lastBuildDate>Sun, 01 Feb 2026 22:26:38 +0100</lastBuildDate><atom:link href="https://mcasrom.github.io/perspectiva_global/categories/an%C3%A1lisis/index.xml" rel="self" type="application/rss+xml"/><item><title>Geopolítica: Del Poder Territorial a la Complejidad Global</title><link>https://mcasrom.github.io/perspectiva_global/posts/260129_geopol-tica-del-poder-territorial-a-la-complejidad-global/</link><pubDate>Thu, 29 Jan 2026 00:00:00 +0000</pubDate><guid>https://mcasrom.github.io/perspectiva_global/posts/260129_geopol-tica-del-poder-territorial-a-la-complejidad-global/</guid><description>Análisis comprehensivo sobre la geopolítica como disciplina: definición, evolución histórica, escuelas de pensamiento y desafíos contemporáneos</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Análisis on Perspectiva Global | Crónicas del Nuevo Orden</title>
+    <link>http://192.168.1.147:1313/categories/an%C3%A1lisis/</link>
+    <description>Recent content in Análisis on Perspectiva Global | Crónicas del Nuevo Orden</description>
+    <image>
+      <title>Perspectiva Global | Crónicas del Nuevo Orden</title>
+      <url>https://mcasrom.github.io/perspectiva_global/images/preview.jpg</url>
+      <link>https://mcasrom.github.io/perspectiva_global/images/preview.jpg</link>
+    </image>
+    <generator>Hugo -- 0.146.0</generator>
+    <language>es-es</language>
+    <lastBuildDate>Tue, 10 Feb 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://192.168.1.147:1313/categories/an%C3%A1lisis/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Geopolítica de los Cables Submarinos: Infraestructura Crítica del Siglo XXI</title>
+      <link>http://192.168.1.147:1313/posts/geopolitica_de_los_cables_submarinos/</link>
+      <pubDate>Tue, 10 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>http://192.168.1.147:1313/posts/geopolitica_de_los_cables_submarinos/</guid>
+      <description>Análisis crítico sobre la dimensión geopolítica de los cables submarinos de fibra óptica como infraestructura estratégica global</description>
+    </item>
+    <item>
+      <title>Geopolítica: Del Poder Territorial a la Complejidad Global</title>
+      <link>http://192.168.1.147:1313/posts/260129_geopol-tica-del-poder-territorial-a-la-complejidad-global/</link>
+      <pubDate>Thu, 29 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>http://192.168.1.147:1313/posts/260129_geopol-tica-del-poder-territorial-a-la-complejidad-global/</guid>
+      <description>Análisis comprehensivo sobre la geopolítica como disciplina: definición, evolución histórica, escuelas de pensamiento y desafíos contemporáneos</description>
+    </item>
+  </channel>
+</rss>

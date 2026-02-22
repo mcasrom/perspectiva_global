@@ -1,5 +1,6 @@
 #+TITLE: Contacto
 #+DATE: 2026-02-01
+#+author: M. Castillo
 
 * Contacto Directo
 Para comunicaciones sobre inteligencia comercial o geoeconomía, utiliza los siguientes canales:

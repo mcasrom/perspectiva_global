@@ -1,6 +1,6 @@
 #+TITLE: Geopolítica: Del Poder Territorial a la Complejidad Global
 #+DATE: 2026-01-29
-#+AUTHOR: M.Castillo
+#+AUTHOR: M. Castillo
 #+EMAIL: mcasrom.emacs@gmail.com
 #+DESCRIPTION: Análisis comprehensivo sobre la geopolítica como disciplina: definición, evolución histórica, escuelas de pensamiento y desafíos contemporáneos
 #+TAGS[]: geopolítica política-internacional relaciones-internacionales estrategia

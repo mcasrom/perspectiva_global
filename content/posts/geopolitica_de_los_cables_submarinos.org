@@ -1,5 +1,5 @@
 #+TITLE: Geopolítica de los Cables Submarinos: Infraestructura Crítica del Siglo XXI
-#+AUTHOR: M.Castillo
+#+AUTHOR: M. Castillo
 #+DATE: 2026-02-10
 #+EMAIL: mcasrom.emacs@gmail.com
 #+DESCRIPTION: Análisis crítico sobre la dimensión geopolítica de los cables submarinos de fibra óptica como infraestructura estratégica global

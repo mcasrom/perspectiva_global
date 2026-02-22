@@ -1,4 +1,5 @@
 #+title: Acerca de: Crónicas del Nuevo Orden
+#+author: M. Castillo
 #+date: 2026-01-28
 #+draft: false
 #+url: /about/
@@ -20,7 +21,7 @@ Aquí no nos detenemos en el titular:
 Exploramos la arquitectura invisible que condiciona las decisiones de Estados, corporaciones y bloques geopolíticos.
 
 
-* Quién es M.Castillo
+* Quién es M. Castillo
 Con más de 20 años como apasionado de los entornos de **Sistemas Abiertos (Linux/Unix)**, mi enfoque se basa en la **soberanía tecnológica radical**. 
 
 - **Interes Geopolítico:** Especializado en la transición hacia un mundo multipolar.

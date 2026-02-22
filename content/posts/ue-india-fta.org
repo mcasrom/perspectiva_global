@@ -1,6 +1,6 @@
 #+TITLE: EU–India FTA: la “Madre de Todos los Acuerdos” y el giro del comercio global
 #+DATE: 2026-01-28
-#+author: M.Castillo
+#+author: M. Castillo
 #+DRAFT: false
 #+KEYWORDS[]: geopolitica geoeconomía india union-europea comercio-global defensa-estratégica
 #+IMAGE: https://images.unsplash.com/photo-1521295121812-af4657ed0606

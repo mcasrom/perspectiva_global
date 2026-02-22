@@ -1,6 +1,6 @@
 #+TITLE: Visión Eco-Geopolítica de los Grandes Actores Globales
 #+SUBTITLE: Recursos, energía, clima y poder en el orden internacional
-#+AUTHOR: M.Castillo
+#+AUTHOR: M. Castillo
 #+EMAIL: mcasrom.emacs@gmail.com
 #+DATE: 2026-02-01
 #+DESCRIPTION: Análisis comparado y estructural de la visión eco-geopolítica de Rusia, Estados Unidos, China y la Unión Europea.

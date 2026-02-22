@@ -64,3 +64,34 @@
     max-width: 100%;
     height: auto;
 }
+/* Centrado perfecto para figure de ox-hugo / Hugo shortcodes */
+.post-content figure {
+    text-align: center;           /* centra caption y contenido */
+    margin: 2rem auto;            /* espacio arriba/abajo + centrado horizontal */
+    max-width: 100%;              /* no desborda en móviles */
+}
+
+.post-content figure img {
+    display: block;               /* clave para que margin: auto funcione */
+    margin: 0 auto;               /* centrado horizontal */
+    max-width: 100%;              /* responsive */
+    height: auto;
+    border-radius: 8px;           /* mantienes tu estilo actual */
+    border: 1px solid var(--tertiary);
+}
+
+/* Opcional: caption más bonito y centrada */
+.post-content figure figcaption {
+    text-align: center;
+    font-size: 0.95rem;
+    color: var(--secondary);      /* o #666, ajusta a tu tema */
+    margin-top: 0.8rem;
+    font-style: italic;
+}
+
+/* Si usas PaperMod y quieres que sea más ancho en pantallas grandes */
+@media (min-width: 768px) {
+    .post-content figure {
+        max-width: 90%;           /* o 85% si quieres más margen lateral */
+    }
+}

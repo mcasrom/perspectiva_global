@@ -1,5 +1,6 @@
 #+TITLE: Políticas Migratorias en Estados Unidos: Análisis Comparativo 1975-2025
 #+DATE: 2026-02-02
+#+author: M.Castillo
 #+DRAFT: false
 #+tags[]: geopolitica complejidad migración EEUU 
 

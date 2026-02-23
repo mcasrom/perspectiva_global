@@ -1,0 +1,471 @@
+#+TITLE: Geopolítica del Petróleo: Cómo Fluye el Crudo y la Riqueza de Forma Desigual
+#+AUTHOR: M. Castillo
+#+DATE: 2026-02-23
+#+EMAIL: mcasrom.emacs@gmail.com
+#+DESCRIPTION: El petróleo no es energía: es dominación líquida; mientras unos pocos deciden cuotas y benchmarks, millones pagan el precio invisible de un sistema donde el crudo fluye hacia el poder y la riqueza nunca regresa a quienes pisan los yacimientos.
+#+TAGS[]: geopolítica ciberseguridad infraestructura
+#+CATEGORIES[]: Análisis Geopolítico
+#+DRAFT: false
+#+KEYWORDS: geopolítica ciberseguridad infraestructura
+
+#+begin_export html
+{{< alerta >}}
+**CRÓNICA GLOBAL:** La geopolítica del petróleo no trata solo de barriles y precios, sino de poder estructural. Este análisis examina cómo las reservas, los chokepoints marítimos, los diferenciales de calidad y los benchmarks internacionales determinan quién captura la renta petrolera y quién queda atrapado en la maldición de los recursos. Desde la arquitectura de la Organización de Países Exportadores de Petróleo hasta la disputa entre petrodólar y petroyuan, el crudo sigue siendo una herramienta central de influencia global y desigualdad económica..
+{{< /alerta >}}
+#+end_export
+
+#+begin_export html
+{{< figure
+    src="/images/geopoltica_del_petrleo_cmo_fluye_el_crudo_y_la_riqueza_de_forma_desigual/geopoliticadelpetroleo.png"
+    alt="Geopolítica del Petroleo"
+    width="400"
+>}}
+#+end_export
+
+El petróleo estructuró el siglo XX y sigue dictando las reglas del XXI. Comprender quién lo produce, cómo se transporta, quién lo refina y quién acumula la riqueza derivada es entender la anatomía del poder global. Este post traza el mapa completo: actores, flujos, diferenciales y la paradoja del /resource curse/.
+
+-----
+
+* El Tablero: Geografía del Crudo
+
+** Reservas Probadas vs. Producción
+
+Las reservas no siempre coinciden con el poder. Venezuela posee las mayores reservas del mundo pero no puede explotarlas eficientemente. Arabia Saudí, con menos reservas, domina la producción y la diplomacia energética.
+
+#+NAME: tabla-reservas
+| País              | Reservas (Gb) | Producción (Mb/d) | Región         | Bloque         |
+|-------------------+---------------+-------------------+----------------+----------------|
+| Venezuela         |       303.8   |               0.8 | América Latina | No OPEP+       |
+| Arabia Saudí      |       267.0   |               9.7 | Golfo Pérsico  | OPEP           |
+| Canadá            |       170.3   |               5.6 | América Norte  | No OPEP        |
+| Irán              |       157.8   |               3.4 | Golfo Pérsico  | OPEP           |
+| Iraq              |       145.0   |               4.3 | Golfo Pérsico  | OPEP           |
+| Rusia             |       107.8   |              10.9 | Eurasia        | OPEP+          |
+| Kuwait            |       101.5   |               2.8 | Golfo Pérsico  | OPEP           |
+| EAU               |        97.8   |               3.5 | Golfo Pérsico  | OPEP           |
+| EE.UU.            |        68.8   |              13.2 | América Norte  | No OPEP        |
+| Libia             |        48.4   |               1.2 | África Norte   | OPEP           |
+#+TBLFM: 
+
+/Fuente: BP Statistical Review of World Energy 2024; EIA, 2025. Gb = miles de millones de barriles; Mb/d = millones de barriles/día/
+
+** El Bloque OPEP+ y la Arquitectura de Control
+
+#+BEGIN_SRC plantuml :file opep-arquitectura.png  :exports none
+@startuml
+skinparam backgroundColor #FEFEFE
+skinparam defaultFontName Monospace
+skinparam defaultFontSize 12
+
+title Arquitectura de Control: OPEP y OPEP+
+
+package "OPEP (13 miembros)" {
+  [Arabia Saudí\n<b>Líder de facto</b>] as SA
+  [Iraq] as IQ
+  [Irán] as IR
+  [EAU] as UAE
+  [Kuwait] as KW
+  [Venezuela] as VE
+  [Nigeria] as NG
+  [Libia] as LY
+  [Gabón] as GA
+  [Guinea Ec.] as GQ
+  [Congo] as CG
+  [Algeria] as DZ
+  [Kazajistán] as KZ
+}
+
+package "Aliados OPEP+" {
+  [Rusia\n<b>Pivote geopolítico</b>] as RU
+  [México] as MX
+  [Omán] as OM
+  [Azerbaiyán] as AZ
+  [Bahréin] as BH
+  [Malasia] as MY
+  [Sudan] as SD
+}
+
+package "No OPEP / Rivales" {
+  [EE.UU.\n<b>Swing producer</b>] as US
+  [Canadá] as CA
+  [Brasil] as BR
+  [Noruega] as NO
+}
+
+SA --> [Secretaría OPEP\nViena] : cuotas
+RU --> [Secretaría OPEP\nViena] : acuerdos
+[Secretaría OPEP\nViena] --> [Mercado\nGlobal] : precio referencia
+
+US ..> [Mercado\nGlobal] : WTI benchmark
+NO ..> [Mercado\nGlobal] : Brent benchmark
+
+@enduml
+#+END_SRC
+
+#+RESULTS:
+[[file:opep-arquitectura.png]]
+
+#+begin_export html
+{{< figure src="/images/geopoltica_del_petrleo_cmo_fluye_el_crudo_y_la_riqueza_de_forma_desigual/opep-arquitectura.png" alt="Arquitectura OPEP" >}}
+#+end_export
+
+
+-----
+
+* Flujos Globales del Petróleo
+
+** Las Rutas Estratégicas
+
+Los cuellos de botella geográficos son puntos de poder. Quien los controla —o puede bloquearlos— controla el suministro global.
+
+#+BEGIN_SRC plantuml :file flujos-petroleo.png :exports none
+@startuml
+skinparam backgroundColor #F8F9FA
+skinparam defaultFontSize 11
+
+title Flujos Globales del Petróleo (2024-2025)
+
+!define ARROW_COLOR #E63946
+
+actor "Golfo Pérsico\n(Arabia Saudí, Iraq,\nIrán, EAU, Kuwait)" as GULF
+actor "Rusia /\nCáucaso" as RUS
+actor "África\nOccidental" as AFR
+actor "América\n(EE.UU., Canadá,\nVenezuela, Brasil)" as AMER
+
+node "Estrecho\nde Ormuz\n<b>~20 Mb/d</b>" as ORM
+node "Canal\nde Suez\n<b>~6 Mb/d</b>" as SUE
+node "Bósforo\n<b>~3 Mb/d</b>" as BOS
+node "Estrecho\nde Malaca\n<b>~16 Mb/d</b>" as MAL
+
+actor "Europa" as EU
+actor "China" as CN
+actor "India" as IN
+actor "Japón /\nCorea" as JK
+
+GULF --> ORM : flujo principal
+ORM --> SUE : vía Red Sea
+ORM --> MAL : vía Índico
+RUS --> BOS : Mar Negro
+AFR --> EU : Atlántico
+AMER --> EU : Atlántico Norte
+
+SUE --> EU : Mediterráneo
+BOS --> EU : Balcanes
+MAL --> CN : Pacífico W
+MAL --> JK : Pacífico NW
+ORM --> IN : directo
+
+note right of ORM
+  Punto más crítico del mundo.
+  Cierre = colapso energético global.
+  Controlado por Iran en ambas riberas.
+end note
+
+note bottom of MAL
+  Segunda arteria más transitada.
+  Crítica para economías asiáticas.
+  Alternativa: Lombok, Sunda.
+end note
+
+@enduml
+#+END_SRC
+
+#+RESULTS:
+[[file:flujos-petroleo.png]]
+
+#+begin_export html
+{{< figure src="/images/geopoltica_del_petrleo_cmo_fluye_el_crudo_y_la_riqueza_de_forma_desigual/flujos-petroleo.png" alt="Flujos del Petroleo" >}}
+#+end_export
+
+
+
+
+** Puntos de Estrangulamiento: Geopolítica en un Estrecho
+
+Los /chokepoints/ son la geopolítica pura: geografía convertida en poder. El cierre del Estrecho de Ormuz —controlado por Irán en su flanco norte— elevaría el precio del crudo entre 50 y 200 USD/barril en días. El Bósforo, gobernado por la Convención de Montreux (1936), fue el escenario donde Turquía ejerció veto sobre el tránsito de buques rusos tras la invasión de Ucrania en 2022.
+
+-----
+
+* Los Diferenciales: Donde Nace la Desigualdad
+
+** Benchmarks y Jerarquía del Crudo
+
+No todo el petróleo vale igual. Los diferenciales son la arquitectura invisible del poder petrolero.
+
+#+NAME: tabla-diferenciales
+| Benchmark  | Origen        | API° | Azufre | Precio ref. 2025 | Rol geopolítico               |
+|------------+---------------+------+--------+------------------+-------------------------------|
+| Brent      | Mar del Norte | 38.3 |  0.37% | 82 USD/b         | Referencia global ~80% trade  |
+| WTI        | Texas, EE.UU. | 39.6 |  0.24% | 78 USD/b         | Referencia América / NYMEX    |
+| Dubai/Oman | Golfo Pérsico | 31.0 |  2.00% | 80 USD/b         | Referencia Asia-Pacífico      |
+| Urals      | Rusia         | 31.1 |  1.35% | 62 USD/b         | Sancionado, descuento ~15 $   |
+| Arab Heavy | Arabia Saudí  | 27.0 |  2.80% | 76 USD/b         | OPEP swing barrel             |
+| Maya       | México        | 21.8 |  3.30% | 70 USD/b         | Crudo pesado referencia LatAm |
+| Merey      | Venezuela     | 16.0 |  2.30% | 55 USD/b         | Muy penalizado, pesado/extra  |
+
+/Nota: Precios estimados 2025. API° mayor = crudo más ligero y más valioso. Azufre menor = "dulce" = más valioso./
+
+** El Diferencial como Instrumento de Poder
+
+#+BEGIN_SRC plantuml :file diferenciales-poder.png  :exports none
+@startuml
+skinparam backgroundColor #FFFFFF
+
+title Cadena de Valor: Del Pozo al Diferencial Final
+
+|Productor|
+start
+:Extracción\n(costo: $3-65/b según país);
+:Clasificación API° y azufre;
+
+|Transporte|
+:Oleoducto / Tanker;
+:Peaje por chokepoints;
+:Prima o descuento\ngeográfico (±$2-8/b);
+
+|Trader Internacional|
+:Arbitraje de benchmarks;
+:Fijación de spread\nBrent-WTI-Dubai;
+:Descuento por sanciones\n(Rusia, Irán, Venezuela);
+
+|Refinería|
+:Cracking diferencial;
+:Preferencia por\ncrudo ligero-dulce;
+:Penalización crudo\npesado-amargo (-$5 a -$25/b);
+
+|País Productor|
+:Ingreso neto =\nPrecio benchmark\n- diferencial\n- costo extracción\n- royalties/impuestos;
+
+stop
+
+note right
+  Los traders y refinadores capturan\n
+  el diferencial. El productor recibe\n
+  el residuo. Esta es la fuente\n
+  estructural de la desigualdad.
+end note
+
+@enduml
+#+END_SRC
+
+#+RESULTS:
+[[file:diferenciales-poder.png]]
+
+#+begin_export html
+{{< figure src="/images/geopoltica_del_petrleo_cmo_fluye_el_crudo_y_la_riqueza_de_forma_desigual/diferenciales-poder.png" alt="Diferenciales Poder" >}}
+#+end_export
+
+
+-----
+
+* Países: Tipología Geopolítica
+
+** Cuatro Modelos de Relación con el Petróleo
+
+#+BEGIN_SRC plantuml :file tipologia-paises.png :exports none
+@startuml
+skinparam backgroundColor #F0F4F8
+
+title Tipología Geopolítica de Países Petroleros
+
+rectangle "TIPO 1: Rentistas Estables\n<i>Arabia Saudí, EAU, Kuwait, Noruega</i>" as T1 #D4EDDA {
+  note as N1
+    + Control soberano del recurso
+    + Fondos soberanos diversificados
+    + Estabilidad institucional
+    - Dependencia de precio internacional
+    - Diversificación pendiente (Vision 2030)
+  end note
+}
+
+rectangle "TIPO 2: Rentistas Frágiles\n<i>Nigeria, Algeria, Iraq, Ecuador</i>" as T2 #FFF3CD {
+  note as N2
+    + Ingresos significativos
+    - Instituciones débiles / corrupción
+    - Dutch Disease severo
+    - Conflictos internos por distribución
+    - Pobreza paradójica (resource curse)
+  end note
+}
+
+rectangle "TIPO 3: Potencias Sancionadas\n<i>Rusia, Irán, Venezuela</i>" as T3 #F8D7DA {
+  note as N3
+    + Reservas enormes
+    - Acceso bloqueado a mercados occidentales
+    - Descuentos forzados (Urals -$15/b)
+    - Circuitos alternativos: China, India
+    - Infraestructura deteriorada
+  end note
+}
+
+rectangle "TIPO 4: Consumidores / Importadores\n<i>EE.UU.*, China, India, Europa, Japón</i>" as T4 #CCE5FF {
+  note as N4
+    + Capacidad de refinación avanzada
+    + Poder de compra y negociación
+    + Acceso a benchmarks premium
+    - Vulnerabilidad geopolítica
+    * EE.UU. = productor + consumidor
+  end note
+}
+
+@enduml
+#+END_SRC
+
+#+RESULTS:
+[[file:tipologia-paises.png]]
+
+#+begin_export html
+{{< figure src="/images/geopoltica_del_petrleo_cmo_fluye_el_crudo_y_la_riqueza_de_forma_desigual/tipologia-paises.png" alt="Tipologia Paises" >}}
+#+end_export
+
+
+
+** El Caso Ruso: Pivot a Asia como Respuesta Geopolítica
+
+Desde febrero 2022, Rusia ha reorientado entre 60-70% de sus exportaciones de crudo hacia Asia (China, India, Turquía). El Urals se vende con descuentos de 15-20 USD/b frente al Brent, pero el volumen compensa. China e India se han convertido en refinadores subsidiados por la guerra: compran barato, refinen y re-exportan productos derivados hacia Europa a precios de mercado. Una ironía geopolítica mayor: las sanciones europeas han enriquecido indirectamente a Pekín y Delhi.
+
+-----
+
+* La Paradoja del /Resource Curse/
+
+** Por Qué la Abundancia Genera Pobreza
+
+El concepto de "maldición de los recursos" describe la correlación inversa entre abundancia de recursos naturales y desarrollo económico/democrático. No es determinista, pero es estadísticamente robusta.
+
+#+NAME: tabla-resource-curse
+| País       | Reservas (ranking) | IDH 2024 | Corrupción (CPI) | Diversif. económica | Caso ejemplar        |
+|------------+--------------------+----------+------------------+---------------------+----------------------|
+| Noruega    |        Global #10  |    0.961 | 84/100 (bajo)    | Alta                | Contracaso positivo  |
+| EAU        |        Global #7   |    0.911 | 69/100           | Creciente           | Diversificación activa|
+| Arabia S.  |        Global #2   |    0.875 | 53/100           | Media-baja          | Vision 2030          |
+| Iraq       |        Global #5   |    0.686 | 23/100 (alto)    | Muy baja            | Caso crítico         |
+| Nigeria    |        Global #11  |    0.548 | 25/100           | Baja                | Caso extremo         |
+| Venezuela  |        Global #1   |    0.699 | 13/100           | Casi nula           | Colapso institucional|
+| Congo      |        Global #15  |    0.481 | 20/100           | Nula                | Extractivismo puro   |
+
+/CPI: Corruption Perceptions Index (Transparency International). 0=muy corrupto, 100=muy limpio./
+
+La diferencia entre Noruega y Nigeria no es el petróleo: es la calidad institucional, el momento de descubrimiento (con o sin instituciones previas sólidas) y la gestión del fondo soberano. Noruega descubrió crudo en 1969 con instituciones democráticas maduras; Nigeria lo hizo durante la dictadura militar.
+
+-----
+
+* Soluciones y Tendencias: El Futuro del Poder Petrolero
+
+** Matriz de Estrategias por Actor
+
+| Actor          | Estrategia actual                          | Horizonte       | Viabilidad |
+|----------------+--------------------------------------------+-----------------+------------|
+| Arabia Saudí   | Vision 2030 + mantener cuota OPEP         | 2030-2040       | Media-alta |
+| Rusia          | Pivot asiático + petróleo como arma        | Corto plazo     | Media      |
+| EE.UU.         | Shale como swing producer + IRA verde      | 2025-2035       | Alta       |
+| China          | Contratos a largo plazo + petroyuan        | 2030-2050       | Media      |
+| UE             | Transición energética + diversificación    | 2035-2050       | Media-baja |
+| Venezuela      | Reinversión + levantamiento sanciones      | Incierto        | Baja       |
+| Nigeria        | Refinerías locales (Dangote) + reforma     | 2025-2030       | Media-baja |
+
+** El Petroyuan: ¿El Fin del Petrodólar?
+
+#+BEGIN_SRC plantuml :file petrodolar-petroyuan.png :exports none
+@startuml
+skinparam backgroundColor #FAFAFA
+
+title Sistema Petrodólar vs. Emergencia del Petroyuan
+
+rectangle "Sistema Petrodólar\n(1973 - presente)" as PD #E8F4FD {
+  [Arabia Saudí] --> [USD] : vende en dólares
+  [USD] --> [Bonos del Tesoro\nde EE.UU.] : reciclaje
+  [Bonos del Tesoro\nde EE.UU.] --> [Demanda global\nde USD] : sostiene
+  [Demanda global\nde USD] --> [Hegemonía\nfinanciera EE.UU.] : refuerza
+}
+
+rectangle "Sistema Petroyuan\n(emergente)" as PY #FFF0E6 {
+  [Rusia / Irán\n/ Venezuela] --> [CNY] : venden en yuanes
+  [Arabia Saudí*] ..> [Shanghai\nCrude Exchange] : exploratorio
+  [CNY] --> [Activos chinos] : reciclaje parcial
+}
+
+note bottom of PY
+  * Arabia Saudí firmó acuerdos exploratorios
+  con China en 2023. El petrodólar sigue
+  dominando (~80% del comercio de crudo),
+  pero la tendencia es de desdolarización gradual.
+end note
+
+@enduml
+#+END_SRC
+
+#+RESULTS:
+[[file:petrodolar-petroyuan.png]]
+
+#+begin_export html
+{{< figure src="/images/geopoltica_del_petrleo_cmo_fluye_el_crudo_y_la_riqueza_de_forma_desigual/petrodolar-petroyuan.png" alt="Petrodolar-Petroyuan" >}}
+#+end_export
+
+
+
+La ruptura del petrodólar no es inminente, pero su erosión es real. Si Arabia Saudí —el pilar del sistema— acepta yuan de forma sistemática, el reciclaje de petrodólares hacia deuda estadounidense se debilitará, presionando el rendimiento de los bonos del Tesoro y, por extensión, el costo de financiación global de EE.UU.
+
+-----
+
+* Conclusiones: Anatomía de la Desigualdad Petrolera
+
+El petróleo no fluye de forma neutral. Cada barril transporta consigo una historia de poder, sanciones, diferenciales y decisiones geopolíticas que determinan quién gana y quién pierde. Cinco conclusiones estructurales:
+
+- El control no está en las reservas, sino en la institucionalidad y el mercado.* Venezuela supera en reservas a Arabia Saudí, pero no en poder. La capacidad de extraer, refinar y colocar el crudo en los mercados globales con acceso a benchmarks premium es la verdadera palanca.
+
+- Los diferenciales son el instrumento de la desigualdad.* Un productor que vende Merey venezolano a 55 USD/b mientras el Brent cotiza a 82 USD/b no sufre solo volatilidad: sufre una penalización estructural de 27 USD por barril, cada día, por la calidad de su crudo y por sus condiciones geopolíticas.
+
+- El /resource curse/ es una trampa institucional, no geológica.* Noruega y Nigeria tienen petróleo; solo Noruega tiene el Estado que permite convertirlo en bienestar. La diferencia es el momento histórico del descubrimiento y la calidad de las instituciones previas.
+
+- Los /chokepoints/ son poder territorial en forma de geografía.* Irán no necesita atacar a nadie para amenazar el mercado energético global: le basta con existir junto al Estrecho de Ormuz. Esta es la geopolítica más elemental y más efectiva.
+
+- La transición energética redistribuirá el poder, pero lentamente.* Quienes apuesten por renovables y exportación tecnológica (Alemania, China, EE.UU.) ganarán poder estructural en el nuevo paradigma. Los rentistas que no diversifiquen (muchos países OPEP) perderán relevancia geopolítica a medida que la demanda de petróleo plateé hacia 2030-2040. Pero el camino es largo y el petróleo seguirá siendo poder durante al menos dos décadas más.
+
+-----
+
+* Referencias Documentales
+
+
+** Libros y Académico
+- Yergin, D. (1991). /The Prize: The Epic Quest for Oil, Money & Power/. Simon & Schuster.
+- Yergin, D. (2011). /The Quest: Energy, Security, and the Remaking of the Modern World/. Penguin Press.
+- Ross, M. L. (2012). /The Oil Curse: How Petroleum Wealth Shapes the Development of Nations/. Princeton University Press.
+- Karl, T. L. (1997). /The Paradox of Plenty: Oil Booms and Petro-States/. University of California Press.
+- Colgan, J. (2013). /Petro-Aggression: When Oil Causes War/. Cambridge University Press.
+
+** Informes y Datos
+- BP (2024). /Statistical Review of World Energy 2024/. [[https://www.bp.com/statisticalreview][bp.com/statisticalreview]]
+- IEA (2025). /Oil Market Report/. [[https://www.iea.org/reports/oil-market-report][iea.org]]
+- EIA (2025). /Short-Term Energy Outlook/. [[https://www.eia.gov/steo][eia.gov]]
+- OPEC (2024). /Annual Statistical Bulletin/. [[https://www.opec.org/opec_web/en/publications/202.htm][opec.org]]
+- Transparency International (2024). /Corruption Perceptions Index 2024/. [[https://www.transparency.org/en/cpi][transparency.org]]
+- UNDP (2024). /Human Development Report 2024/. [[https://hdr.undp.org][hdr.undp.org]]
+
+** Artículos y Análisis Geopolíticos
+- Mearsheimer, J. (2022). "The Causes and Consequences of the Ukraine War". /Horizons/, No. 22.
+- Lahn, G. & Stevens, P. (2018). "Burning Oil to Keep Cool: The Hidden Energy Crisis in Saudi Arabia". Chatham House.
+- Jaffe, A. M. (2020). "The Era of Saudi Arabian Oil Power Is Ending". /Foreign Affairs/, March/April.
+- CSIS (2024). "Oil and Geopolitics: The New Energy Order". Center for Strategic and International Studies. [[https://www.csis.org][csis.org]]
+
+** Herramientas y Datos en Tiempo Real
+- Kpler: Seguimiento de flujos de tankers en tiempo real — [[https://www.kpler.com][kpler.com]]
+- Vortexa: Análisis de carga y fletes — [[https://www.vortexa.com][vortexa.com]]
+- S&P Global Platts: Benchmarks y diferenciales — [[https://www.spglobal.com/commodityinsights][spglobal.com]]
+
+-----
+
+#+BEGIN_COMMENT
+Post generado: 2026-02-22
+Palabras aproximadas: ~2400
+Tags: petroleo geopolitica OPEP diferencial resource-curse petrodolar
+#+END_COMMENT
+
+# Local Variables:
+# org-confirm-babel-evaluate: nil
+# End:
+
+
+#+BEGIN_CENTER
+/Documento generado automáticamente el 2026-02-23/
+#+END_CENTER
+

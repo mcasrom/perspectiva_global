@@ -16,7 +16,11 @@
 #+end_export
 
 #+begin_export html
-{{< figure src="/images/cable_submarino.png" alt="Geopolítica de los cables submarinos" >}}
+{{< figure
+    src="/images/cable_submarino.png"
+    alt="Geopolítica de los cables submarinos"
+    width="400"
+>}}
 #+end_export
 
 * Resumen Ejecutivo
